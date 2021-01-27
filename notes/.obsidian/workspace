@@ -1,0 +1,81 @@
+{
+  "main": {
+    "id": "71aea6f357826535",
+    "type": "split",
+    "children": [
+      {
+        "id": "2402f3908d126c05",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Light Vs Dark Themes what is your preference?.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "665ef049b5d8b4f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c989a25e09aed687",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb390b8ff21abedd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2239c7d9c94cedb8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7a8d7f7e29ed1b7f",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a6b106a2ea9d9f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88b75458d5e7ce95",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Light Vs Dark Themes what is your preference?.md",
+    "Custom VS Code Title BarTheme for Front-End and Back-End Projects (macOS Guide).md",
+    "Accessibility best practices, device testing and SEO.md",
+    "Who are your top 3 most influential developers to learn from at the moment?.md",
+    "Why programmers should play games as a hobby.md"
+  ]
+}

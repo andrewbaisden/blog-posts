@@ -1,0 +1,37 @@
+# How Developers can learn from the mistakes of Cyberpunk 2077
+
+By now I am sure that everyone has heard about the disastrous launch for the game Cyberpunk 2077. It was the most highly anticipated game of 2020 and it had been in development for at least 8 years. Unfortunately for the developers CD Projekt Red the launch did not go as planned as the game was almost completely broken on all platforms. I suppose it was to be expected considering the type of year 2020 turned out to be 😅. The PC version being the stand out edition which clearly got more love in terms of optimisations as it is the version that is the most stable. The PS4 and Xbox One versions had so many bugs they were almost unplayable. 
+
+And even the next gen versions on PS5 and XBSX had their fair share of problems. I bought the PS5 version but decided to get a refund after the game crashed my console more than 10 times which kept leading to lost progress in game. Underneath all of the broken code is a fun playable game and in a few months or a year CD Projekt Red might be able to do a "No Mans Sky" and turn the game around from being a game that is full of false promises and cut content to something a lot closer to what we expected from the E3 demo they showed us all those years ago. In the case of development writing good code and delivering on what you are selling is extremely important especially when you have important clients that depend on your products and services.
+
+## Don't take on more work than you can handle
+
+Many people are making comparisons between Grand Theft Auto (GTA), Red Dead Redemption 2 (RDR2) and Cybperpunk 2077 because these games are essentially open world action adventure RPG sandbox games and it is clear that the developers of Cyberpunk 2077 were trying to create a futuristic version of GTA. However the difference is that Rockstar Games the creators of both GTA and RDR2 have many years of experience creating games of this genre and they are world renown for creating the standard. Whereas in the case of CD Projekt Red they were learning to do many things for the first time. Their most notable and most popular game being the Witcher 3: Wildhunt which basically has you riding a horse.
+
+So in the case of Cyberpunk 2077 they had to build a lot of assets from scratch and learn new ways to design and develop functionality which they most likely had little experience with. This includes creating car models, driving and traffic A.I., a police wanted system, first person character perspective, in addition to so many other technological challenges. For anyone who has played the game you can clearly see that a lot of content has been cut and it feels more like an open beta than a finished product.
+
+I think they did a good job creating such a spectacular game from the ground up but it is clear that they tried to do too many new things at once and got in way over their head. There are more immersive and innovative games available perhaps in time Cyberpunk 2077 can reach those heights.
+
+## Keep expectations real
+
+This is a subject that has caused much controversy and upset a lot of people. They knew the game was not ready to ship and the fact that they kept delaying it and giving everyone excuses was a big red flag. Time and time again they promised that it would be the last time but then they delayed it again. After long delays they finally released it most likely due to pressure from management even though they knew the product was far from stable. Within a few days it had blown up all over social media and it was even on the news.
+
+With countless people reporting bugs, crashes and problems with the game. The stock price for CD Projekt Red started to drop wiping billions off the companies value. This just goes to show how a broken product can cause significant damage to your reputation and fan base. There were so many people requesting refunds that Sony even removed the game from the PlayStation store completely. Even now the game is still not available to buy from there.
+
+In my opinion the biggest flaw was that CD Projekt Red over hyped the game there was no way it could ever live up to expectations. They also ONLY showed footage of the superior PC version so it was not clear how broken the last gen versions were. Their social media marketing campaign was very good almost too good. They continued to get thousands of likes for their tweets on Twitter and they currently have 1.6million followers on there. They even did a countdown until release day which generated more hype. That's all good and all if the product they were showing us in the videos represented what the majority of consumers were really buying.
+
+## Do significant testing across all platforms before you ship it
+
+The developers at CD Projekt Red gave the PC version of the game a much higher priority as they wanted it to be the best looking game ever. And the fact that it had been in development for 8+ years and had grown such a huge fanbase no doubt pushed them to focus their attention on the better hardware. The thing is though that this game was originally announced for PS4 and Xbox One at the start. So the fact that it launched on those systems in such a broken state is a really bad look for the company. The user-base for those systems is still in the millions because not everyone has been able to upgrade to the latest PS5 and XBSX yet as they are still hard to buy and cost a lot more.
+
+Rockstar games released GTA IV in 2008 the game is more innovative than Cyberpunk 2077 as the city feels more alive and it runs fine on last gen consoles whereas Cyberpunk 2077 does not. This is one of those times when experience comes into play because once you have created similar products in the past and done vigorous testing on them you can use that knowledge for future products. If your code does not work effectively across the product line then it is going to impact negatively on your customers.
+
+Back in 2018 CD Projekt Red tweeted that the whole game was going to be a meme [Twitter](https://twitter.com/CyberpunkGame/status/1013883730929340418?s=20). All you have to do is take one look at the game on Reddit and you will see that is a promise they made good on 😅 [https://www.reddit.com/r/cyberpunkgame/](https://www.reddit.com/r/cyberpunkgame/)
+
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1610118382/cyberpunk_tweet_meme_cqhvw1.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1610118382/cyberpunk_tweet_meme_cqhvw1.png 'Whole game is going to be a meme.')
+
+## Final Thoughts
+
+Despite its faults many people are still getting a lot of enjoyment out of this game and CD Projekt Red managed to make a profit by getting back their entire development and marketing budget in one day because of pre-orders and people who bought the game. One thing of note is that they came clean and admitted that they had made some mistakes and that the product did not live up to everyones expectations. 
+
+Even going so far as to offer refunds to everyone who bought the game and promising to do whatever it takes to fix all of the problems with the game. They have already released at least one Hotfix and plan to release some patches in the next few months that should fix a lot of the bugs and crashes. Committing to fix a broken product and showing transparency is a great way to show you're consumers that you care and this is how you eventually regain their trust.
