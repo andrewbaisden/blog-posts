@@ -32,13 +32,13 @@ Adblock Plus
 
 Apollo Client Developer Tools
 
+Bitwarden
+
 ColorZilla
 
 Honey
 
 JSON Viewer
-
-LastPass
 
 Lighthouse
 
