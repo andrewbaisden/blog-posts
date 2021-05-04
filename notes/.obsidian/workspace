@@ -6,12 +6,11 @@
       {
         "id": "2402f3908d126c05",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Light Vs Dark Themes what is your preference?.md",
-            "mode": "source"
+            "file": "20 activities that stimulate my creativity as a developer.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,14 +38,21 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273
   },
   "right": {
     "id": "7a8d7f7e29ed1b7f",
@@ -61,7 +67,16 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "file": "20 activities that stimulate my creativity as a developer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ]
@@ -71,11 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "2402f3908d126c05",
   "lastOpenFiles": [
-    "Light Vs Dark Themes what is your preference?.md",
-    "Custom VS Code Title BarTheme for Front-End and Back-End Projects (macOS Guide).md",
+    "20 activities that stimulate my creativity as a developer.md",
+    "10 reasons why Twitter is better than LinkedIn for finding work.md",
+    "What I realised after learning Python, TypeScript and Kotlin.md",
     "Accessibility best practices, device testing and SEO.md",
-    "Who are your top 3 most influential developers to learn from at the moment?.md",
-    "Why programmers should play games as a hobby.md"
+    "45 useful mobile apps that I use as a developer.md",
+    "Creating MERN Stack Applications (2020).md",
+    "How I setup my Development Environment on macOS 2021 Edition.md",
+    "How to deploy a Node Express App to Vercel.md",
+    "My thoughts on using the LG 27UL850W 4K UHD LED LCD Monitor for programming and media consumption.md",
+    "50 Cool Web And Mobile Project Ideas for 2021.md"
   ]
 }
