@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "A Developers perspective on the M1 MacBook Pro after 5 months of usage.md",
+            "file": "How I setup my Development Environment on macOS 2021 Edition.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A Developers perspective on the M1 MacBook Pro after 5 months of usage.md",
+                "file": "How I setup my Development Environment on macOS 2021 Edition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "31e99503806ff0ad",
   "lastOpenFiles": [
-    "A Developers perspective on the M1 MacBook Pro after 5 months of usage.md",
-    "Why it's so important to create a personal brand.md",
+    "How I setup my Development Environment on macOS 2021 Edition.md",
+    "What type of computer do Linux Developers use?.md",
+    "8 reasons why having a blog is as important as having a GitHub.md",
+    "5 steps to performing well in a new job.md",
     "11 Types of Twitter Users and How They Compare.md",
-    "Freelancer vs. Company Employee.md",
-    "How I use the Markdown app Obsidian as a second brain.md",
-    "I used the web browsers Edge and Brave exclusively for 1 week each here are my thoughts.md",
-    "Why programmers should add journaling to their daily routine.md",
-    "Why you should add journaling to your daily routine.md",
-    "My thoughts on using the LG 27UL850W 4K UHD LED LCD Monitor for programming and media consumption.md",
-    "How I Write Articles.md"
+    "20 activities that stimulate my creativity as a developer.md",
+    "100 blog topic ideas for your next article - No more writers block.md",
+    "What is your personality type?.md",
+    "What qualities should a software engineer have?.md",
+    "Why its useful to have a personal skill matrix.md"
   ]
 }

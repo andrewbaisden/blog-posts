@@ -224,6 +224,7 @@ npm i -g surge
 npm i -g typescript
 npm i -g update
 npm i -g vercel
+npm i -g yarn
 ```
 
 Use the command `npm list -g --depth 0` to see all installed packages
