@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "31e99503806ff0ad",
+        "id": "8b918c1573cd193e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How I setup my Development Environment on macOS 2021 Edition.md",
-            "mode": "preview"
+            "file": "How using the app Centered made me more productive.md",
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -52,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286
+    "width": 408
   },
   "right": {
     "id": "7a8d7f7e29ed1b7f",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How I setup my Development Environment on macOS 2021 Edition.md",
+                "file": "How using the app Centered made me more productive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "31e99503806ff0ad",
+  "active": "8b918c1573cd193e",
   "lastOpenFiles": [
+    "How using the app Centered made me more productive.md",
+    "Why you should learn JavaScript and Python in 2022.md",
+    "How to launch a Minimum viable product (MVP) in 2022.md",
+    "How to build powerful tables in React using the React Table package.md",
     "How I setup my Development Environment on macOS 2021 Edition.md",
-    "What type of computer do Linux Developers use?.md",
-    "8 reasons why having a blog is as important as having a GitHub.md",
+    "Styling React Native with CSS Modules.md",
+    "Modern Full-Stack Developer Tech Stack 2021.md",
+    "Creating MERN Stack Applications (2020).md",
     "5 steps to performing well in a new job.md",
-    "11 Types of Twitter Users and How They Compare.md",
-    "20 activities that stimulate my creativity as a developer.md",
-    "100 blog topic ideas for your next article - No more writers block.md",
-    "What is your personality type?.md",
-    "What qualities should a software engineer have?.md",
-    "Why its useful to have a personal skill matrix.md"
+    "Introducing Digital Ocean App Platform.md"
   ]
 }

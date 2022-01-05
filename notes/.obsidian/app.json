@@ -1,3 +1,8 @@
 {
-  "spellcheck": true
+  "spellcheck": true,
+  "legacyEditor": false,
+  "livePreview": true,
+  "tabSize": 4,
+  "defaultViewMode": "preview",
+  "readableLineLength": true
 }
