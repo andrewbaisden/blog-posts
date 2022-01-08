@@ -21,7 +21,7 @@ The final design can be seen below in this image.
 This tutorial will be using npm but you can use yarn if you want just use the appropriate commands.
 
 ## Building the Movie Database App
-1. Use your BASH Terminal to create a folder for the project and setup a React boilerplate
+Use your BASH Terminal to create a folder for the project and setup a React boilerplate
 
 ```bash
 mkdir movie-database
@@ -37,7 +37,7 @@ When this step has finished install the react-table package as well as the match
 npm install react-table match-sorter --save
 ```
 
-2. Open the project folder in your code editor and start the server. If you have Visual Studio Code installed with the command line setup you can open it in BASH.
+Open the project folder in your code editor and start the server. If you have Visual Studio Code installed with the command line setup you can open it in BASH.
 
 ```bash
 code .
@@ -46,7 +46,7 @@ npm start
 
 You should see your React application running on [http://localhost:3000/](http://localhost:3000/)
 
-3. Clean the application by removing boilerplate files and folders. Delete all of the files inside of the **src** folder. Now create the files below and make sure that they are inside of the **src** folder.
+Clean the application by removing boilerplate files and folders. Delete all of the files inside of the **src** folder. Now create the files below and make sure that they are inside of the **src** folder.
 
 - index.js
 - App.js
@@ -750,7 +750,7 @@ width: 10rem;
 }
 ```
 
-5. You might need to reload your browser or restart the server but assuming you did everything correct you should see the Movie Database working.
+You might need to reload your browser or restart the server but assuming you did everything correct you should see the Movie Database working.
 
 ## Conclusion
 This was just a brief introduction you should definitely check out their website [https://react-table.tanstack.com/](https://react-table.tanstack.com/) because there are a lot of features to play around with.

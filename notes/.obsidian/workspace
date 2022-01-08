@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How using the app Centered made me more productive.md",
-            "mode": "source",
+            "file": "How to build powerful tables in React using the React Table package.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How using the app Centered made me more productive.md",
+                "file": "How to build powerful tables in React using the React Table package.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "8b918c1573cd193e",
   "lastOpenFiles": [
+    "How to build powerful tables in React using the React Table package.md",
+    "How to launch a Minimum viable product (MVP) in 2022.md",
     "How using the app Centered made me more productive.md",
     "Why you should learn JavaScript and Python in 2022.md",
-    "How to launch a Minimum viable product (MVP) in 2022.md",
-    "How to build powerful tables in React using the React Table package.md",
     "How I setup my Development Environment on macOS 2021 Edition.md",
     "Styling React Native with CSS Modules.md",
     "Modern Full-Stack Developer Tech Stack 2021.md",

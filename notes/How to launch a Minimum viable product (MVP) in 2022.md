@@ -50,37 +50,37 @@ This allows the company to see how the product could potentially work when it is
 ### Building the product
 There are infinite ways this can be done and there is no right or wrong answer because every team is different. Any technical stack can be used so this can be adapted to work for anyone. Here is one example of how a team might go about building a product.
 
-1. User flow/journey
+Step 1: User flow/journey
 
 **Technical Stack**: Miro/FigJam/Mural
 **Description**: The interaction process a user takes when using the product.
 
-2. Low fidelity wireframe
+Step 2: Low fidelity wireframe
 
 **Technical Stack**: Figma/Adobe XD
 **Description**: Low fidelity wireframes are the initial blueprints used before creating the website and app screens. They usually have placeholder "lorem ipsum" text.
 
-3. High fidelity wireframe and design system
+Step 3: High fidelity wireframe and design system
 
 **Technical Stack**: Figma/Adobe XD
 **Description**: High fidelity wireframes are used to show the look and feel for the product in a more final stage in the design process. They tend to have real content instead of placeholder. In this stage the designer would also create the design system which could include the brand colors, typefaces, and design specifications.
 
-4. Prototype
+Step 4: Prototype
 
 **Technical Stack**: Figma/Adobe XD
 **Description**: The prototype is a working example of the final application that has been created by the design team. It has working interactions and can be used to show how screens navigate, transitions, click events and much more.
 
-5. Development back-end
+Step 5: Development back-end
 
 **Technical Stack**: Python, Django, PostgreSQL, AWS
 **Description**: This is where a back-end developer would work on the API, databases, servers and anything related to the architecture.
 
-6. Development front-end
+Step 6: Development front-end
 
 **Technical Stack**: HTML, CSS, JavaScript, React, Storybook
 **Description**: Working on the back-end or front-end first comes down to personal preferences. Personally I prefer to have a back-end up and running first so that there is live data. In this stage a front-end developer would work on the UI/UX and get the application to connect to the back-end or any test data. Storybook is like a bridge between the designer and the developer. The design systems and components can be a mirror match between them both.
 
-7. Deployment
+Step 7: Deployment
 
 **Technical Stack**: AWS
 **Description**: When all stages have been cleared it is time for the MVP to have its official launch. The back-end and front-end should already be online or in a test stage area. So the final step would be to launch the final build and complete the first iteration for the project.
