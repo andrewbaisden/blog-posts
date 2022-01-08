@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "How to build powerful tables in React using the React Table package.md",
+            "file": "Using CSS Modules in React Native.md",
             "mode": "preview",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to build powerful tables in React using the React Table package.md",
+                "file": "Using CSS Modules in React Native.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "8b918c1573cd193e",
   "lastOpenFiles": [
+    "Using CSS Modules in React Native.md",
+    "How To Build Cross Platform Apps Using React, React Native And Redux.md",
+    "Building a user authenticated dashboard in React Native.md",
     "How to build powerful tables in React using the React Table package.md",
     "How to launch a Minimum viable product (MVP) in 2022.md",
     "How using the app Centered made me more productive.md",
     "Why you should learn JavaScript and Python in 2022.md",
     "How I setup my Development Environment on macOS 2021 Edition.md",
-    "Styling React Native with CSS Modules.md",
     "Modern Full-Stack Developer Tech Stack 2021.md",
-    "Creating MERN Stack Applications (2020).md",
-    "5 steps to performing well in a new job.md",
-    "Introducing Digital Ocean App Platform.md"
+    "Creating MERN Stack Applications (2020).md"
   ]
 }
