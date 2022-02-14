@@ -309,7 +309,7 @@ hyper i hyper-dracula
 
 ### Visual Studio Code
 
-If it is your first time using Visual Studio Code then do a clean install and configure it whicever way you want. Otherwise install the Settings Sync extension by Shan Khan and then do a download to sync your settings. 
+If it is your first time using Visual Studio Code then do a clean install and configure it whichever way you want. Otherwise install the Settings Sync extension by Shan Khan and then do a download to sync your settings. 
 
 ```bash
 # Upload

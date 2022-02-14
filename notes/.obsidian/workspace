@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "8b918c1573cd193e",
+        "id": "d99c16ed3b0883b0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Using CSS Modules in React Native.md",
-            "mode": "preview",
-            "source": true
+            "file": "50 Cool Web And Mobile Project Ideas for 2022.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408
+    "width": 297
   },
   "right": {
     "id": "7a8d7f7e29ed1b7f",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Using CSS Modules in React Native.md",
+                "file": "50 Cool Web And Mobile Project Ideas for 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8b918c1573cd193e",
+  "active": "d99c16ed3b0883b0",
   "lastOpenFiles": [
-    "Using CSS Modules in React Native.md",
-    "How To Build Cross Platform Apps Using React, React Native And Redux.md",
-    "Building a user authenticated dashboard in React Native.md",
-    "How to build powerful tables in React using the React Table package.md",
-    "How to launch a Minimum viable product (MVP) in 2022.md",
-    "How using the app Centered made me more productive.md",
-    "Why you should learn JavaScript and Python in 2022.md",
+    "50 Cool Web And Mobile Project Ideas for 2022.md",
+    "50 Cool Web And Mobile Project Ideas for 2021.md",
+    "Moving from JavaScript to TypeScript.md",
+    "100 AWESOME Developers to follow on Twitter.md",
+    "How I setup my Development Environment on macOS 2022 Edition.md",
     "How I setup my Development Environment on macOS 2021 Edition.md",
-    "Modern Full-Stack Developer Tech Stack 2021.md",
-    "Creating MERN Stack Applications (2020).md"
+    "Using CSS Modules in React Native.md",
+    "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
+    "Creating MERN Stack Applications (2020).md",
+    "How To Build Cross Platform Apps Using React, React Native And Redux.md"
   ]
 }
