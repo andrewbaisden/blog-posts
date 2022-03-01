@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "50 Cool Web And Mobile Project Ideas for 2022.md",
+            "file": "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "postgre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "50 Cool Web And Mobile Project Ideas for 2022.md",
+                "file": "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "d99c16ed3b0883b0",
   "lastOpenFiles": [
+    "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
+    "Creating React Flask apps that connect to PostgreSQL and HarperDB.md",
+    "8 GitHub resources for becoming a developer in 2022.md",
+    "Creating MERN Stack Applications (2020).md",
+    "How I setup my Development Environment on macOS 2022 Edition.md",
     "50 Cool Web And Mobile Project Ideas for 2022.md",
     "50 Cool Web And Mobile Project Ideas for 2021.md",
     "Moving from JavaScript to TypeScript.md",
     "100 AWESOME Developers to follow on Twitter.md",
-    "How I setup my Development Environment on macOS 2022 Edition.md",
-    "How I setup my Development Environment on macOS 2021 Edition.md",
-    "Using CSS Modules in React Native.md",
-    "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
-    "Creating MERN Stack Applications (2020).md",
-    "How To Build Cross Platform Apps Using React, React Native And Redux.md"
+    "How I setup my Development Environment on macOS 2021 Edition.md"
   ]
 }

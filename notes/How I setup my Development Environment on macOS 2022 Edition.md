@@ -150,37 +150,37 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/h
 
 [https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew](https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew)
 
-1. Install the Xcode command-line tools and the Homebrew one from https://brew.sh/#install
+1) Install the Xcode command-line tools and the Homebrew one from https://brew.sh/#install
 
 ```bash
 xcode-select --install
 ```
 
-2. Tap the MongoDB Homebrew Tap:
+2) Tap the MongoDB Homebrew Tap:
 
 ```bash
 brew tap mongodb/brew
 ```
 
-3. Verify installation prerequisites in the macOS Terminal:
+3) Verify installation prerequisites in the macOS Terminal:
 
 ```bash
 brew tap | grep mongodb
 ```
 
-4. install MongoDB
+4) install MongoDB
 
 ```bash
 brew install mongodb-community@4.4
 ```
 
-5. Finally to run MongoDB (i.e. the mongod process) as a macOS service, issue the following
+5) Finally to run MongoDB (i.e. the mongod process) as a macOS service, issue the following
 
 ```bash
 brew services start mongodb-community@4.4
 ```
 
-6. Download and install MongoDB Compass [https://www.mongodb.com/try/download/compass](https://www.mongodb.com/try/download/compass)
+6) Download and install MongoDB Compass [https://www.mongodb.com/try/download/compass](https://www.mongodb.com/try/download/compass)
 
 Use the command `brew list` to see all installed packages.
 
@@ -194,18 +194,15 @@ Install node via nvm because `nvm` lets you quickly install and use different ve
 npm i -g @aws-amplify/cli
 npm i -g @sanity/cli
 npm i -g babel-cli
-npm i -g eslint
 npm i -g expo-cli
 npm i -g firebase-tools
 npm i -g gatsby-cli
-npm i -g jest
 npm i -g lighthouse
 npm i -g netlify-cli
 npm i -g newman
 npm i -g node-sass
 npm i -g parcel-bundler
 npm i -g pm2
-npm i -g prettier
 npm i -g serve
 npm i -g spaceship-prompt
 npm i -g surge
@@ -257,14 +254,14 @@ Use the command `pip3 list` or `pip list` to see all installed packages
 #### Updating Python Packages
 Pip can be used to upgrade all packages:
 
-1. Output a list of installed packages into a requirements file (requirements.txt): 
+1) Output a list of installed packages into a requirements file (requirements.txt): 
 
 ```shell
 pip freeze > requirements.txt
 ```
 
-2. Edit requirements.txt, and replace all `==` with `>=` Use the ‘Replace All’ command in the editor.
-3. Upgrade all outdated packages: 
+2) Edit requirements.txt, and replace all `==` with `>=` Use the ‘Replace All’ command in the editor.
+3) Upgrade all outdated packages: 
 
 ```shell
 pip install -r requirements.txt --upgrade
