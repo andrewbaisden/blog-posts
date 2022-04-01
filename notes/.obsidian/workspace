@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
-            "mode": "source",
+            "file": "Moving from JavaScript to TypeScript.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "postgre",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
+                "file": "Moving from JavaScript to TypeScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "d99c16ed3b0883b0",
   "lastOpenFiles": [
-    "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
-    "Creating React Flask apps that connect to PostgreSQL and HarperDB.md",
-    "8 GitHub resources for becoming a developer in 2022.md",
-    "Creating MERN Stack Applications (2020).md",
-    "How I setup my Development Environment on macOS 2022 Edition.md",
-    "50 Cool Web And Mobile Project Ideas for 2022.md",
-    "50 Cool Web And Mobile Project Ideas for 2021.md",
     "Moving from JavaScript to TypeScript.md",
-    "100 AWESOME Developers to follow on Twitter.md",
-    "How I setup my Development Environment on macOS 2021 Edition.md"
+    "Creating MERN Stack Applications (2020).md",
+    "How to use HarperDB custom functions to build your entire backend.md",
+    "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
+    "How to deploy a Node Express App to Vercel.md",
+    "How I setup my Development Environment on macOS 2022 Edition.md",
+    "Why you should consider adding a BenQ ScreenBar to your developer setup.md",
+    "My thoughts on using the LG 27UL850W 4K UHD LED LCD Monitor for programming and media consumption.md",
+    "How I setup my Development Environment on macOS 2021 Edition.md",
+    "Creating React Flask apps that connect to PostgreSQL and HarperDB.md"
   ]
 }
