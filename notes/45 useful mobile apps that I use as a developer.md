@@ -80,7 +80,7 @@ For storing media assets and documents online
 
 [iOS](https://apps.apple.com/us/app/microsoft-onedrive/id477537958)
 
-## Mindfulness/Health 
+## Mindfulness/Health
 
 ### Calm
 
@@ -172,7 +172,7 @@ For communicating with different teams and interviews
 
 For doing calculations
 
-__N/A because its preinstalled__
+**N/A because its preinstalled**
 
 ### Google Calendar
 
@@ -208,7 +208,7 @@ For communicating with people
 
 ### Notion
 
-For overall project management 
+For overall project management
 
 [Android](https://play.google.com/store/apps/details?id=notion.id&hl=en_GB&gl=US)
 
@@ -352,7 +352,7 @@ For managing the passwords to all of my accounts
 
 ### DEV Community
 
-For communicating with the developer community and finding resources and help 
+For communicating with the developer community and finding resources and help
 
 [Android](https://play.google.com/store/apps/details?id=to.dev.dev_android&hl=en_GB&gl=US)
 
@@ -390,9 +390,9 @@ You can also check out my website [https://andrewbaisden.com/](https://andrewbai
 
 I will just leave you one last easter egg 🥚. These are lyrics from a song lets see if you can find it 😉
 
-__"If we'll be united
+**"If we'll be united
 We're stronger together
 We always have the high hope
-Not all for one but one for all"__
+Not all for one but one for all"**
 
 Peace ✌️

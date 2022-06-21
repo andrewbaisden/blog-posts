@@ -6,7 +6,7 @@ I have always had a passion for writing because I find that it is one of the bes
 
 ### Writing the first articles
 
-My first articles on Medium were __Create React App and React Router 4 Developer Workflow__ and the second one was __Custom VS Code Title Bar, for Front-End and Back-End Projects (macOS Guide)__. They received a decent amount of engagement however I never really thought about being a content creator I was still just focused on learning programming languages and frameworks so that I would be better prepared for interviews. It took me another 2 years before I had a third attempt at it. If it was not for the global pandemic in 2020 I might have taken a different path, but having all of that free time at home gave me an idea. My initial goal was to become active in the development community which I hoped would boost my chances of getting interviews as it would show how passionate I was. Gaining followers was never a real consideration although I have to admit that it was a welcome surprise seeing how much influence these articles were generating.
+My first articles on Medium were **Create React App and React Router 4 Developer Workflow** and the second one was **Custom VS Code Title Bar, for Front-End and Back-End Projects (macOS Guide)**. They received a decent amount of engagement however I never really thought about being a content creator I was still just focused on learning programming languages and frameworks so that I would be better prepared for interviews. It took me another 2 years before I had a third attempt at it. If it was not for the global pandemic in 2020 I might have taken a different path, but having all of that free time at home gave me an idea. My initial goal was to become active in the development community which I hoped would boost my chances of getting interviews as it would show how passionate I was. Gaining followers was never a real consideration although I have to admit that it was a welcome surprise seeing how much influence these articles were generating.
 
 ### Taking blogging seriously
 
@@ -18,7 +18,7 @@ Fast forward to today and I am cross posting on a few platforms. My content has 
 
 I am still refining the process as I am learning as I go but I have quite a nice strategy at the moment that seems to be working for me. This is my current workflow and I imagine that over time it will evolve as I try to make it even better.
 
-__Tools__
+**Tools**
 
 - [Notion](https://www.notion.so/) - For article management
 - [Typora](https://typora.io/) and [Dropbox Paper](https://www.dropbox.com/en_GB/paper) - For writing articles
@@ -28,7 +28,7 @@ __Tools__
 
 When I have an idea for an article I add it to a project inside of my Notion and assign it to Articles/Blogging. I start by giving it a name and then a priority. I only add the dates once I start working on it and when it is finished. Occasionally I might decide to change the name of the article if I think a different one sounds better. Each article also has its own page so I can use that for writing notes on what topics I am going to talk about. When the article has been completed I add the name of the blogs and platforms to the published field.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1619625606/notion-articles-workflow_nqemdf.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1619625606/notion-articles-workflow_nqemdf.png "Notion Article Workflow")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1619625606/notion-articles-workflow_nqemdf.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1619625606/notion-articles-workflow_nqemdf.png 'Notion Article Workflow')
 
 ### 2. Lets start writing
 

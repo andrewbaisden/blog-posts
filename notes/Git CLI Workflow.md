@@ -1,5 +1,7 @@
 # Git CLI Workflow
+
 ## Useful Links
+
 [Git Command Explorer - Find the right commands you need without digging through the web.](https://gitexplorer.com/)
 
 [Git Branch | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
@@ -9,12 +11,15 @@
 [Deploy Websites In Seconds With Netlify - YouTube](https://www.youtube.com/watch?v=bjVUqvcCnxM&t=0s)
 
 ## Prerequisites
+
 Setup a local folder for your GIT repo
 Go to github and create the repo
 Once the repo is created, transfer your files into the folder and git push them
 
 ## Setup using HTTPS
-*…or create a new repository on the command line*
+
+_…or create a new repository on the command line_
+
 ```bash
 echo "# github-test" >> README.md
 git init
@@ -24,70 +29,73 @@ git remote add origin https://github.com/yourname/github-test.git
 git push -u origin master
 ```
 
-*…or push an existing repository from the command line*
+_…or push an existing repository from the command line_
+
 ```bash
 git remote add origin https://github.com/yourname/github-test.git
 git push -u origin master
 ```
 
-*…or clone an existing repository from the command line*
+_…or clone an existing repository from the command line_
+
 ```bash
 git clone https://github.com/yourname/test-db.git
 git push
 ```
 
 ## Useful CLI Commands
+
 [Visual Studio Code on macOS](https://code.visualstudio.com/docs/setup/mac)
 [Visual Studio Code on Windows](https://code.visualstudio.com/docs/setup/windows)
 [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux)
 
-Use the command `code`  to open Visual Studio Code from the Terminal Window
+Use the command `code` to open Visual Studio Code from the Terminal Window
 
-`code .`  to open Visual Studio Code
+`code .` to open Visual Studio Code
 
-`code index.html`  to open index.html
+`code index.html` to open index.html
 
 `mkdir backend` for creating folders
 
-`touch README.md`  for creating files like `README.md`  
+`touch README.md` for creating files like `README.md`
 
 ### Basic GIT Commands
 
 `cd` into the folder with your files
 
-__To see the files needed for staging__
+**To see the files needed for staging**
 
-`git status`  
+`git status`
 
-__To see a running record of commits and to check commit messages (Press Q to quit out from this mode)__
+**To see a running record of commits and to check commit messages (Press Q to quit out from this mode)**
 
-`git log`  
+`git log`
 
-__To add a change in the working directory to the staging area__
+**To add a change in the working directory to the staging area**
 
-`git add --all`  
+`git add --all`
 
-`git add .`  
+`git add .`
 
-__To add commit descriptions__
+**To add commit descriptions**
 
-`git commit –m “Put commit message here”`  
+`git commit –m “Put commit message here”`
 
-__To push to the master branch__
+**To push to the master branch**
 
-`git push`  
+`git push`
 
-__To pull from the master branch__
+**To pull from the master branch**
 
-`git pull`  
+`git pull`
 
-__List all of the branches in your repository. This is synonymous with git branch --list. Press Q to quit out__
+**List all of the branches in your repository. This is synonymous with git branch --list. Press Q to quit out**
 
-`git branch`  
+`git branch`
 
-__Creating branches__
+**Creating branches**
 
-`git branch test1`  
+`git branch test1`
 
 Adds the remote repo to local repo config and pushes the test1 branch to new-remote-repo
 
@@ -131,7 +139,7 @@ cd github-test
 
 [Git & GitHub Tutorial for Beginners #9 - Merging Branches (& conflicts) - YouTube](https://www.youtube.com/watch?v=XX-Kct0PfFc)
 
-__GIT Merge__
+**GIT Merge**
 
 If the merge commit screen comes up do the following
 
@@ -166,7 +174,7 @@ git merge example1
 git push
 ```
 
-__GIT Merge Conflict__
+**GIT Merge Conflict**
 
 1. Resolve and fix the merge conflicts in the files associated
 2. Add the files to the staging area
@@ -184,7 +192,7 @@ git commit
 4. On the merge commit screen save and exit - On the keyboard press `SHIFT : wq`
 
 ```bash
-:wq 
+:wq
 ```
 
 5. See the commit messages including the merge conflict commit
@@ -199,24 +207,24 @@ git log --oneline
 
 ### For rewriting previous commit messages
 
-__To redo the last commit's message__
+**To redo the last commit's message**
 
- `git commit --amend`  
+`git commit --amend`
 
-__To push the last amend to the master branch__
+**To push the last amend to the master branch**
 
- `git push --force`  
+`git push --force`
 
-__To look over & reword the last N commits__
+**To look over & reword the last N commits**
 
 N = The commit in the list eg 1,2,3,4,5
 a14338f9ffc302cf26bc36095e77887c32af6d66 = The name of the commit
 
- `git rebase -i HEAD~N`  
+`git rebase -i HEAD~N`
 
- `git rebase -i HEAD~1`  
+`git rebase -i HEAD~1`
 
- `git rebase -i a14338f9ffc302cf26bc36095e77887c32af6d66`
+`git rebase -i a14338f9ffc302cf26bc36095e77887c32af6d66`
 
 ### Retrieve specific commit from a remote Git repository
 
@@ -233,7 +241,7 @@ git init
 For the master branch
 
 ```bash
-git pull --rebase <repo> 
+git pull --rebase <repo>
 git pull --rebase https://github.com/yourname/test.git
 ```
 
@@ -256,6 +264,7 @@ git reset --hard 83d515fd4149dd8608f38ab02314897276c0307b
 [Git Tutorial: Using the Stash Command - YouTube](https://www.youtube.com/watch?v=KLEDKgMmbBI)
 
 ## Deploying a subfolder to GitHub Pages
+
 Sometimes you want to have a subdirectory on the `master` branch be the root directory of a repository’s `gh-pages` branch. This is useful for things like sites developed with Yeoman, or if you have a Jekyll site contained in the `master` branch alongside the rest of your code.
 
 For the sake of this example, let’s pretend the subfolder containing your site is named `dist`.
@@ -302,7 +311,6 @@ Which lets you type commands like:
 git gh-deploy path/to/your/site
 ```
 
-
 ### VIM Mode Commands
 
 [Basic Vim commands - For getting started (Example)](https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started)
@@ -314,36 +322,32 @@ Vim has two modes.
 
 Most of them below are in command mode
 
-* x - to delete the unwanted character
-* u - to undo the last the command and U to undo the whole line
-* CTRL-R to redo
-* A - to append text at the end
-* :wq - to save and exit
-* :q! - to trash all changes
-* dw - move the cursor to the beginning of the word to delete that word
-* 2w - to move the cursor two words forward.
-* 3e - to move the cursor to the end of the third word forward.
-* 0 (zero) to move to the start of the line.
-* d2w - which deletes 2 words .. number can be changed for deleting the number of consecutive words like d3w
-* dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
+- x - to delete the unwanted character
+- u - to undo the last the command and U to undo the whole line
+- CTRL-R to redo
+- A - to append text at the end
+- :wq - to save and exit
+- :q! - to trash all changes
+- dw - move the cursor to the beginning of the word to delete that word
+- 2w - to move the cursor two words forward.
+- 3e - to move the cursor to the end of the third word forward.
+- 0 (zero) to move to the start of the line.
+- d2w - which deletes 2 words .. number can be changed for deleting the number of consecutive words like d3w
+- dd to delete the line and 2dd to delete to line .number can be changed for deleting the number of consecutive words
 
 ## How to remove node_modules
 
 1. Create a `.gitignore` file in the git repository if it does not contain one
 
-  `touch .gitignore`
-2. Open up the `.gitignore` and add the following line to the file 
+`touch .gitignore` 2. Open up the `.gitignore` and add the following line to the file
 
-  node_modules
-3. Remove the `node_modules` folder from the git repository
+node_modules 3. Remove the `node_modules` folder from the git repository
 
-  `git rm -r --cached node_modules`
-4. Commit the git repository without the node modules folder
+`git rm -r --cached node_modules` 4. Commit the git repository without the node modules folder
 
-  `git commit -m "Removed node_module folder"`
-5. Push the repository to github
+`git commit -m "Removed node_module folder"` 5. Push the repository to github
 
-  `git push origin master`
+`git push origin master`
 
 After all of that, you should also add the `.gitignore` and commit it to the repository
 

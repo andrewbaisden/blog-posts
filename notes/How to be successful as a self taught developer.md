@@ -4,11 +4,11 @@ The game has changed. You don't need a College or University Degree to be a deve
 
 ## Aspiring to be a developer
 
-For those of you who don't come from a tech background this is going to be a brave new world! It is so easy to become completely overwhelmed with all of the content and information that is out there. I might have studied in University but my most recent and __BEST__ skills are self taught. If I can do it then anyone can.
+For those of you who don't come from a tech background this is going to be a brave new world! It is so easy to become completely overwhelmed with all of the content and information that is out there. I might have studied in University but my most recent and **BEST** skills are self taught. If I can do it then anyone can.
 
 The road to success is going to be long and bumpy but should you survive the ride (most do) then you will be on your way to a new career path.
 
-## The Road to success 
+## The Road to success
 
 The first thing that you should do is join the top platforms with the biggest developer followings.
 

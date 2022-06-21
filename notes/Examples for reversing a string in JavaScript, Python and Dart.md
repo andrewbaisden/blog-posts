@@ -8,7 +8,7 @@ One of the most common interview questions is how do you reverse a string in the
 
 ```javascript
 function reverse(str) {
-		console.log(str.split('').reverse().join(''));
+	console.log(str.split('').reverse().join(''));
 }
 
 reverse('Hello World');
@@ -47,8 +47,7 @@ function reverse(str) {
 	for (let char of str) {
 		reversed = char + reversed;
 	}
-	 console.log(reversed);
-
+	console.log(reversed);
 }
 
 reverse('Hello World');
@@ -93,7 +92,7 @@ void main() {
 
 ```JavaScript
 function reverse(str) {
-		
+
 	const arr = [];
 	for (let i = str.length - 1; i > -1; i--) {
 		arr.push(str[i]);
@@ -111,7 +110,7 @@ def reverse(str):
     new_strings = []
     index = len(str)
     while index:
-        index -= 1                       
+        index -= 1
         new_strings.append(str[index])
     print(''.join(new_strings))
 
@@ -140,18 +139,16 @@ void main() {
 
 ```javascript
 function reverse(str) {
-		
 	const arr = [];
 	for (let i = str.length - 1; i > -1; i--) {
 		arr.push(str[i]);
 	}
 
-  // Using regex
+	// Using regex
 	console.log(arr.toString().replace(/,/g, ''));
 
-  // Using reduce
+	// Using reduce
 	console.log(arr.reduce((acc, cur) => acc + cur));
-
 }
 
 reverse('Hello World');
@@ -184,4 +181,3 @@ void main() {
   reverse('Hello World');
 }
 ```
-

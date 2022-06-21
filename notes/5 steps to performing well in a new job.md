@@ -20,7 +20,7 @@ It is also true for GIT workflows, documentation, and testing. Follow the guidel
 
 Those first few months tend to be quite hard as you feel the need to prove your value and validate why you deserve the role. Put in a good high work rate and get up to speed as quickly as possible. The more you contribute to the company the less you will have to worry about in the future. Build the groundwork now so that you are good to go for smooth sailing further down the line.
 
-## 4. Have good connections 
+## 4. Have good connections
 
 Another area that requires lots of effort would be finding common ground, and bonding well with your team mates. This would come under the area of having a good culture fit. Jobs are not all about working you need to remember that you have to behave as a human too and not just a robot that writes code all day.
 

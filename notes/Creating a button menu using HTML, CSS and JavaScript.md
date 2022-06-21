@@ -43,79 +43,79 @@ Copy and paste the code into their corresponding files
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&display=swap');
 
 :root {
-    --main-bg: #EEEEEE;
-    --menu-bg: #17C0EB;
-    --menu-font-color: #FFFFFF;
-    --menu-border: #25d3ff;
-    --menu-bg-selected: #333333;
-    --menu-bg-hover: #52dcff;
-    --menu-bg-selected-chevron: #3cac1a;
+	--main-bg: #eeeeee;
+	--menu-bg: #17c0eb;
+	--menu-font-color: #ffffff;
+	--menu-border: #25d3ff;
+	--menu-bg-selected: #333333;
+	--menu-bg-hover: #52dcff;
+	--menu-bg-selected-chevron: #3cac1a;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: 'Asap Condensed', sans-serif;
-    background: var(--main-bg);
+	font-size: 1.6rem;
+	font-family: 'Asap Condensed', sans-serif;
+	background: var(--main-bg);
 }
 
 main {
-    margin: 5rem auto;
+	margin: 5rem auto;
 }
 
 .menu {
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column wrap;
-    width: 80rem;
-    max-width: 100%;
-    border-radius: 2rem;
-    background: var(--menu-bg);
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column wrap;
+	width: 80rem;
+	max-width: 100%;
+	border-radius: 2rem;
+	background: var(--menu-bg);
 }
 
 .btn-menu {
-    position: relative;
-    cursor: pointer;
-    background: var(--menu-bg);
-    border: none;
-    padding: 2rem;
-    color: var(--menu-font-color);
-    font-weight: 700;
-    border-top: 0.1rem solid var(--menu-border);
-    border-bottom: 0.1rem solid var(--menu-border);
-    transition: background 1s;
+	position: relative;
+	cursor: pointer;
+	background: var(--menu-bg);
+	border: none;
+	padding: 2rem;
+	color: var(--menu-font-color);
+	font-weight: 700;
+	border-top: 0.1rem solid var(--menu-border);
+	border-bottom: 0.1rem solid var(--menu-border);
+	transition: background 1s;
 }
 
 .btn-menu:hover {
-    background: var(--menu-bg-hover);
+	background: var(--menu-bg-hover);
 }
 
 .btn-menu:focus {
-    outline: none;
-    box-shadow: none;
+	outline: none;
+	box-shadow: none;
 }
 
 .selected {
-    background: var(--menu-bg-selected);
+	background: var(--menu-bg-selected);
 }
 
 .selected::before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    content: "";
-    background: var(--menu-bg-selected-chevron);
-    height: 5.6rem;
-    width: 0.5rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: '';
+	background: var(--menu-bg-selected-chevron);
+	height: 5.6rem;
+	width: 0.5rem;
 }
 ```
 

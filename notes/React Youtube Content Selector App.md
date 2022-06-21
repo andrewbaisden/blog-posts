@@ -31,8 +31,7 @@ const App = () => {
 		{
 			id: 2,
 			name: 'Call of Duty: Modern Warfare',
-			img:
-				'https://image-cdn.essentiallysports.com/wp-content/uploads/20200702170542/Call-of-Duty-Modern-Warfare-720.jpg',
+			img: 'https://image-cdn.essentiallysports.com/wp-content/uploads/20200702170542/Call-of-Duty-Modern-Warfare-720.jpg',
 			type: 'game',
 			developer: 'Infinity Ward',
 			description:
@@ -62,8 +61,7 @@ const App = () => {
 		{
 			id: 5,
 			name: 'Halo Infinite',
-			img:
-				'https://cdn.vox-cdn.com/thumbor/fxrC6nMstLg7klG5eQQor-r3kmg=/0x0:1813x1197/1200x800/filters:focal(762x454:1052x744)/cdn.vox-cdn.com/uploads/chorus_image/image/67137007/haloinfinite.0.jpg',
+			img: 'https://cdn.vox-cdn.com/thumbor/fxrC6nMstLg7klG5eQQor-r3kmg=/0x0:1813x1197/1200x800/filters:focal(762x454:1052x744)/cdn.vox-cdn.com/uploads/chorus_image/image/67137007/haloinfinite.0.jpg',
 			type: 'game',
 			developer: 'Xbox Game Studios',
 			description:
@@ -164,74 +162,74 @@ export default App;
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: 'Nunito', sans-serif;
-    color: #333333;
+	font-size: 1.6rem;
+	font-family: 'Nunito', sans-serif;
+	color: #333333;
 }
 
 main {
-    margin: 2rem auto;
-    max-width: 120rem;
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
+	margin: 2rem auto;
+	max-width: 120rem;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .main-container {
-    border: 0.1rem solid #333333;
-    width: 70rem;
-    height: 40.2rem;
+	border: 0.1rem solid #333333;
+	width: 70rem;
+	height: 40.2rem;
 }
 
 .main-img img {
-    width: 100%;
-    height: 40rem;
+	width: 100%;
+	height: 40rem;
 }
 
 .sidebar-container {
-    margin-left: 3rem;
+	margin-left: 3rem;
 }
 
 .sidebar {
-    display: flex;
-    flex-flow: row nowrap;
-    margin-bottom: 0.5rem;
-    cursor: pointer;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-bottom: 0.5rem;
+	cursor: pointer;
 }
 
 .sidebar-img {
-    margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 .sidebar-img img {
-    width: 15rem;
-    height: 7.5rem;
+	width: 15rem;
+	height: 7.5rem;
 }
 
 .sidebar-content h1 {
-    font-size: 1.6rem;
+	font-size: 1.6rem;
 }
 
 @media screen and (max-width: 1106px) {
-    .sidebar-container {
-        margin-top: 25rem;
-        margin-left: 0rem;
-    }
+	.sidebar-container {
+		margin-top: 25rem;
+		margin-left: 0rem;
+	}
 
-    .main-title,
-    .main-description {
-        padding: 1rem;
-    }
+	.main-title,
+	.main-description {
+		padding: 1rem;
+	}
 }
 ```
 

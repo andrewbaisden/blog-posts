@@ -7,7 +7,7 @@ We will be creating a book library website similar to Audible that has a backend
 Create a folder for your project and then `cd` into it. Copy and paste this code into your terminal and then hit enter to setup your project
 
 ```bash
-touch .gitignore  
+touch .gitignore
 mkdir backend
 cd backend
 touch .gitignore
@@ -298,7 +298,7 @@ router.post('/add-book', adminController.postAddBook);
 module.exports = router;
 ```
 
-__There are three CRUD routes__
+**There are three CRUD routes**
 
 [http://localhost:8080/books/](http://localhost:8080/books/) is for sending a GET request that will return all of the books as json
 
@@ -306,9 +306,9 @@ __There are three CRUD routes__
 
 [http://localhost:8080/add-book](http://localhost:8080/add-book) is for sending a POST request that will add a new book to the file. This app does not have a form so you will need to use an API tool like Insomnia or Postman to add new books. Or you could just do it manually by updating the file in `data/books.json`
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/insomnia_g3c15b.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/insomnia_g3c15b.jpg "Insomnia API App")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/insomnia_g3c15b.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/insomnia_g3c15b.jpg 'Insomnia API App')
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/postman_u8poty.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/postman_u8poty.jpg "Postman API APP")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/postman_u8poty.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1597243024/postman_u8poty.jpg 'Postman API APP')
 
 And thats it for the backend you now have Dynamic API Routes working for the Book data.
 
@@ -866,14 +866,14 @@ export default App;
 
 Your App should look like the images below! Congrats you just learned the basics of creating backend and frontend dynamic API routes.
 
-__Books Home Page__
+**Books Home Page**
 
-![Books Home Page](https://res.cloudinary.com/d74fh3kw/image/upload/v1597259350/books_home_sb9d3s.png "Books Home Page")
+![Books Home Page](https://res.cloudinary.com/d74fh3kw/image/upload/v1597259350/books_home_sb9d3s.png 'Books Home Page')
 
-__Books Library Page__ 
+**Books Library Page**
 
-![Books Library Pag](https://res.cloudinary.com/d74fh3kw/image/upload/v1597259040/books_hmundj.png "Books Library Pag")
+![Books Library Pag](https://res.cloudinary.com/d74fh3kw/image/upload/v1597259040/books_hmundj.png 'Books Library Pag')
 
-__My Book Page__  
+**My Book Page**
 
-![My Book Page](https://res.cloudinary.com/d74fh3kw/image/upload/v1597259040/book_n1vnld.png "My Book Page")
+![My Book Page](https://res.cloudinary.com/d74fh3kw/image/upload/v1597259040/book_n1vnld.png 'My Book Page')

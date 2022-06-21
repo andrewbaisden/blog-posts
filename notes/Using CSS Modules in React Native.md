@@ -14,7 +14,7 @@ In this guide, we’ll show how each method works with practical examples and de
 
 ## Styling in React Native: Traditional methods
 
-React Native lets you style your whole application using JavaScript. Every component can use a prop named style, which enables you to write CSS styles for those components. 
+React Native lets you style your whole application using JavaScript. Every component can use a prop named style, which enables you to write CSS styles for those components.
 
 There are two main methods that React Native has for creating styles: inline styling and using a style prop to style subcomponents. Essentially, you have a StyleSheet.create method to define multiple styles at once, like an inline stylesheet in CSS.
 
@@ -26,35 +26,35 @@ App.js file
 import React from 'react';
 import { View, Text, SafeAreaView } from 'react-native';
 export default function App() {
- return (
-  <>
-   <SafeAreaView>
-    <View
-     style={{
-      flexDirection: 'row',
-      justifyContent: 'space-evenly',
-      alignItems: 'center',
-      backgroundColor: '#6804CD',
-      width: '100%',
-      height: 30,
-     }}
-    >
-     <Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Alpha</Text>
-     <Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Bravo</Text>
-     <Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Charlie</Text>
-     <Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Delta</Text>
-     <Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Echo</Text>
-     <Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Foxtrot</Text>
-    </View>
-   </SafeAreaView>
-  </>
- );
+	return (
+		<>
+			<SafeAreaView>
+				<View
+					style={{
+						flexDirection: 'row',
+						justifyContent: 'space-evenly',
+						alignItems: 'center',
+						backgroundColor: '#6804CD',
+						width: '100%',
+						height: 30,
+					}}
+				>
+					<Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Alpha</Text>
+					<Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Bravo</Text>
+					<Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Charlie</Text>
+					<Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Delta</Text>
+					<Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Echo</Text>
+					<Text style={{ color: '#ffffff', fontWeight: 'bold' }}>Foxtrot</Text>
+				</View>
+			</SafeAreaView>
+		</>
+	);
 }
 ```
 
 Inline styling is great for quick small applications and also in scenarios where you are trying to test some code without having to do a full implementation. However as you can see there is a lot of duplication the code does not adhere to DRY principles (Don’t Repeat Yourself). This type of code would not scale well because there is a lot of repetition that could be replaced with a CSS class.
 
-Writing inline CSS also causes concerns as you are not writing traditional CSS styles because they have to be written in camel case syntax. So it will take slightly longer to convert normal CSS styles to this syntax. You can’t just copy and paste code. Furthermore it is considerably more difficult to to make it responsive as media queries simply don’t work using inline styling. The only option would be to create some sort of business logic that would get it working or use another method for using CSS like in the other examples. 
+Writing inline CSS also causes concerns as you are not writing traditional CSS styles because they have to be written in camel case syntax. So it will take slightly longer to convert normal CSS styles to this syntax. You can’t just copy and paste code. Furthermore it is considerably more difficult to to make it responsive as media queries simply don’t work using inline styling. The only option would be to create some sort of business logic that would get it working or use another method for using CSS like in the other examples.
 
 The example below shows how to produce the same result using style props:
 
@@ -64,40 +64,40 @@ App.js file:
 import React from 'react';
 import { StyleSheet, View, Text, SafeAreaView } from 'react-native';
 export default function App() {
- return (
-  <>
-   <SafeAreaView>
-    <View style={styles.container}>
-     <Text style={styles.text}>Alpha</Text>
-     <Text style={styles.text}>Bravo</Text>
-     <Text style={styles.text}>Charlie</Text>
-     <Text style={styles.text}>Delta</Text>
-     <Text style={styles.text}>Echo</Text>
-     <Text style={styles.text}>Foxtrot</Text>
-    </View>
-   </SafeAreaView>
-  </>
- );
+	return (
+		<>
+			<SafeAreaView>
+				<View style={styles.container}>
+					<Text style={styles.text}>Alpha</Text>
+					<Text style={styles.text}>Bravo</Text>
+					<Text style={styles.text}>Charlie</Text>
+					<Text style={styles.text}>Delta</Text>
+					<Text style={styles.text}>Echo</Text>
+					<Text style={styles.text}>Foxtrot</Text>
+				</View>
+			</SafeAreaView>
+		</>
+	);
 }
 const styles = StyleSheet.create({
- container: {
-  flexDirection: 'row',
-  justifyContent: 'space-evenly',
-  alignItems: 'center',
-  backgroundColor: '#6804CD',
-  width: '100%',
-  height: 30,
- },
- text: {
-  color: '#ffffff',
-  fontWeight: 'bold',
- },
+	container: {
+		flexDirection: 'row',
+		justifyContent: 'space-evenly',
+		alignItems: 'center',
+		backgroundColor: '#6804CD',
+		width: '100%',
+		height: 30,
+	},
+	text: {
+		color: '#ffffff',
+		fontWeight: 'bold',
+	},
 });
 ```
 
 The React Native StyleSheet approach is much preferred and the default way for doing CSS styles within a React Native application. StyleSheets are basically an abstraction and very similar to traditional CSS StyleSheets. Code is significantly easier to read and the addition of class names ensures that the code remains DRY.
 
-This CSS in JS approach is quite popular although there is a debate in the community as to whether or not that JavaScript and CSS should be in the same file. Most notably referred to as “a separation of concerns”  whereby there is a saying that you should not be mixing the JavaScript and CSS together they should exist in their own files.
+This CSS in JS approach is quite popular although there is a debate in the community as to whether or not that JavaScript and CSS should be in the same file. Most notably referred to as “a separation of concerns” whereby there is a saying that you should not be mixing the JavaScript and CSS together they should exist in their own files.
 
 Here’s what the code looks like in an app when rendered:
 
@@ -107,7 +107,7 @@ Here’s what the code looks like in an app when rendered:
 
 A great alternative to inline styling and using style props is to use CSS Modules. CSS Modules are great because they enable you to have component-scoped CSS that is highly portable and localized for the component to which it is assigned. You no longer need to worry about collisions between selector names such as IDs and classes in other CSS files that might have the same naming convention.
 
-By default, CSS Modules are files that are scoped locally, so there are no conflicts with other CSS files. With CSS Modules, the files are written in pure CSS but are converted to objects in JavaScript, making them more robust and safer to integrate. 
+By default, CSS Modules are files that are scoped locally, so there are no conflicts with other CSS files. With CSS Modules, the files are written in pure CSS but are converted to objects in JavaScript, making them more robust and safer to integrate.
 
 The only difference between normal CSS and a CSS module is the file extension. Normal CSS uses the header.css file naming convention whereas CSS Modules uses the header.module.css convention.
 
@@ -122,20 +122,20 @@ import React from 'react';
 import { View, Text, SafeAreaView } from 'react-native';
 import style from './App.module.css';
 export default function App() {
- return (
-  <>
-   <SafeAreaView>
-    <View style={style.container}>
-     <Text style={style.text}>Alpha</Text>
-     <Text style={style.text}>Bravo</Text>
-     <Text style={style.text}>Charlie</Text>
-     <Text style={style.text}>Delta</Text>
-     <Text style={style.text}>Echo</Text>
-     <Text style={style.text}>Foxtrot</Text>
-    </View>
-   </SafeAreaView>
-  </>
- );
+	return (
+		<>
+			<SafeAreaView>
+				<View style={style.container}>
+					<Text style={style.text}>Alpha</Text>
+					<Text style={style.text}>Bravo</Text>
+					<Text style={style.text}>Charlie</Text>
+					<Text style={style.text}>Delta</Text>
+					<Text style={style.text}>Echo</Text>
+					<Text style={style.text}>Foxtrot</Text>
+				</View>
+			</SafeAreaView>
+		</>
+	);
 }
 ```
 
@@ -145,16 +145,16 @@ App.module.css file:
 
 ```css
 .container {
- flex-flow: row;
- justify-content: space-evenly;
- align-items: center;
- background-color: '#6804CD';
- width: '100%';
- height: 30;
+	flex-flow: row;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: '#6804CD';
+	width: '100%';
+	height: 30;
 }
 .text {
- color: '#ffffff';
- font-weight: bold;
+	color: '#ffffff';
+	font-weight: bold;
 }
 ```
 
@@ -170,12 +170,12 @@ Prerequisites:
 
 - [Expo](https://docs.expo.dev/) - For developing React Native Apps
 - [React Native](https://reactnative.dev/) - For developing React Native Apps
-- [React Native CSS Modules](https://github.com/kristerkari/react-native-css-modules) - For getting CSS Modules to work in React Native 
+- [React Native CSS Modules](https://github.com/kristerkari/react-native-css-modules) - For getting CSS Modules to work in React Native
 - [React Native Paper](https://callstack.github.io/react-native-paper/index.html) - A collection of customisable and production-ready components for React Native
 
 **Setting up a React Native app**
 
-We’ll create the React Native frontend using the Expo CLI tool. 
+We’ll create the React Native frontend using the Expo CLI tool.
 
 The below libraries will be required:
 
@@ -201,33 +201,33 @@ Open the project in your code editor and replace the code in your babel.config.j
 
 ```javascript
 module.exports = function (api) {
- api.cache(true);
- return {
-  presets: ['babel-preset-expo'],
-  plugins: [
-   'react-native-classname-to-style',
-   ['react-native-platform-specific-extensions', { extensions: ['css'] }],
-  ],
- };
+	api.cache(true);
+	return {
+		presets: ['babel-preset-expo'],
+		plugins: [
+			'react-native-classname-to-style',
+			['react-native-platform-specific-extensions', { extensions: ['css'] }],
+		],
+	};
 };
 ```
 
 Next, add the following to metro.config.js in your project's root directory (create the file if you don't have one already):
 
 ```javascript
-const { getDefaultConfig } = require("metro-config");
+const { getDefaultConfig } = require('metro-config');
 module.exports = (async () => {
- const {
-  resolver: { sourceExts }
- } = await getDefaultConfig();
- return {
-  transformer: {
-   babelTransformerPath: require.resolve("react-native-css-transformer")
-  },
-  resolver: {
-   sourceExts: [...sourceExts, "css"]
-  }
- };
+	const {
+		resolver: { sourceExts },
+	} = await getDefaultConfig();
+	return {
+		transformer: {
+			babelTransformerPath: require.resolve('react-native-css-transformer'),
+		},
+		resolver: {
+			sourceExts: [...sourceExts, 'css'],
+		},
+	};
 })();
 ```
 
@@ -235,12 +235,12 @@ Finally, add the code below to your app.json file in the root directory:
 
 ```json
 {
- "expo": {
-  "packagerOpts": {
-   "config": "metro.config.js",
-   "sourceExts": ["js", "jsx", "css"]
-  }
- }
+	"expo": {
+		"packagerOpts": {
+			"config": "metro.config.js",
+			"sourceExts": ["js", "jsx", "css"]
+		}
+	}
 }
 ```
 
@@ -266,65 +266,65 @@ import { Platform } from 'react-native';
 import style from './App.module.css';
 const MORE_ICON = Platform.OS === 'ios' ? 'dots-horizontal' : 'dots-vertical';
 const image = {
- uri: 'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80',
+	uri: 'https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80',
 };
 export default function App() {
- return (
-  <SafeAreaView>
-   <Appbar.Header>
-    <Appbar.Content title="Valkyrie Sky" subtitle={'The journey of a lifetime'} />
-    <Appbar.Action icon="magnify" onPress={() => {}} />
-    <Appbar.Action icon={MORE_ICON} onPress={() => {}} />
-   </Appbar.Header>
-   <View style={style.container}>
-    <ImageBackground source={image} resizeMode="cover" style={style.appbg}>
-     <View style={style.main}>
-      <View>
-       <Text style={style.mainheading}>McWay Falls, United States</Text>
-      </View>
-      <View style={style.location}>
-       <Text>⭐️ 5.0</Text>
-       <Text style={style.locationicons}>🕜 7 Hours</Text>
-       <Text>✈️ 200 km</Text>
-      </View>
-      <View style={style.booking}>
-       <View style={style.party}>
-        <TouchableOpacity style={style.partybtn}>
-         <Text>-</Text>
-        </TouchableOpacity>
-        <Text>5</Text>
-        <TouchableOpacity style={style.partybtn}>
-         <Text>+</Text>
-        </TouchableOpacity>
-       </View>
-       <View>
-        <Text>🕗 5 Days</Text>
-       </View>
-      </View>
-     </View>
-     <View style={style.content}>
-      <View style={style.contentheading}>
-       <Text style={style.selected}>Descriptions</Text>
-       <Text style={style.unselected}>Facility</Text>
-      </View>
-      <View>
-       <Text style={style.description}>
-        McWay Falls is an 80-foot-tall waterfall on the coast of Big Sur in central California that flows
-        year-round from McWay Creek in Julia Pfeiffer Burns State Park, about 37 miles south of Carmel, into the
-        Pacific Ocean.
-       </Text>
-      </View>
-     </View>
-     <View style={style.book}>
-      <Text style={style.bookcost}>$450</Text>
-      <TouchableOpacity style={style.bookbtn}>
-       <Text style={style.bookbtntext}>Book a Tour</Text>
-      </TouchableOpacity>
-     </View>
-    </ImageBackground>
-   </View>
-  </SafeAreaView>
- );
+	return (
+		<SafeAreaView>
+			<Appbar.Header>
+				<Appbar.Content title="Valkyrie Sky" subtitle={'The journey of a lifetime'} />
+				<Appbar.Action icon="magnify" onPress={() => {}} />
+				<Appbar.Action icon={MORE_ICON} onPress={() => {}} />
+			</Appbar.Header>
+			<View style={style.container}>
+				<ImageBackground source={image} resizeMode="cover" style={style.appbg}>
+					<View style={style.main}>
+						<View>
+							<Text style={style.mainheading}>McWay Falls, United States</Text>
+						</View>
+						<View style={style.location}>
+							<Text>⭐️ 5.0</Text>
+							<Text style={style.locationicons}>🕜 7 Hours</Text>
+							<Text>✈️ 200 km</Text>
+						</View>
+						<View style={style.booking}>
+							<View style={style.party}>
+								<TouchableOpacity style={style.partybtn}>
+									<Text>-</Text>
+								</TouchableOpacity>
+								<Text>5</Text>
+								<TouchableOpacity style={style.partybtn}>
+									<Text>+</Text>
+								</TouchableOpacity>
+							</View>
+							<View>
+								<Text>🕗 5 Days</Text>
+							</View>
+						</View>
+					</View>
+					<View style={style.content}>
+						<View style={style.contentheading}>
+							<Text style={style.selected}>Descriptions</Text>
+							<Text style={style.unselected}>Facility</Text>
+						</View>
+						<View>
+							<Text style={style.description}>
+								McWay Falls is an 80-foot-tall waterfall on the coast of Big Sur in central California that flows
+								year-round from McWay Creek in Julia Pfeiffer Burns State Park, about 37 miles south of Carmel, into the
+								Pacific Ocean.
+							</Text>
+						</View>
+					</View>
+					<View style={style.book}>
+						<Text style={style.bookcost}>$450</Text>
+						<TouchableOpacity style={style.bookbtn}>
+							<Text style={style.bookbtntext}>Book a Tour</Text>
+						</TouchableOpacity>
+					</View>
+				</ImageBackground>
+			</View>
+		</SafeAreaView>
+	);
 }
 ```
 
@@ -334,112 +334,112 @@ App.module.css:
 
 ```css
 .container {
- background-color: rgb(44, 0, 95);
- width: 100%;
- height: 100%;
+	background-color: rgb(44, 0, 95);
+	width: 100%;
+	height: 100%;
 }
 .appbg {
- height: 100%;
- width: 100%;
+	height: 100%;
+	width: 100%;
 }
 .main {
- position: absolute;
- bottom: 0;
- background: rgb(242, 231, 255);
- width: 100%;
- height: 70%;
- border-radius: 30px;
- padding: 30px;
+	position: absolute;
+	bottom: 0;
+	background: rgb(242, 231, 255);
+	width: 100%;
+	height: 70%;
+	border-radius: 30px;
+	padding: 30px;
 }
 .mainheading {
- font-size: 20px;
- font-weight: bold;
- color: rgb(22, 22, 22);
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(22, 22, 22);
 }
 .location,
 .booking {
- display: flex;
- flex-flow: row nowrap;
- justify-content: flex-start;
- align-items: center;
- margin-top: 20;
- margin-bottom: 20;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20;
+	margin-bottom: 20;
 }
 .locationicons {
- margin-left: 20;
- margin-right: 20;
+	margin-left: 20;
+	margin-right: 20;
 }
 .party {
- display: flex;
- flex-flow: row nowrap;
- justify-content: space-evenly;
- align-items: center;
- background: rgb(208, 166, 255);
- border-radius: 30px;
- width: 100px;
- padding: 5px;
- margin-right: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	background: rgb(208, 166, 255);
+	border-radius: 30px;
+	width: 100px;
+	padding: 5px;
+	margin-right: 20px;
 }
 .partybtn {
- background: rgb(183, 149, 221);
- padding: 5px;
- border-radius: 5px;
+	background: rgb(183, 149, 221);
+	padding: 5px;
+	border-radius: 5px;
 }
 .content {
- background: #ffffff;
- width: 100%;
- position: absolute;
- bottom: 80;
- height: 300px;
- border-radius: 30px;
- padding: 30px;
+	background: #ffffff;
+	width: 100%;
+	position: absolute;
+	bottom: 80;
+	height: 300px;
+	border-radius: 30px;
+	padding: 30px;
 }
 .contentheading {
- display: flex;
- flex-flow: row nowrap;
- justify-content: space-evenly;
- margin-bottom: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
 }
 .selected {
- color: rgb(84, 0, 105);
- font-weight: bold;
- font-size: 18px;
+	color: rgb(84, 0, 105);
+	font-weight: bold;
+	font-size: 18px;
 }
 .unselected {
- font-weight: bold;
- font-size: 18px;
- color: rgb(133, 125, 125);
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(133, 125, 125);
 }
 .description {
- line-height: 25px;
- color: rgb(133, 125, 125);
+	line-height: 25px;
+	color: rgb(133, 125, 125);
 }
 .book {
- position: absolute;
- bottom: 78;
- display: flex;
- flex-flow: row nowrap;
- justify-content: space-between;
- padding: 30px;
- background: rgb(44, 1, 114);
- width: 100%;
- border-radius: 30px;
- height: 90px;
+	position: absolute;
+	bottom: 78;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 30px;
+	background: rgb(44, 1, 114);
+	width: 100%;
+	border-radius: 30px;
+	height: 90px;
 }
 .bookcost {
- color: #ffffff;
- font-size: 20px;
- font-weight: bold;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
 }
 .bookbtn {
- background: #ffffff;
- border-radius: 10px;
- padding: 7px;
- height: 30px;
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 7px;
+	height: 30px;
 }
 .bookbtntext {
- color: rgb(44, 1, 114);
- font-weight: bold;
+	color: rgb(44, 1, 114);
+	font-weight: bold;
 }
 ```
 

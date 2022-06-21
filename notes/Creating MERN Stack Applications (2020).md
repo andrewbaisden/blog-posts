@@ -62,7 +62,7 @@ git push -u origin master
 
 For production you need to use an online database as a local database is for development purposes only. Either way you can use whichever one you want in this guide.
 
-__Online__
+**Online**
 https://www.mongodb.com/cloud/atlas
 https://mlab.com/
 
@@ -72,7 +72,7 @@ You should have a connection string like below replacing the username and passwo
 mongodb+srv://<username>:<password>@cluster0-tyqyw.mongodb.net/<dbname>?retryWrites=true&w=majority
 ```
 
-__Local__
+**Local**
 
 Make sure that you have mongoDB and mongoDB compass installed locally
 
@@ -95,7 +95,6 @@ mongodb://127.0.0.1:27017/animes
 
 Open the project folder in your code editor, create a backend folder and then install the dependencies
 
-
 ```bash
 touch .gitignore
 mkdir backend
@@ -117,7 +116,7 @@ touch app.js
 touch .gitignore
 ```
 
-Add `node_modules`  `.env`  and `.DS_Store` to the `.gitignore` file in the root and backend folders
+Add `node_modules` `.env` and `.DS_Store` to the `.gitignore` file in the root and backend folders
 
 ### Create the Node/Express server that connects to the database
 
@@ -160,7 +159,7 @@ mongoose
 		useCreateIndex: true,
 		useUnifiedTopology: true,
 		useNewUrlParser: true,
- 	  useFindAndModify: false,
+		useFindAndModify: false,
 	})
 	.then(() => {
 		app.listen(port, () => console.log(`Server and Database running on ${port}, http://localhost:${port}`));
@@ -200,20 +199,20 @@ Open the `package.json` file and add the following run scripts for start, dev an
 
 Use the command `npm run dev` in your terminal window and the app should be up and running as well as connected to your mongodb database.
 
-___Tree Structure (Hidden files are not shown)___ 
+**_Tree Structure (Hidden files are not shown)_**
 
 ├── README.md
 └── backend
-    ├── app.js
-    ├── controllers
-    ├── models
-    ├── node_modules
-    ├── package-lock.json
-    ├── package.json
-    ├── public
-    ├── routes
-    └── src
-        └── pages
+├── app.js
+├── controllers
+├── models
+├── node_modules
+├── package-lock.json
+├── package.json
+├── public
+├── routes
+└── src
+└── pages
 
 8 directories, 4 files
 
@@ -397,7 +396,7 @@ Now if you go to [http://localhost:8080/add-anime](http://localhost:8080/add-ani
 
 Alternatively use the Postman App to send a post request to the route http://localhost:8080/add-anime like in the example below
 
-![Postman](https://res.cloudinary.com/d74fh3kw/image/upload/v1594913050/create_route_e8gwq3.png "Postman Create Route")
+![Postman](https://res.cloudinary.com/d74fh3kw/image/upload/v1594913050/create_route_e8gwq3.png 'Postman Create Route')
 
 #### Reading data from the database (Read)
 
@@ -802,9 +801,7 @@ Update the `edit-anime.ejs` file in the `src/pages` folder with the code below
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>
-			<% if(editing){ %>Edit Anime<% } else { %>Add Anime<% } %>
-		</title>
+		<title><% if(editing){ %>Edit Anime<% } else { %>Add Anime<% } %></title>
 	</head>
 	<body>
 		<h1><% if(editing){ %>Edit Anime<% } else { %>Add Anime<% } %></h1>
@@ -851,7 +848,7 @@ npx create-react-app .
 
 Return to the root folder for the backend and then run the command `npm run servers` to start both the backend and frontend servers together. You should see your React App running in the browser.
 
-Now go to the backend folder and go into `controllers/admin.js` and update the code with the one below. 
+Now go to the backend folder and go into `controllers/admin.js` and update the code with the one below.
 
 All we are doing is returning the data that gets sent to the index route as `.json` so that we can use fetch/axios to map over it in the frontend. We are also going to update the POST route for adding new anime so that it redirects to the React frontend app index page.
 
@@ -1041,20 +1038,20 @@ const App = () => {
 export default App;
 ```
 
-You should now see your data rendered out in the frontend when you got to [http://localhost:3000/](http://localhost:3000/) 
+You should now see your data rendered out in the frontend when you got to [http://localhost:3000/](http://localhost:3000/)
 
 I also created a form at the bottom which will let you add new entries to the database. Obviously in a complete project you should be using components to build your app I just created a quick example to show you what it looks like.
 
-Well done you just created a MERN app those are the basics! To complete the app you should add routing on the frontend using [React Router](https://reactrouter.com/web/guides/quick-start) so that you can create more dynamic pages. My preference is to use [Styled Components](https://styled-components.com/) but you can use whatever CSS library you want. You can even add Redux or another state library.  Just make sure that you return the data from the GET routes in the backend using `.json` so that you can use fetch/axios in the frontend to manage the data.
+Well done you just created a MERN app those are the basics! To complete the app you should add routing on the frontend using [React Router](https://reactrouter.com/web/guides/quick-start) so that you can create more dynamic pages. My preference is to use [Styled Components](https://styled-components.com/) but you can use whatever CSS library you want. You can even add Redux or another state library. Just make sure that you return the data from the GET routes in the backend using `.json` so that you can use fetch/axios in the frontend to manage the data.
 
 Alternatively you can just work with the `.ejs` frontend and give that styling and navigation too using CSS its up to you. When your app is complete just deploy it to one of the many available platforms out there like [Netlify](https://www.netlify.com/) and [Vercel](https://vercel.com/)
 
-You can see my final version on my GitHub at  [Anime Tracker](https://github.com/andrewbaisden/anime-tracker) feel free to clone and download the repo. This build has a `.ejs` frontend and CSS. I also made a few minor adjustments to the codebase.
+You can see my final version on my GitHub at [Anime Tracker](https://github.com/andrewbaisden/anime-tracker) feel free to clone and download the repo. This build has a `.ejs` frontend and CSS. I also made a few minor adjustments to the codebase.
 
-![Anime Tracker Home](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194619/anime-home_glu2zg.jpg "Anime Tracker Home")
+![Anime Tracker Home](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194619/anime-home_glu2zg.jpg 'Anime Tracker Home')
 
-![Anime Tracker Add Anime](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194617/anime-add_axp12q.jpg "Anime Tracker Add Anime")
+![Anime Tracker Add Anime](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194617/anime-add_axp12q.jpg 'Anime Tracker Add Anime')
 
-![Anime Tracker Anime](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194617/anime-anime_isznm3.jpg "Anime Tracker Anime")
+![Anime Tracker Anime](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194617/anime-anime_isznm3.jpg 'Anime Tracker Anime')
 
-![Anime Tracker Edit Anime](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194617/anime-edit_boosq2.jpg "Anime Tracker Edit Anime")
+![Anime Tracker Edit Anime](https://res.cloudinary.com/d74fh3kw/image/upload/v1596194617/anime-edit_boosq2.jpg 'Anime Tracker Edit Anime')

@@ -31,57 +31,57 @@ Firstly you need to create a [HarperDB](https://harperdb.io) account if you don'
 
 Sign up for a free account
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646586964/harperdb-sign-up-screen_j4g0mf.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646586964/harperdb-sign-up-screen_j4g0mf.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646586964/harperdb-sign-up-screen_j4g0mf.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646586964/harperdb-sign-up-screen_j4g0mf.jpg)
 
 #### Step 2 - Create a new organisation
 
 Create a new organisation
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587087/harperdb-create-organization_bag4yz.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587087/harperdb-create-organization_bag4yz.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587087/harperdb-create-organization_bag4yz.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587087/harperdb-create-organization_bag4yz.jpg)
 
 Add a new organisation
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587087/harperdb-add-new-organization_z55frg.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587087/harperdb-add-new-organization_z55frg.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587087/harperdb-add-new-organization_z55frg.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587087/harperdb-add-new-organization_z55frg.jpg)
 
 #### Step 3 - Create a New HarperDB Cloud Instance
 
 Create a New HarperDB Cloud Instance
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587677/harperdb-create-new-cloud-instance_k19yui.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587677/harperdb-create-new-cloud-instance_k19yui.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587677/harperdb-create-new-cloud-instance_k19yui.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587677/harperdb-create-new-cloud-instance_k19yui.jpg)
 
 Click the button on the left for **Create AWS or Verizon Wavelength Instance**
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587679/harperdb-select-instance-type_svstlr.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587679/harperdb-select-instance-type_svstlr.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587679/harperdb-select-instance-type_svstlr.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587679/harperdb-select-instance-type_svstlr.jpg)
 
 Choose the option for HarperDB Cloud on AWS and then click the button for Instance Info.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587678/harperdb-choose-cloud-provider_nsldac.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587678/harperdb-choose-cloud-provider_nsldac.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587678/harperdb-choose-cloud-provider_nsldac.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587678/harperdb-choose-cloud-provider_nsldac.jpg)
 
 Create an instance name and user credentials then click the Instance Details button.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587678/harperdb-instance-info_z4lkn6.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587678/harperdb-instance-info_z4lkn6.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587678/harperdb-instance-info_z4lkn6.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587678/harperdb-instance-info_z4lkn6.jpg)
 
-Select the options for FREE RAM and Storage Size. Select whichever region you prefer and then click the button to confirm the instance details. Please be aware that you are limited to 1 free cloud instance across organizations you own.
+Select the options for FREE RAM and Storage Size. Select whichever region you prefer and then click the button to confirm the instance details. Please be aware that you are limited to 1 free cloud instance across organisation's you own.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646587679/harperdb-instance-specs_vzsgjq.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646587679/harperdb-instance-specs_vzsgjq.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587679/harperdb-instance-specs_vzsgjq.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646587679/harperdb-instance-specs_vzsgjq.jpg)
 
 Agree to the terms and then click the add instance button.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646590776/harperdb-add-instance_xaazmv.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646590776/harperdb-add-instance_xaazmv.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646590776/harperdb-add-instance_xaazmv.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646590776/harperdb-add-instance_xaazmv.jpg)
 
 #### Step 4 - View your HarperDB Cloud Instance
 
 Now you should have an organisation
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646588792/harperdb-organization-redacted_ccpg4w.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646588792/harperdb-organization-redacted_ccpg4w.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646588792/harperdb-organization-redacted_ccpg4w.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646588792/harperdb-organization-redacted_ccpg4w.jpg)
 
 When you click on your organisation you should see your cloud instance
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646589044/harperdb-instance-redacted_ptfook.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646589044/harperdb-instance-redacted_ptfook.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646589044/harperdb-instance-redacted_ptfook.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646589044/harperdb-instance-redacted_ptfook.jpg)
 
 Click on that and you will see the database screen
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646591118/harperdb-db-screen_eagtct.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646591118/harperdb-db-screen_eagtct.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646591118/harperdb-db-screen_eagtct.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646591118/harperdb-db-screen_eagtct.jpg)
 
 ## Creating the backend database and API on HarperDB
 
@@ -89,21 +89,21 @@ Click on that and you will see the database screen
 
 Now create a schema called **timeline** and give the table and hash attribute a name of **history**.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646681881/harperdb-schema-table_aopfkj.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646681881/harperdb-schema-table_aopfkj.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646681881/harperdb-schema-table_aopfkj.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646681881/harperdb-schema-table_aopfkj.jpg)
 
 Go to this [repo](https://github.com/andrewbaisden/harperdb-civilizations/blob/main/frontend/src/data/civilisation.sql) and copy the SQL query. Now go to the query link on HarperDB and copy and paste the SQL query into it. Finally click on the execute button to run the query. This will add the data to the database. The query is very big because I created some custom SVG images using Figma which I then converted into Base64 to store in the database.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646682043/harperdb-sql-query-highlight_x3afyg.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646682043/harperdb-sql-query-highlight_x3afyg.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646682043/harperdb-sql-query-highlight_x3afyg.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646682043/harperdb-sql-query-highlight_x3afyg.jpg)
 
 Return to the database table screen by clicking on the browse button and you should see a table filled with data. If you put your mouse cursor over the image icons you can see what the images look like.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646682131/harperdb-table-data-highlight_inp3mi.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646682131/harperdb-table-data-highlight_inp3mi.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646682131/harperdb-table-data-highlight_inp3mi.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646682131/harperdb-table-data-highlight_inp3mi.jpg)
 
 ### API Setup
 
 You should now have a database that has a table full of data. The next step will be to create a custom function so that we can fetch the data using a REST GET request. Click on the functions link and then click on the enable custom functions button.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646682355/harperdb-enable-custom-functions_slqqjs.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646682355/harperdb-enable-custom-functions_slqqjs.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646682355/harperdb-enable-custom-functions_slqqjs.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646682355/harperdb-enable-custom-functions_slqqjs.jpg)
 
 You should be on the functions screen now. Give your project a name of **api** and then replace all of the code in the editor with the code below. You should see a link for custom functions server url in the bottom left corner. Copy the link into your browser and add the endpoint **api** at the end. The endpoint should return your database data as JSON.
 
@@ -332,4 +332,4 @@ export default App;
 
 Assuming you did everything correctly you should be able to see the application working in your web browser. Congratulations you just learned how to use HarperDB custom functions and how to connect them to a React frontend. We covered doing a GET request in this tutorial of course it is possible to do full CRUD requests too if you read the documentation.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1646691854/harperdb-civilisations_ibbqtu.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1646691854/harperdb-civilisations_ibbqtu.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646691854/harperdb-civilisations_ibbqtu.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1646691854/harperdb-civilisations_ibbqtu.jpg)

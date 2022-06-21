@@ -2,7 +2,7 @@
 
 I am a huge fan of Udemy when it comes to learning. They have programming courses for almost anything. I have put together a selection of the courses I have used as well as a few from the popular developer Wes Bos who has his own platform and is not on Udemy. These courses cover Javascript, React, Redux, MERN, TDD/BDD and much more! Even Data Structures and Algorithms is covered so you can get yourself ready for interviews too!
 
-__TDD/BDD__
+**TDD/BDD**
 
 Use Jest and React Testing Framework/Enzyme for testing frontend code. And use Mocha and Chai for testing backend code.
 
@@ -27,7 +27,7 @@ Use Jest and React Testing Framework/Enzyme for testing frontend code. And use M
 [Node with React: Fullstack Web Development](https://www.udemy.com/course/node-with-react-fullstack-web-development/)
 [React Front To Back](https://www.udemy.com/course/modern-react-front-to-back/)
 [Advanced React and Redux](https://www.udemy.com/course/react-redux-tutorial/) (TDD/BDD Modules)
-[Advanced React](https://advancedreact.com/)  (TDD/BDD Modules)
+[Advanced React](https://advancedreact.com/) (TDD/BDD Modules)
 
 ## Node, Deno, MongoDB and SQL
 

@@ -79,10 +79,10 @@ def api():
         return text
 ```
 
-Setup the development environment by running these commands in your terminal. 
+Setup the development environment by running these commands in your terminal.
 
 ```bash
-export FLASK_APP=index.py   
+export FLASK_APP=index.py
 export FLASK_ENV=development
 ```
 
@@ -183,7 +183,7 @@ flask run
 
 ## Deploying to Vercel
 
-Make sure that you are in the root folder for your project so inside of the `venv` folder and then run the command `vercel` in your terminal. 
+Make sure that you are in the root folder for your project so inside of the `venv` folder and then run the command `vercel` in your terminal.
 
 Use the project setup settings below as a guide to setup your own project with Vercel.
 
@@ -234,4 +234,4 @@ When creating a more complex application that has multiple packages installed it
 pip3 freeze > requirements.txt
 ```
 
-Now run the command `vercel --prod`  to deploy your app. Open the Production link and your app should be working online with full working routes.
+Now run the command `vercel --prod` to deploy your app. Open the Production link and your app should be working online with full working routes.

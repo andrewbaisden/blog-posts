@@ -6,4 +6,4 @@ You can see the final version on my GitHub at [Anime Tracker](https://github.com
 
 There is also a video demo of it working on my [Twitter](https://twitter.com/andrewbaisden/status/1288161913092874240)
 
-![Anime Tracker](https://res.cloudinary.com/d74fh3kw/image/upload/v1595954392/anime-tracker_tzqngx.jpg "Anime Tracker")
+![Anime Tracker](https://res.cloudinary.com/d74fh3kw/image/upload/v1595954392/anime-tracker_tzqngx.jpg 'Anime Tracker')

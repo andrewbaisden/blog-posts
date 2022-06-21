@@ -40,7 +40,7 @@ Connections that you have on Twitter feel more real in my opinion. That's becaus
 
 ## 10. Twitter has a more active community
 
-Twitter has about 335 million monthly active users whereas LinkedIn has 294 million monthly active users. While the difference is not hugely dissimilar it can make a difference. In general people tend to spend far more time on Twitter than they do with LinkedIn which means you have a much higher chance of someone responding or noticing something that you said. You are also likely to see much more posts on Twitter and likely more profile views as well. You also have the added bonus of growing your developer network at a much faster rate. 
+Twitter has about 335 million monthly active users whereas LinkedIn has 294 million monthly active users. While the difference is not hugely dissimilar it can make a difference. In general people tend to spend far more time on Twitter than they do with LinkedIn which means you have a much higher chance of someone responding or noticing something that you said. You are also likely to see much more posts on Twitter and likely more profile views as well. You also have the added bonus of growing your developer network at a much faster rate.
 
 ## Final Thoughts
 
@@ -50,12 +50,9 @@ You can also check out my website [https://andrewbaisden.com/](https://andrewbai
 
 I will just leave you one last easter egg 🥚. These are lyrics from a song lets see if you can find it 😉
 
-__"If we'll be united
+**"If we'll be united
 We're stronger together
 We always have the high hope
-Not all for one but one for all"__
+Not all for one but one for all"**
 
 Peace ✌️
-
-
-

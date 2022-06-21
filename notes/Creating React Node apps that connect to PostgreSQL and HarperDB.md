@@ -6,9 +6,9 @@ I will assume that you already have an understanding of JavaScript, Node and SQL
 
 You will be creating an app that looks like the image below.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601743727/meta-movies-blog_rh9omg.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1601743727/meta-movies-blog_rh9omg.png "Meta Movies")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601743727/meta-movies-blog_rh9omg.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1601743727/meta-movies-blog_rh9omg.png 'Meta Movies')
 
-__Prerequisites__
+**Prerequisites**
 
 - Insomnia or Postman API App installed
 - NPM/Node Installed on your computer
@@ -20,11 +20,11 @@ For this guide I will be using Valentina Studio as a GUI to manage the local Pos
 
 Firstly create a database called `metacritic` and then use the SQL below the images to create a table called movies.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-database_ss4dhj.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-database_ss4dhj.jpg "Create SQL Database")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-database_ss4dhj.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-database_ss4dhj.jpg 'Create SQL Database')
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/sql-query-editor_zekzhp.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/sql-query-editor_zekzhp.jpg "Open SQL Editor")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/sql-query-editor_zekzhp.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/sql-query-editor_zekzhp.jpg 'Open SQL Editor')
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-table_zohikv.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-table_zohikv.jpg "Create SQL Table")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-table_zohikv.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740643/create-table_zohikv.jpg 'Create SQL Table')
 
 ```sql
 CREATE TABLE movies (
@@ -43,7 +43,7 @@ CREATE TABLE movies (
 
 Then use the SQL below the image to add some data to the table movies.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740647/insert-data_d0f7mz.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740647/insert-data_d0f7mz.jpg "Insert data into table movies")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740647/insert-data_d0f7mz.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740647/insert-data_d0f7mz.jpg 'Insert data into table movies')
 
 ```sql
 INSERT INTO movies (movie_name, img_url, release_year, summary, director, genre, rating, movie_runtime, meta_score)
@@ -56,7 +56,7 @@ Run the SQL below to see all of the data in the table movies.
 SELECT * FROM movies
 ```
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/select-all-movies_vqxgrh.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/select-all-movies_vqxgrh.jpg "Select all from movies table SQL Query")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/select-all-movies_vqxgrh.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601740641/select-all-movies_vqxgrh.jpg 'Select all from movies table SQL Query')
 
 ## Create a Node/Express back end Server
 
@@ -91,7 +91,7 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Server running on port ${port}, http://localhost:${port}`));
 ```
 
-Add this run script to your `package.json` file. 
+Add this run script to your `package.json` file.
 
 ```json
 	"scripts": {
@@ -114,7 +114,7 @@ npm run start
 
 ## Connect to the PostgreSQL database
 
-Add your database name, username and password like in the example below to your `.env` file. I believe that the username is always __postgres__ when working with postgres databases locally.
+Add your database name, username and password like in the example below to your `.env` file. I believe that the username is always **postgres** when working with postgres databases locally.
 
 ```bash
 DATABASE_HOST="127.0.0.1"
@@ -291,31 +291,31 @@ app.listen(port, () => console.log(`Server running on port ${port}, http://local
 
 In this guide I will be using the Insomnia API app to perform different CRUD requests. Use the screenshots as an example to see it work on your computer.
 
-__GET: Fetch all movies from the database__
+**GET: Fetch all movies from the database**
 
 Just go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) and hit send to see all of the database data returned as json
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_all_egp8v5.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_all_egp8v5.jpg "Fetch all movies")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_all_egp8v5.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_all_egp8v5.jpg 'Fetch all movies')
 
-__GET: Fetch movie by movieId from the database__
+**GET: Fetch movie by movieId from the database**
 
 Just go to [http://127.0.0.1:5000/1](http://127.0.0.1:5000/1) and hit send to see the movie that is matched with that ID returned as json. It will work with any ID number as long as it is in the database.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_by_movieId_afkn0e.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_by_movieId_afkn0e.jpg "Fetch movie by movieId")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_by_movieId_afkn0e.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/fetch_by_movieId_afkn0e.jpg 'Fetch movie by movieId')
 
-__POST: Create movies and add them to the database__
+**POST: Create movies and add them to the database**
 
 Send a POST request to [http://127.0.0.1:5000/add-movie](http://127.0.0.1:5000/add-movie) with key value pair data as displayed in the example screenshot. Then go to the Fetch all movies route to see the new entry. Alternatively you can just use your database GUI or the CLI to see the new database entry.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/post_qzeccc.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/post_qzeccc.jpg "Add to the database")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/post_qzeccc.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/post_qzeccc.jpg 'Add to the database')
 
-__DELETE: Delete movie by movieId from the database__
+**DELETE: Delete movie by movieId from the database**
 
 Send a DELETE request to the route [http://127.0.0.1:5000/delete-movie](http://127.0.0.1:5000/delete-movie) using the name movieId. And as the value use any ID that is in the database to delete that entry.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/delete_k3zcif.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/delete_k3zcif.jpg "Delete from the database")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/delete_k3zcif.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601560293/delete_k3zcif.jpg 'Delete from the database')
 
-__PUT: Update movie by movieId from the database__
+**PUT: Update movie by movieId from the database**
 
 Use your API tool and send a PUT request to [http://127.0.0.1:5000/update-movie](http://127.0.0.1:5000/update-movie) to update an entry in the database. Go to the bottom of the `index.js` file to see the code for the UPDATE route. You can change the SQL query to update any of the fields in the table and then all you have to do is select the movie_id to update its entry. You can see the Javascript code and SQL query below.
 
@@ -350,15 +350,15 @@ Well done you just created a Node app that connects to a PostgreSQL database. Th
 
 First you need to create a HarperDB account and then create a database. I called my database "movies". Creating and setting up a HarperDB Database is very easy. Just follow this video [HarperDB Cloud Launch Tour](https://www.youtube.com/watch?v=fAKZxK-XamM&t=0s) and you can also take a look at the documentation for HarperDB with Node here [https://docs.harperdb.io/](https://docs.harperdb.io/).
 
-__Login Credentials__
+**Login Credentials**
 
 You will need an authorisation code to connect to HarperDB. First use your API tool to send a GET request to your HarperDB URL with your username and password. You need to use Basic Auth. Then use the generate code button and select Node.js and HTTP you will find your authorisation code in the headers code. The images below show you how it's done.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/harper-db-login_y1a2ym.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/harper-db-login_y1a2ym.jpg "HarperDB Insomnia Login")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/harper-db-login_y1a2ym.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/harper-db-login_y1a2ym.jpg 'HarperDB Insomnia Login')
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/auth-code_ht1oel.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/auth-code_ht1oel.jpg "HarperDB Auth")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/auth-code_ht1oel.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1601839963/auth-code_ht1oel.jpg 'HarperDB Auth')
 
-__Connecting to HarperDB__
+**Connecting to HarperDB**
 
 Once you are set up make sure that you update your `.env` file with your HarperDB credentials like below.
 
@@ -644,7 +644,7 @@ app.listen(port, () => console.log(`Server running on port ${port}, http://local
 
 Use your API tool or check out the routes in the browser to see the data returned as json from the HarperDB Database instance. For the update route just use your API tool with a key value pair like below.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1601901677/update-harperdb_mvedoy.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1601901677/update-harperdb_mvedoy.png "Update HarperDB")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1601901677/update-harperdb_mvedoy.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1601901677/update-harperdb_mvedoy.png 'Update HarperDB')
 
 HarperDB stores ID's as strings so please be aware that you won't be able to fetch, update and delete a movie by movieId if its ID is a number unless you make some adjustments to your code. We have been storing our ID's as numbers however it's easy to switch between the two just make the `movieId` a string instead of a number.
 
@@ -663,7 +663,7 @@ Now start the react app server using either `npm start` or `yarn start`
 
 Navigate inside of your react project and then delete all of the css inside of the `index.css` file. Next replace the code inside of the `App.css` and `App.js` files with the code below.
 
-__App.css__
+**App.css**
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
@@ -807,10 +807,9 @@ form div {
 		/* margin: 0 auto; */
 	}
 }
-
 ```
 
-__App.js__
+**App.js**
 
 ```jsx
 import React, { Fragment, useState, useEffect } from 'react';
@@ -942,7 +941,7 @@ const App = () => {
 export default App;
 ```
 
-Restart your Node server if you need to and make sure that it is also running. You should see the app working inside of your browser. It also has a form that allows you to add new database entries which automatically get displayed on the page. Meta Scores are even colour coded depending on their number which is done using an if statement which you can see in the code. 
+Restart your Node server if you need to and make sure that it is also running. You should see the app working inside of your browser. It also has a form that allows you to add new database entries which automatically get displayed on the page. Meta Scores are even colour coded depending on their number which is done using an if statement which you can see in the code.
 
 The app is connected to your local PostgreSQL database however it is easy enough to change the endpoint for the API to HarperDB. All of the other routes are in the back end so you can play around with them and connect them to the front end which i'm sure you are already capable of doing.
 

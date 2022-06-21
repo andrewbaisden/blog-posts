@@ -87,4 +87,3 @@ When you have a shower it really stimulates you're thinking. I am sure almost ev
 I really hope that you enjoyed reading this article and learned something from it. As a content creator and technical writer I am passionate about sharing my knowledge and helping other people reach their goals. Let's connect across social media you can find all of my social media profiles and blogs on [linktree](https://linktr.ee/andrewbaisden).
 
 Peace ✌️
-

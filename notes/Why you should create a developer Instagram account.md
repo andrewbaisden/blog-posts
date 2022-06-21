@@ -12,7 +12,7 @@ For some people Instagram can feel a bit weird because lets face it the platform
 6. Personal motivation
 7. CSS Art
 
-So as you can see there are actually a lot of opportunities for growth there. Ideally you would want to create a new business account for your developer work so that you do not contaminate your main personal instagram with too much developer focused work that your friends and family might not understand. It is just easier to have a branded channel for that content. I recently created a tech focused Instagram account for myself this month and it seems to be doing well at the moment. I still need to work on being more active but I have plenty of ideas based on the type of developer related accounts out there. 
+So as you can see there are actually a lot of opportunities for growth there. Ideally you would want to create a new business account for your developer work so that you do not contaminate your main personal instagram with too much developer focused work that your friends and family might not understand. It is just easier to have a branded channel for that content. I recently created a tech focused Instagram account for myself this month and it seems to be doing well at the moment. I still need to work on being more active but I have plenty of ideas based on the type of developer related accounts out there.
 
 If you were to post even some of that content then you will grow an audience. So far I have had quite good engagements even though I have put little effort in so far. I have even gained more than 30 followers already at this rate it will surpass my personal Instagram which I should really be more active on. Coronavirus has not really helped much with so much indoor time due to having 2 years of lockdowns 😅
 
@@ -25,4 +25,3 @@ This is my developer Instagram account [andrewbaisden_tech](https://www.instagra
 I really hope that you enjoyed reading this article and learned something from it. As a content creator and technical writer I am passionate about sharing my knowledge and helping other people reach their goals. Let's connect across social media you can find all of my social media profiles and blogs on [linktree](https://linktr.ee/andrewbaisden).
 
 Peace ✌️
-

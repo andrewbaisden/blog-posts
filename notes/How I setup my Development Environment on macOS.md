@@ -6,7 +6,7 @@ This is a clean install so you might need to restart the Terminal/Mac a few time
 
 ## Install Software
 
-__Web Browsers (Normal, Developer, and Nightly Builds)__
+**Web Browsers (Normal, Developer, and Nightly Builds)**
 
 Chrome
 
@@ -14,27 +14,27 @@ Firefox
 
 Safari
 
-__Code Editor and Terminal Apps__
+**Code Editor and Terminal Apps**
 
 Visual Studio Code (Install shell commands too)
 
 Hyper and iTerm 2 plus Oh My Zsh
 
-__Design Tools__
+**Design Tools**
 
 Adobe CC
 
 Figma/Adobe XD/Sketch
 
-__API Test Tools__
+**API Test Tools**
 
 Postman/Insomnia
 
-__Documentation Browser__
+**Documentation Browser**
 
 devdocs.io (Chrome installation)
 
-__File Transfer Tools__
+**File Transfer Tools**
 
 Cyberduck/Transmit
 
@@ -60,7 +60,7 @@ Notion Web Clipper (Only when and if you have Notion Installed)
 
 React Developer Tools
 
-Redux DevTools 
+Redux DevTools
 
 Video DownlodHelper
 
@@ -81,6 +81,7 @@ Web Developer (Chrome)
 ### Install Python, pip, and the AWS CLI on macOS
 
 #### Install and setup AWS Accounts
+
 [Configuring the AWS CLI - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-quick-configuration)
 
 [Install the AWS Command Line Interface on macOS - AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/cli-install-macos.html)
@@ -95,7 +96,7 @@ Web Developer (Chrome)
 python3 get-pip.py
 ```
 
-4. Use pip to install the AWS CLI. 
+4. Use pip to install the AWS CLI.
 
 ```bash
 pip3 install awscli --upgrade --user
@@ -107,13 +108,13 @@ pip3 install awscli --upgrade --user
 aws --version
 ```
 
-If the executable cant be found then add it to your command line path depending on where python installed it. 
+If the executable cant be found then add it to your command line path depending on where python installed it.
 
-Find your shell's profile script in your user folder. If you are not sure which shell you have, run  `echo $SHELL`
+Find your shell's profile script in your user folder. If you are not sure which shell you have, run `echo $SHELL`
 
 ```bash
 Bash – .bash_profile, .profile, or .bash_login.
-Zsh – .zshrc (zsh is the one in use right now) 
+Zsh – .zshrc (zsh is the one in use right now)
 Tcsh – .tcshrc, .cshrc or .login.
 ```
 
@@ -122,6 +123,7 @@ yourName/.zshrc
 ```
 
 Add the export command to the profile script
+
 ```bash
 export PATH=/Users/yourName/Library/Python/3.6/bin/:$PATH
 ```
@@ -138,7 +140,7 @@ Install Hombrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-__How do I update my local packages?__
+**How do I update my local packages?**
 
 First update the formulae and Homebrew itself:
 
@@ -164,7 +166,7 @@ Or upgrade a specific formula with:
 brew upgrade <formula>
 ```
 
-You can install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) through the Homebrew package manager. This will also install Node.js if it is not already installed. If you use nvm or similar you should exclude installing Node.js so that nvm’s version of Node.js is used. 
+You can install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) through the Homebrew package manager. This will also install Node.js if it is not already installed. If you use nvm or similar you should exclude installing Node.js so that nvm’s version of Node.js is used.
 
 Use brew to install the below packages
 
@@ -179,7 +181,7 @@ brew install graphql-playground
 brew install deno
 ```
 
-__Full brew list installed packages__
+**Full brew list installed packages**
 
 ```bash
 deno            heroku-node     openssl         python@2        sqlite
@@ -211,7 +213,7 @@ Use it to install Nodejs and NPM
 npm i --global @gridsome/cli @vue/cli babel-cli eslint firebase-tools gatsby-cli jest lighthouse netlify-cli newman node-sass nodemon now npm parcel-bundler pm2 prettier serve spaceship-prompt surge update
 ```
 
-__Globally Installed Packages__
+**Globally Installed Packages**
 
 ```bash
 ├── @gridsome/cli@0.0.9
@@ -237,11 +239,11 @@ __Globally Installed Packages__
 └── update@0.7.4
 ```
 
-__Locally Installed Packages__
+**Locally Installed Packages**
 
 webpack and webpack Dev Server (Locally). Note that a global webpack installation is not a recommended practice. This locks you down to a specific version of webpack and might fail in projects that use a different version.
 
-__NPM Versioning Files Example__
+**NPM Versioning Files Example**
 
 5.17.1
 

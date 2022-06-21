@@ -2,7 +2,7 @@
 
 In this tutorial you will learn how to create a Node back-end using the Model–view–controller (MVC) software design pattern. This design pattern gives you the ability to make user interfaces that are separated into three different elements. The business logic is separated so that the data, user interface and user input are not mixed together. This allows for a much cleaner architecture as the different layers are decoupled allowing for changes to be done more rapidly and easily.
 
-One important caveat to mention here however is that these days the __View__ part of this software design pattern is no longer as relevant as it used to be years ago. This is because we now have front-end frameworks like React, Vue, Angular and Svelte which are used for building the front-end of applications. Nonetheless these concepts are still useful to know because __Models__ and __Controllers__ are still used today when back-end developers build REST and GraphQL API's that return some sort of data. Data like JavaScript Object Notation (JSON) which is used in an API and is retrieved using the fetch or Axios API.
+One important caveat to mention here however is that these days the **View** part of this software design pattern is no longer as relevant as it used to be years ago. This is because we now have front-end frameworks like React, Vue, Angular and Svelte which are used for building the front-end of applications. Nonetheless these concepts are still useful to know because **Models** and **Controllers** are still used today when back-end developers build REST and GraphQL API's that return some sort of data. Data like JavaScript Object Notation (JSON) which is used in an API and is retrieved using the fetch or Axios API.
 
 ## Prerequisites
 
@@ -29,14 +29,14 @@ The controller can be considered as the brains of the application. It takes in a
 
 ## Setting up the project
 
-Create a folder named __my-app __on your desktop or in a directory and then __cd__ into it. Also open the folder in your code editor.  Make sure that you are in the __my-app__ folder and then run the commands below in your terminal app.
+Create a folder named **my-app **on your desktop or in a directory and then **cd** into it. Also open the folder in your code editor. Make sure that you are in the **my-app** folder and then run the commands below in your terminal app.
 
 ```bash
 mkdir backend
 cd backend
 npm init -y
 npm i express nodemon ejs
-mkdir controllers models public routes src  
+mkdir controllers models public routes src
 mkdir src/pages
 touch index.js
 ```
@@ -76,7 +76,7 @@ npm run dev
 
 ## Creating the MVC Controllers
 
-It's time to create some controllers. Create two files called `admin.js` and put one inside of the __controllers__ folder and the other one inside of the __routes__ folder. Next create an `AnimeData.json` file and put it inside of the __models__ folder. Now create an `index.ejs` file and put it inside of the __src/pages__ folder. Add the code below to the `index.ejs` file.
+It's time to create some controllers. Create two files called `admin.js` and put one inside of the **controllers** folder and the other one inside of the **routes** folder. Next create an `AnimeData.json` file and put it inside of the **models** folder. Now create an `index.ejs` file and put it inside of the **src/pages** folder. Add the code below to the `index.ejs` file.
 
 ```html
 <!DOCTYPE html>
@@ -115,7 +115,7 @@ Put the code below into the `AnimeData.json` file.
 ]
 ```
 
-Add the code below to the `admin.js` file inside of the __controllers__ folder.
+Add the code below to the `admin.js` file inside of the **controllers** folder.
 
 ```javascript
 const AnimeData = require('../models/AnimeData.json');
@@ -129,7 +129,7 @@ exports.getAnime = (req, res) => {
 };
 ```
 
-Next add the code below to the `admin.js` file inside of the __routes__ folder.
+Next add the code below to the `admin.js` file inside of the **routes** folder.
 
 ```javascript
 const express = require('express');
@@ -176,7 +176,7 @@ You will need to reload the page or restart the server. Now if you go to the hom
 
 ## Connecting the CSS and JavaScript files to the front-end
 
-The last step is to connect a CSS stylesheet and JavaScript file to the `index.ejs` file. Create two folders inside of the __public__ folder. One called __css__ and the other one called __js__. Now create a `styles.css` file and put it inside of the __css__ folder with the code below.
+The last step is to connect a CSS stylesheet and JavaScript file to the `index.ejs` file. Create two folders inside of the **public** folder. One called **css** and the other one called **js**. Now create a `styles.css` file and put it inside of the **css** folder with the code below.
 
 ```css
 body {
@@ -184,7 +184,7 @@ body {
 }
 ```
 
-Next create a `scripts.js` file and put it inside of the __js__ folder with the code below.
+Next create a `scripts.js` file and put it inside of the **js** folder with the code below.
 
 ```JavaScript
 console.log('Hello World');
@@ -210,11 +210,10 @@ Lastly update the `index.ejs` file with the code below which now has the links f
 </html>
 ```
 
-Reload your browser or restart the server. If you go to the home route you should see a green background and if you go to the browser console you should see the code __Hello World__. And those are the basics for creating a Node back-end server using the MVC software design pattern. If you were planning on connecting the back-end to a framework like React, you would not need the __src__ folder. Instead you would use the __models__ folder for returning the data as json. The __models__ folder is also the place where you would create the programming logic used for connecting the back-end to a database like mongodb, postgresql and HarperDB.
+Reload your browser or restart the server. If you go to the home route you should see a green background and if you go to the browser console you should see the code **Hello World**. And those are the basics for creating a Node back-end server using the MVC software design pattern. If you were planning on connecting the back-end to a framework like React, you would not need the **src** folder. Instead you would use the **models** folder for returning the data as json. The **models** folder is also the place where you would create the programming logic used for connecting the back-end to a database like mongodb, postgresql and HarperDB.
 
 ## Final Thoughts
 
 I really hope that you enjoyed reading this article and learned something from it. As a content creator and technical writer I am passionate about sharing my knowledge and helping other people reach their goals. Let's connect across social media you can find all of my social media profiles and blogs on [linktree](https://linktr.ee/andrewbaisden).
 
 Peace ✌️
-

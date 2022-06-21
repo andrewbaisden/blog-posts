@@ -2,7 +2,7 @@
 
 A stumbling block for almost all aspiring writers is what should I write about? Writers block prevents a lot of writers from creating articles because they just can't think of something good to write about. I have put together a list of 100 blog topics that you could write about. You can use this list as inspiration to come up with ideas for your own articles.
 
-__Here are 100 blog topics to inspire you to write!__
+**Here are 100 blog topics to inspire you to write!**
 
 ### 1. Framework X vs Framework Y
 
@@ -32,7 +32,7 @@ Talk about your recent fast growth and what you learned about marketing
 
 Building mobile apps using flutter/react native/swift/kotlin/java etc...
 
-### 8. How to deal with imposter syndrome 
+### 8. How to deal with imposter syndrome
 
 Tips on dealing with imposter syndrome
 
@@ -82,7 +82,7 @@ Talk about JavaScript, Python or another language and the fundamentals
 
 ### 20. What I realised after learning language X, language Y and language Z
 
-For example JavaScript, Python and C# talk about your findings after you played around with them for the first time 
+For example JavaScript, Python and C# talk about your findings after you played around with them for the first time
 
 ### 21. X good traits top developers have and how to be like them
 
@@ -110,7 +110,7 @@ The difference between the two
 
 ### 27. The difference between static site generators and which one to use
 
-Talk about the differences 
+Talk about the differences
 
 ### 28. A day in the life of a software developer
 
@@ -120,7 +120,7 @@ Talk about what its really like to work in the industry
 
 Tips, tricks and tools that you use day to day
 
-### 30. X time management strategies to become more productive 
+### 30. X time management strategies to become more productive
 
 For example 20 time management strategies
 
@@ -256,11 +256,11 @@ Personal experiences from learning
 
 Building games using JavaScript, Python, C# etc...
 
-### 64. Building PWA apps using framework X 
+### 64. Building PWA apps using framework X
 
 How to build games using Flutter, React etc...
 
-### 65. Static vs Dynamically typed languages 
+### 65. Static vs Dynamically typed languages
 
 Comparing JavaScript to Dart for example
 
@@ -294,7 +294,7 @@ A tutorial on how to do it
 
 ### 72. How to build a chatbot using language X
 
-A  guide on making a chatbot using JavaScript, Python etc...
+A guide on making a chatbot using JavaScript, Python etc...
 
 ### 73. How to get into freelancing
 
@@ -392,7 +392,7 @@ A strategy for collaborating with other developers on projects
 
 Talk about an experience you had and how to apply it to other scenarios
 
-### 97. How to setup a development environment  
+### 97. How to setup a development environment
 
 A guide for setting up a development environment
 

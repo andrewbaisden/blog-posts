@@ -18,7 +18,7 @@ It is much better when you take full control of your job search in my opinion be
 
 ## 3. Use good timing and planning
 
-It is far too easy to just say __yes__ to every single interview request that comes your way. You have to take into consideration that you also need time to prepare for interviews as well as the time to work on technical tests. You can't be having multiple interviews every day while also working on technical tests and responding to messages everywhere. It becomes too overwhelming and that leads to stress and burnout.
+It is far too easy to just say **yes** to every single interview request that comes your way. You have to take into consideration that you also need time to prepare for interviews as well as the time to work on technical tests. You can't be having multiple interviews every day while also working on technical tests and responding to messages everywhere. It becomes too overwhelming and that leads to stress and burnout.
 
 Choose quality over quantity if it's meant to be then it will be if not then there are more opportunities out there.
 

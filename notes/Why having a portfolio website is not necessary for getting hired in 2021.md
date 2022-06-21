@@ -16,7 +16,7 @@ Social Media is a great way to show what you are doing and working on and it can
 
 ## Using a Hybrid model
 
-Don't get me wrong having a portfolio website can still be useful. It is still one of the best ways to find you in searches and that makes it super simple to get in touch. However I feel like a hybrid model that integrates a few different platforms could be a good  solution. So essentially using your portfolio website like a portal to your other profiles basically like [linktree](https://linktr.ee/) or [carrd](https://carrd.co/) while integrating different platforms.
+Don't get me wrong having a portfolio website can still be useful. It is still one of the best ways to find you in searches and that makes it super simple to get in touch. However I feel like a hybrid model that integrates a few different platforms could be a good solution. So essentially using your portfolio website like a portal to your other profiles basically like [linktree](https://linktr.ee/) or [carrd](https://carrd.co/) while integrating different platforms.
 
 You could use the GitHub API and the API for a blog website to display all of the content on your portfolio without having to create a custom solution from scratch. And if you could find a way to integrate your social media accounts into this system then you could have a great portal for showcasing all of your accounts and the content that you have for them.
 

@@ -36,7 +36,7 @@ There are blogging communities everywhere these days. [Hashnode](https://hashnod
 
 Getting paid to write is an amazing feeling. Just knowing that your words are heard by hundreds or thousands of people really can be life changing. Check out this article [Get Paid to Write for These 45+ Websites](https://blog.idrisolubisi.com/get-paid-to-write-for-these-45-websites) by @[Olubisi Idris Ayinde](@olanetsoft).
 
-## 7. You get better at writing documentation 
+## 7. You get better at writing documentation
 
 Reading and writing documentation is a skill that really levels up your coding game. The ability to create something that other people can follow and learn from is a gift that has no end. It also has the added bonus of giving you another soft skill that increases your chances of getting hired.
 

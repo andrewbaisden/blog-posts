@@ -1,4 +1,5 @@
 # How to build powerful tables in React using the React Table package
+
 React Table is a really powerful datagrid package for React that lets you create dynamic tables. It has many use cases and the package has an extensive list of features. In this tutorial I will show you how to build a Movie Database application.
 
 The Movie Database application will have the functionality below:
@@ -14,6 +15,7 @@ The final design can be seen below in this image.
 ![https://res.cloudinary.com/d74fh3kw/image/upload/v1641242724/movie-database_jhh8lx.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1641242724/movie-database_jhh8lx.png)
 
 ## Prerequisites
+
 - Node, npm and yarn installed
 - A Code editor or IDE
 - A BASH Terminal app
@@ -21,6 +23,7 @@ The final design can be seen below in this image.
 This tutorial will be using npm but you can use yarn if you want just use the appropriate commands.
 
 ## Building the Movie Database App
+
 Use your BASH Terminal to create a folder for the project and setup a React boilerplate
 
 ```bash
@@ -77,491 +80,324 @@ import { matchSorter } from 'match-sorter';
 
 import './App.css';
 
-  
-
 // Define a default UI for filtering
 
 function DefaultColumnFilter({ column: { filterValue, preFilteredRows, setFilter } }) {
+	const count = preFilteredRows.length;
 
-const count = preFilteredRows.length;
-
-  
-
-return (
-
-<input
-
-value={filterValue || ''}
-
-onChange={(e) => {
-
-setFilter(e.target.value || undefined); // Set undefined to remove the filter entirely
-
-}}
-
-placeholder={`Search ${count} records...`}
-
-/>
-
-);
-
+	return (
+		<input
+			value={filterValue || ''}
+			onChange={(e) => {
+				setFilter(e.target.value || undefined); // Set undefined to remove the filter entirely
+			}}
+			placeholder={`Search ${count} records...`}
+		/>
+	);
 }
-
-  
 
 // Fuzzy text search essentially means approximate string matching and is a way of looking up strings that match a pattern even if the characters are not in the correct order.
 
 function fuzzyTextFilterFn(rows, id, filterValue) {
-
-return matchSorter(rows, filterValue, { keys: [(row) => row.values[id]] });
-
+	return matchSorter(rows, filterValue, { keys: [(row) => row.values[id]] });
 }
-
-  
 
 // Let the table remove the filter if the string is empty
 
 fuzzyTextFilterFn.autoRemove = (val) => !val;
 
-  
-
 // Our table component
 
 function Table({ columns, data }) {
+	const filterTypes = React.useMemo(
+		() => ({
+			fuzzyText: fuzzyTextFilterFn,
 
-const filterTypes = React.useMemo(
+			text: (rows, id, filterValue) => {
+				return rows.filter((row) => {
+					const rowValue = row.values[id];
 
-() => ({
+					return rowValue !== undefined
+						? String(rowValue).toLowerCase().startsWith(String(filterValue).toLowerCase())
+						: true;
+				});
+			},
+		}),
 
-fuzzyText: fuzzyTextFilterFn,
+		[]
+	);
 
-text: (rows, id, filterValue) => {
+	const defaultColumn = React.useMemo(
+		() => ({
+			// Let's set up our default Filter UI
 
-return rows.filter((row) => {
+			Filter: DefaultColumnFilter,
+		}),
 
-const rowValue = row.values[id];
+		[]
+	);
 
-return rowValue !== undefined
+	const {
+		getTableProps,
 
-? String(rowValue).toLowerCase().startsWith(String(filterValue).toLowerCase())
+		getTableBodyProps,
 
-: true;
+		headerGroups,
 
-});
+		prepareRow,
 
-},
+		page,
 
-}),
+		visibleColumns,
 
-[]
+		canPreviousPage,
 
-);
+		canNextPage,
 
-  
+		pageOptions,
 
-const defaultColumn = React.useMemo(
+		pageCount,
 
-() => ({
+		gotoPage,
 
-// Let's set up our default Filter UI
+		nextPage,
 
-Filter: DefaultColumnFilter,
+		previousPage,
 
-}),
+		setPageSize,
 
-[]
+		state: { pageIndex, pageSize },
+	} = useTable(
+		{
+			columns,
 
-);
+			data,
 
-  
+			defaultColumn, // Be sure to pass the defaultColumn option
 
-const {
+			filterTypes,
 
-getTableProps,
+			initialState: { pageIndex: 0 },
+		},
 
-getTableBodyProps,
+		useFilters,
 
-headerGroups,
-
-prepareRow,
-
-page,
-
-visibleColumns,
-
-canPreviousPage,
-
-canNextPage,
-
-pageOptions,
-
-pageCount,
-
-gotoPage,
-
-nextPage,
-
-previousPage,
-
-setPageSize,
-
-state: { pageIndex, pageSize },
-
-} = useTable(
-
-{
-
-columns,
-
-data,
-
-defaultColumn, // Be sure to pass the defaultColumn option
-
-filterTypes,
-
-initialState: { pageIndex: 0 },
-
-},
-
-useFilters,
-
-useGlobalFilter,
-
-useSortBy,
-
-usePagination
-
-);
-
-  
-
-return (
-
-<>
-
-<div className="container">
-
-<div>
-
-<h1>Movie Database</h1>
-
-<table {...getTableProps()} cellPadding={0} cellSpacing={0}>
-
-<thead>
-
-{headerGroups.map((headerGroup) => (
-
-<tr {...headerGroup.getHeaderGroupProps()}>
-
-{headerGroup.headers.map((column) => (
-
-// Add the sorting props to control sorting. For this example
-
-// we can add them into the header props
-
-  
-
-<th>
-
-<div {...column.getHeaderProps(column.getSortByToggleProps())}>
-
-{column.render('Header')}
-
-{/* Add a sort direction indicator */}
-
-<span>{column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}</span>
-
-</div>
-
-<div>
-
-{/* Render the columns filter UI */}
-
-<div>{column.canFilter ? column.render('Filter') : null}</div>
-
-</div>
-
-</th>
-
-))}
-
-</tr>
-
-))}
-
-<tr>
-
-<th
-
-colSpan={visibleColumns.length}
-
-style={{
-
-textAlign: 'left',
-
-}}
-
-></th>
-
-</tr>
-
-</thead>
-
-<tbody {...getTableBodyProps()}>
-
-{page.map((row, i) => {
-
-prepareRow(row);
-
-return (
-
-<tr {...row.getRowProps()}>
-
-{row.cells.map((cell) => {
-
-return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>;
-
-})}
-
-</tr>
-
-);
-
-})}
-
-</tbody>
-
-</table>
-
-<br />
-
-  
-
-<div className="pagination">
-
-<div>
-
-<button onClick={() => gotoPage(0)} disabled={!canPreviousPage}>
-
-{'<<'}
-
-</button>{' '}
-
-<button onClick={() => previousPage()} disabled={!canPreviousPage}>
-
-{'<'}
-
-</button>{' '}
-
-<button onClick={() => nextPage()} disabled={!canNextPage}>
-
-{'>'}
-
-</button>{' '}
-
-<button onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>
-
-{'>>'}
-
-</button>{' '}
-
-<span>
-
-Page{' '}
-
-<strong>
-
-{pageIndex + 1} of {pageOptions.length}
-
-</strong>{' '}
-
-</span>
-
-<span>
-
-| Go to page:{' '}
-
-<input
-
-type="number"
-
-defaultValue={pageIndex + 1}
-
-onChange={(e) => {
-
-const page = e.target.value ? Number(e.target.value) - 1 : 0;
-
-gotoPage(page);
-
-}}
-
-style={{ width: '100px' }}
-
-/>
-
-</span>{' '}
-
-<select
-
-value={pageSize}
-
-onChange={(e) => {
-
-setPageSize(Number(e.target.value));
-
-}}
-
->
-
-{[10, 20, 30, 40, 50].map((pageSize) => (
-
-<option key={pageSize} value={pageSize}>
-
-Show {pageSize}
-
-</option>
-
-))}
-
-</select>
-
-<div>
-
-Showing the first {page.length} results of {page.length} rows
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</>
-
-);
-
+		useGlobalFilter,
+
+		useSortBy,
+
+		usePagination
+	);
+
+	return (
+		<>
+			<div className="container">
+				<div>
+					<h1>Movie Database</h1>
+
+					<table {...getTableProps()} cellPadding={0} cellSpacing={0}>
+						<thead>
+							{headerGroups.map((headerGroup) => (
+								<tr {...headerGroup.getHeaderGroupProps()}>
+									{headerGroup.headers.map((column) => (
+										// Add the sorting props to control sorting. For this example
+
+										// we can add them into the header props
+
+										<th>
+											<div {...column.getHeaderProps(column.getSortByToggleProps())}>
+												{column.render('Header')}
+
+												{/* Add a sort direction indicator */}
+
+												<span>{column.isSorted ? (column.isSortedDesc ? ' 🔽' : ' 🔼') : ''}</span>
+											</div>
+
+											<div>
+												{/* Render the columns filter UI */}
+
+												<div>{column.canFilter ? column.render('Filter') : null}</div>
+											</div>
+										</th>
+									))}
+								</tr>
+							))}
+
+							<tr>
+								<th
+									colSpan={visibleColumns.length}
+									style={{
+										textAlign: 'left',
+									}}
+								></th>
+							</tr>
+						</thead>
+
+						<tbody {...getTableBodyProps()}>
+							{page.map((row, i) => {
+								prepareRow(row);
+
+								return (
+									<tr {...row.getRowProps()}>
+										{row.cells.map((cell) => {
+											return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>;
+										})}
+									</tr>
+								);
+							})}
+						</tbody>
+					</table>
+
+					<br />
+
+					<div className="pagination">
+						<div>
+							<button onClick={() => gotoPage(0)} disabled={!canPreviousPage}>
+								{'<<'}
+							</button>{' '}
+							<button onClick={() => previousPage()} disabled={!canPreviousPage}>
+								{'<'}
+							</button>{' '}
+							<button onClick={() => nextPage()} disabled={!canNextPage}>
+								{'>'}
+							</button>{' '}
+							<button onClick={() => gotoPage(pageCount - 1)} disabled={!canNextPage}>
+								{'>>'}
+							</button>{' '}
+							<span>
+								Page{' '}
+								<strong>
+									{pageIndex + 1} of {pageOptions.length}
+								</strong>{' '}
+							</span>
+							<span>
+								| Go to page:{' '}
+								<input
+									type="number"
+									defaultValue={pageIndex + 1}
+									onChange={(e) => {
+										const page = e.target.value ? Number(e.target.value) - 1 : 0;
+
+										gotoPage(page);
+									}}
+									style={{ width: '100px' }}
+								/>
+							</span> <select
+								value={pageSize}
+								onChange={(e) => {
+									setPageSize(Number(e.target.value));
+								}}
+							>
+								{[10, 20, 30, 40, 50].map((pageSize) => (
+									<option key={pageSize} value={pageSize}>
+										Show {pageSize}
+									</option>
+								))}
+							</select>
+							<div>
+								Showing the first {page.length} results of {page.length} rows
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</>
+	);
 }
-
-  
 
 function App() {
+	const columns = React.useMemo(
+		() => [
+			{
+				Header: ' ',
 
-const columns = React.useMemo(
+				columns: [
+					{
+						Header: 'Movie',
 
-() => [
+						accessor: 'movie',
 
-{
+						filter: 'fuzzyText',
+					},
 
-Header: ' ',
+					{
+						Header: 'Genre',
 
-columns: [
+						accessor: 'genre',
 
-{
+						filter: 'fuzzyText',
+					},
+				],
+			},
+		],
 
-Header: 'Movie',
+		[]
+	);
 
-accessor: 'movie',
+	const data = [
+		{ movie: 'Spider-Man: No Way Home', genre: 'Action' },
 
-filter: 'fuzzyText',
+		{ movie: "The King's Man", genre: 'Action' },
 
-},
+		{ movie: 'The Matrix Resurrections', genre: 'Action' },
 
-{
+		{ movie: 'West Side Story', genre: 'Romance' },
 
-Header: 'Genre',
+		{ movie: 'Ghostbusters: Afterlife', genre: 'Fantasy' },
 
-accessor: 'genre',
+		{ movie: 'House of Gucci', genre: 'Drama' },
 
-filter: 'fuzzyText',
+		{ movie: 'The Boss Baby', genre: 'Comedy' },
 
-},
+		{ movie: 'F9', genre: 'Action' },
 
-],
+		{ movie: "Don't Look Up", genre: 'Comedy' },
 
-},
+		{ movie: 'Dune', genre: 'Sci-fi' },
 
-],
+		{ movie: 'Clifford the Big Red Dog', genre: 'Comedy' },
 
-[]
+		{ movie: 'Encanto', genre: 'Comedy' },
 
-);
+		{ movie: 'Shazam!', genre: 'Action' },
 
-  
+		{ movie: 'The Old Guard', genre: 'Action' },
 
-const data = [
+		{ movie: 'My Hero Academia: Two Heroes', genre: 'Action' },
 
-{ movie: 'Spider-Man: No Way Home', genre: 'Action' },
+		{ movie: 'The Hobbit', genre: 'Fantasy' },
 
-{ movie: "The King's Man", genre: 'Action' },
+		{ movie: 'Forrest Gump', genre: 'Drama' },
 
-{ movie: 'The Matrix Resurrections', genre: 'Action' },
+		{ movie: 'The Theory of Everything', genre: 'Drama' },
 
-{ movie: 'West Side Story', genre: 'Romance' },
+		{ movie: 'Star Trek', genre: 'Sci-fi' },
 
-{ movie: 'Ghostbusters: Afterlife', genre: 'Fantasy' },
+		{ movie: 'Pulp Fiction', genre: 'Drama' },
 
-{ movie: 'House of Gucci', genre: 'Drama' },
+		{ movie: 'Mad Max: Fury Road', genre: 'Fantasy' },
 
-{ movie: 'The Boss Baby', genre: 'Comedy' },
+		{ movie: 'Hancock', genre: 'Action' },
 
-{ movie: 'F9', genre: 'Action' },
+		{ movie: 'Red Notice', genre: 'Action' },
 
-{ movie: "Don't Look Up", genre: 'Comedy' },
+		{ movie: 'The Unforgivable', genre: 'Drama' },
 
-{ movie: 'Dune', genre: 'Sci-fi' },
+		{ movie: 'Dark Waters', genre: 'Drama' },
 
-{ movie: 'Clifford the Big Red Dog', genre: 'Comedy' },
+		{ movie: 'After', genre: 'Romance' },
 
-{ movie: 'Encanto', genre: 'Comedy' },
+		{ movie: 'Once Upon a Time... In Hollywood', genre: 'Drama' },
 
-{ movie: 'Shazam!', genre: 'Action' },
+		{ movie: 'Escape Room', genre: 'Sci-fi' },
 
-{ movie: 'The Old Guard', genre: 'Action' },
+		{ movie: 'The Irishman', genre: 'Drama' },
 
-{ movie: 'My Hero Academia: Two Heroes', genre: 'Action' },
+		{ movie: 'Enola Holmes', genre: 'Adventure' },
+	];
 
-{ movie: 'The Hobbit', genre: 'Fantasy' },
-
-{ movie: 'Forrest Gump', genre: 'Drama' },
-
-{ movie: 'The Theory of Everything', genre: 'Drama' },
-
-{ movie: 'Star Trek', genre: 'Sci-fi' },
-
-{ movie: 'Pulp Fiction', genre: 'Drama' },
-
-{ movie: 'Mad Max: Fury Road', genre: 'Fantasy' },
-
-{ movie: 'Hancock', genre: 'Action' },
-
-{ movie: 'Red Notice', genre: 'Action' },
-
-{ movie: 'The Unforgivable', genre: 'Drama' },
-
-{ movie: 'Dark Waters', genre: 'Drama' },
-
-{ movie: 'After', genre: 'Romance' },
-
-{ movie: 'Once Upon a Time... In Hollywood', genre: 'Drama' },
-
-{ movie: 'Escape Room', genre: 'Sci-fi' },
-
-{ movie: 'The Irishman', genre: 'Drama' },
-
-{ movie: 'Enola Holmes', genre: 'Adventure' },
-
-];
-
-  
-
-return <Table columns={columns} data={data} />;
-
+	return <Table columns={columns} data={data} />;
 }
-
-  
 
 export default App;
 ```
@@ -571,186 +407,133 @@ export default App;
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
 
-  
-
 *,
-
 *::before,
-
 *::after {
+	margin: 0;
 
-margin: 0;
+	padding: 0;
 
-padding: 0;
-
-box-sizing: border-box;
-
+	box-sizing: border-box;
 }
-
-  
 
 html {
-
-font-size: 16px;
-
+	font-size: 16px;
 }
-
-  
 
 body {
+	font-size: 1rem;
 
-font-size: 1rem;
+	background: #7f80db;
 
-background: #7f80db;
+	font-family: 'Quicksand', sans-serif;
 
-font-family: 'Quicksand', sans-serif;
-
-color: #2d3039;
-
+	color: #2d3039;
 }
-
-  
 
 .container {
+	display: flex;
 
-display: flex;
+	flex-flow: row nowrap;
 
-flex-flow: row nowrap;
+	justify-content: center;
 
-justify-content: center;
+	align-items: center;
 
-align-items: center;
+	width: 100vw;
 
-width: 100vw;
-
-margin-top: 5rem;
-
+	margin-top: 5rem;
 }
-
-  
 
 .container h1 {
+	text-align: center;
 
-text-align: center;
+	text-transform: uppercase;
 
-text-transform: uppercase;
-
-font-size: 4rem;
-
+	font-size: 4rem;
 }
-
-  
 
 .pagination {
+	background: #edf3fa;
 
-background: #edf3fa;
+	padding: 1rem;
 
-padding: 1rem;
+	display: flex;
 
-display: flex;
+	flex-flow: row nowrap;
 
-flex-flow: row nowrap;
-
-justify-content: center;
-
+	justify-content: center;
 }
-
-  
 
 table {
+	padding: 1rem;
 
-padding: 1rem;
+	width: 100%;
 
-width: 100%;
+	border-radius: 1rem;
 
-border-radius: 1rem;
-
-border: 0.5rem solid #2d3039;
-
+	border: 0.5rem solid #2d3039;
 }
-
-  
 
 table th div {
+	font-size: 1.6rem;
 
-font-size: 1.6rem;
+	background: #2d3039;
 
-background: #2d3039;
-
-color: #ffffff;
-
+	color: #ffffff;
 }
-
-  
 
 table thead tr td {
-
-width: 30rem;
-
+	width: 30rem;
 }
-
-  
 
 table td {
+	background: #edf3fa;
 
-background: #edf3fa;
+	width: 30rem;
 
-width: 30rem;
+	max-width: 30rem;
 
-max-width: 30rem;
+	padding: 1rem;
 
-padding: 1rem;
+	border-bottom: 0.1rem solid #2d3039;
 
-border-bottom: 0.1rem solid #2d3039;
-
-border-top: 0.1rem solid #2d3039;
-
+	border-top: 0.1rem solid #2d3039;
 }
-
-  
 
 input {
+	width: 100%;
 
-width: 100%;
+	height: 4rem;
 
-height: 4rem;
+	padding: 1rem;
 
-padding: 1rem;
+	border: 0.1rem solid #2d3039;
 
-border: 0.1rem solid #2d3039;
-
-margin-bottom: 1rem;
-
+	margin-bottom: 1rem;
 }
-
-  
 
 button {
+	background: #ffffff;
 
-background: #ffffff;
+	height: 2rem;
 
-height: 2rem;
+	width: 2rem;
 
-width: 2rem;
+	border: none;
 
-border: none;
-
-cursor: pointer;
-
+	cursor: pointer;
 }
 
-  
-
 select {
+	height: 2rem;
 
-height: 2rem;
-
-width: 10rem;
-
+	width: 10rem;
 }
 ```
 
 You might need to reload your browser or restart the server but assuming you did everything correct you should see the Movie Database working.
 
 ## Conclusion
+
 This was just a brief introduction you should definitely check out their website [https://react-table.tanstack.com/](https://react-table.tanstack.com/) because there are a lot of features to play around with.

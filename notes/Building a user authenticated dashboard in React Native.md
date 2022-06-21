@@ -27,9 +27,9 @@ Make sure that you have an account online with [MongoDB Atlas](https://www.mongo
 
 Next click on the **Connect** button followed by the **Connect your application** button. See the images below for an example of the process.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-01_spkoaz.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-01_spkoaz.png "MongoDB Atlas choose connection")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-01_spkoaz.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-01_spkoaz.png 'MongoDB Atlas choose connection')
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-02_ql4awq.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-02_ql4awq.png "MongoDB Atlas Node.js connection")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-02_ql4awq.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626276793/mongodb-atlas-02_ql4awq.png 'MongoDB Atlas Node.js connection')
 
 You should have a connection string like below. Replace the username, password and database name with your credentials.
 
@@ -39,11 +39,9 @@ mongodb+srv://<username>:<password>@cluster0.tyqyw.mongodb.net/myFirstDatabase?r
 
 The next step is to create a database and a collection see the screenshots below. Click on the **Add My Own Data** button then create a database and collection called **dashboard**.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-01_ldkigr.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-01_ldkigr.png "Add your own data")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-01_ldkigr.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-01_ldkigr.png 'Add your own data')
 
-
-
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-02_bgydbb.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-02_bgydbb.png "Create a database and a collection")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-02_bgydbb.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626278491/database-create-02_bgydbb.png 'Create a database and a collection')
 
 #### Local
 
@@ -124,7 +122,7 @@ mongoose
 	});
 ```
 
-**.env** 
+**.env**
 
 Put your environment variables in here, the secret can be anything you want it to be just make sure that it is secure. I used a random string of alphanumeric characters.
 
@@ -137,13 +135,12 @@ SECRET="mG7m2ZtprtU9aY3r"
 If you choose to use **DB_HOST_ONLINE** make sure that you update it in the `index.js` file in connect.
 
 ```javascript
-mongoose
-	.connect(process.env.DB_HOST, {
-		useCreateIndex: true,
-		useFindAndModify: false,
-		useNewUrlParser: true,
-		useUnifiedTopology: true,
-	})
+mongoose.connect(process.env.DB_HOST, {
+	useCreateIndex: true,
+	useFindAndModify: false,
+	useNewUrlParser: true,
+	useUnifiedTopology: true,
+});
 ```
 
 **.gitignore**
@@ -321,7 +318,7 @@ Add these run scripts to the `package.json` file.
 	},
 ```
 
-Now if you run the command `npm run dev` from the **backend** folder you should have a working backend that connects to your MongoDB database. 
+Now if you run the command `npm run dev` from the **backend** folder you should have a working backend that connects to your MongoDB database.
 
 What we did was create a database that can store users emails and passwords. The passwords are hashed and encrypted so that they are not stored in plain text which would make it easy for malicious users to steal. We will be using JWT tokens to verify that users are who they claim to be and that they have an account which will let them sign up and sign into their accounts. There is a route in the backend for signing up and signing in users which returns a JWT token if the details are correct.
 
@@ -333,19 +330,19 @@ Next open Postman or whatever API testing tool that you prefer to use.
 
 Create a user and do a POST request take a look at the image below to see an example of it working. As you can see a token is returned once a user has successfully signed up for an account.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signup_no74vv.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signup_no74vv.png "Signup Route")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signup_no74vv.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signup_no74vv.png 'Signup Route')
 
 The user can be seen in the MongoDB database via the MongoDB Compass app.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-mongodb-user_guyikd.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-mongodb-user_guyikd.png "MongoDB Compass")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-mongodb-user_guyikd.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-mongodb-user_guyikd.png 'MongoDB Compass')
 
 **Signin Route**
 
 Now try to sign in using the user that you just created. You will need the email, password and also the JWT token see below for examples of how it should look.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signin-01_vm3mtf.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signin-01_vm3mtf.png "Sign in with email and password")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signin-01_vm3mtf.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275292/dashboard-app-signin-01_vm3mtf.png 'Sign in with email and password')
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275827/dashboard-app-signin-02_iohjkj.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275827/dashboard-app-signin-02_iohjkj.png "Sign in using the JWT Token")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1626275827/dashboard-app-signin-02_iohjkj.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1626275827/dashboard-app-signin-02_iohjkj.png 'Sign in using the JWT Token')
 
 ## Building the front-end
 
@@ -387,7 +384,7 @@ mkdir api components context screens
 touch api/users.js
 touch components/AuthForm.js components/NavLink.js
 touch context/AuthContext.js context/createDataContext.js
-touch screens/AccountScreen.js screens/DashboardScreen.js screens/ProfileScreen.js screens/ResolveAuthScreen.js screens/SigninScreen.js screens/SignupScreen.js  
+touch screens/AccountScreen.js screens/DashboardScreen.js screens/ProfileScreen.js screens/ResolveAuthScreen.js screens/SigninScreen.js screens/SignupScreen.js
 ```
 
 When you have completed that step the next thing that you need to do is add the correct code to each corresponding file. Add the code below to each file in the directory.
@@ -577,24 +574,20 @@ export const { Provider, Context } = createDataContext(
 import React, { useReducer } from 'react';
 
 export default (reducer, actions, defaultValue) => {
-  const Context = React.createContext();
+	const Context = React.createContext();
 
-  const Provider = ({ children }) => {
-    const [state, dispatch] = useReducer(reducer, defaultValue);
+	const Provider = ({ children }) => {
+		const [state, dispatch] = useReducer(reducer, defaultValue);
 
-    const boundActions = {};
-    for (let key in actions) {
-      boundActions[key] = actions[key](dispatch);
-    }
+		const boundActions = {};
+		for (let key in actions) {
+			boundActions[key] = actions[key](dispatch);
+		}
 
-    return (
-      <Context.Provider value={{ state, ...boundActions }}>
-        {children}
-      </Context.Provider>
-    );
-  };
+		return <Context.Provider value={{ state, ...boundActions }}>{children}</Context.Provider>;
+	};
 
-  return { Context, Provider };
+	return { Context, Provider };
 };
 ```
 
@@ -814,17 +807,17 @@ import { NavigationActions } from 'react-navigation';
 
 let navigator;
 
-export const setNavigator = nav => {
-  navigator = nav;
+export const setNavigator = (nav) => {
+	navigator = nav;
 };
 
 export const navigate = (routeName, params) => {
-  navigator.dispatch(
-    NavigationActions.navigate({
-      routeName,
-      params
-    })
-  );
+	navigator.dispatch(
+		NavigationActions.navigate({
+			routeName,
+			params,
+		})
+	);
 };
 ```
 

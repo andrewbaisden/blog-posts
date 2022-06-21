@@ -20,7 +20,7 @@ You can't expect people to be excited about something that is not going to help 
 
 ## 4. It is a copy and paste generic topic
 
-Holding someones interest is key to getting noticed. There are so many blog articles out there already it is almost impossible to be unique. However if you choose to write a topic that has been talked about so many times lately that it has become repetitive. Then you just become another __me too__ person and it is unlikely that people will want to read the same content over again in such a short space of time.
+Holding someones interest is key to getting noticed. There are so many blog articles out there already it is almost impossible to be unique. However if you choose to write a topic that has been talked about so many times lately that it has become repetitive. Then you just become another **me too** person and it is unlikely that people will want to read the same content over again in such a short space of time.
 
 ## 5. All text and no media content
 

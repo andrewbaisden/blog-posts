@@ -66,7 +66,7 @@ npm run start
 
 ## Deploying to Vercel
 
-Make sure that you are in the root folder for your project and then run the command `vercel` in your terminal. 
+Make sure that you are in the root folder for your project and then run the command `vercel` in your terminal.
 
 Use the project setup settings below as a guide to setup your own project with Vercel.
 

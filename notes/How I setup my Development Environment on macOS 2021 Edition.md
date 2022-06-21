@@ -2,7 +2,7 @@
 
 **Current Full-Stack Developer Technical Stack 2021**
 
-Front-End: HTML, CSS,  JavaScript, Typescript, React, React Native, Redux, Flutter/Dart
+Front-End: HTML, CSS, JavaScript, Typescript, React, React Native, Redux, Flutter/Dart
 
 Back-End: Python, NodeJS, SQL, NoSQL, Kotlin
 
@@ -46,7 +46,7 @@ Momentum
 
 React Developer Tools
 
-Redux DevTools 
+Redux DevTools
 
 Pocket
 
@@ -104,7 +104,7 @@ Xcode
 
 - Hombrew automatically installs Pip pointing to the Homebrew’d Python 3 for you
 
-You can install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) through the Homebrew package manager. This will also install Node.js if it is not already installed. If you use nvm or similar you should exclude installing Node.js so that nvm’s version of Node.js is used. 
+You can install [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) through the Homebrew package manager. This will also install Node.js if it is not already installed. If you use nvm or similar you should exclude installing Node.js so that nvm’s version of Node.js is used.
 
 Use brew to install the below packages
 
@@ -136,6 +136,7 @@ Use the command line to show all hidden files as the files you are searching for
 defaults write com.apple.Finder AppleShowAllFiles true
 killall Finder
 ```
+
 Install the Oh My Zsh plugins below
 
 ```bash
@@ -145,12 +146,12 @@ brew install zsh-syntax-highlighting
 
 To activate the plugins, add the following at the end of your .zshrc:
 
-  ```bash
+```bash
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  ```
+```
 
-You will also need to force reload of your .zshrc: 
+You will also need to force reload of your .zshrc:
 
 ```bash
 source ~/.zshrc
@@ -291,7 +292,7 @@ For typefaces I am using Jebrains Mono and FiraCode is currently my second choic
 
 ### Hyper Terminal
 
-**Install Plugins and customize** 
+**Install Plugins and customize**
 
 ```bash
 hyper i hypercwd
@@ -309,14 +310,14 @@ hyper i hyper-dracula
 
 ### Visual Studio Code
 
-If it is your first time using Visual Studio Code then do a clean install and configure it whichever way you want. Otherwise install the Settings Sync extension by Shan Khan and then do a download to sync your settings. 
+If it is your first time using Visual Studio Code then do a clean install and configure it whichever way you want. Otherwise install the Settings Sync extension by Shan Khan and then do a download to sync your settings.
 
 ```bash
 # Upload
 SHIFT + OPTION + U
 
 # Download
-SHIFT + OPTION + D 
+SHIFT + OPTION + D
 ```
 
 **As of January 2021 Visual Studio Code has a Settings Sync Feature which probably works the same but is in Early Release**.
@@ -327,98 +328,98 @@ Configure Visual Studio Code so that you can [Launch from the command line](http
 
 #### Extensions I have installed with Visual Studio Code
 
-  better-comments
+better-comments
 
-  bracket-pair-colorizer
+bracket-pair-colorizer
 
-  code-beautifier
+code-beautifier
 
-  code-settings-sync
+code-settings-sync
 
-  dart-code
+dart-code
 
-  debugger-for-chrome
+debugger-for-chrome
 
-  dotenv
+dotenv
 
-  es7-react-js-snippets
+es7-react-js-snippets
 
-  flutter
+flutter
 
-  gc-excelviewer
+gc-excelviewer
 
-  gitlens
+gitlens
 
-  graphql-for-vscode
+graphql-for-vscode
 
-  HTMLHint
+HTMLHint
 
-  javascript-ejs-support
+javascript-ejs-support
 
-  jupyter
+jupyter
 
-  Kotlin
+Kotlin
 
-  LiveServer
+LiveServer
 
-  material-icon-theme
+material-icon-theme
 
-  mdx
+mdx
 
-  mongodb-vscode
+mongodb-vscode
 
-  mssql
+mssql
 
-  night-owl
+night-owl
 
-  npm-intellisense
+npm-intellisense
 
-  open-in-browser
+open-in-browser
 
-  prettier-vscode
+prettier-vscode
 
-  project-manager
+project-manager
 
-  python
+python
 
-  quokka-vscode
+quokka-vscode
 
-  rainbow-csv
+rainbow-csv
 
-  remote-containers
+remote-containers
 
-  shades-of-purple
+shades-of-purple
 
-  theme-dracula
+theme-dracula
 
-  vsc-community-material-theme
+vsc-community-material-theme
 
-  vsc-material-theme
+vsc-material-theme
 
-  vsc-material-theme-icons
+vsc-material-theme-icons
 
-  vscode-color
+vscode-color
 
-  vscode-colorize
+vscode-colorize
 
-  vscode-docker
+vscode-docker
 
-  vscode-eslint
+vscode-eslint
 
-  vscode-graphql
+vscode-graphql
 
-  vscode-import-cost
+vscode-import-cost
 
-  vscode-jest
+vscode-jest
 
-  vscode-markdownlint
+vscode-markdownlint
 
-  vscode-npm-script
+vscode-npm-script
 
-  vscode-peacock
+vscode-peacock
 
-  vscode-pull-request-github
+vscode-pull-request-github
 
-  vscode-styled-components
+vscode-styled-components
 
-  vscode-typescript-tslint-plugin
+vscode-typescript-tslint-plugin

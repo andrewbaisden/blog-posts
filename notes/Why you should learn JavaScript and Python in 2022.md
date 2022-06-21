@@ -9,6 +9,7 @@ Arguably two of the most popular and talked about programming languages in the w
 One of the biggest standout points is the fact that JavaScript and Python are dynamically typed languages. In a manner of sense a dynamically typed programming language does not require variables to be explicitly declared prior to their usage. And in the reverse a statically typed programming language prevents variables from getting reassigned to a different type. All of this will become more clear in the examples below.
 
 ### Java Example
+
 ```java
 String myName; // Variable with a type of string
 myName = "Tony Stark"; // The string is called Tony Stark
@@ -21,8 +22,8 @@ If you were to run this Java code you would get either a compile error or runtim
 
 ```javascript
 let myName; // Variable that has no type
-myName = "Tony Stark"; // The variable has a type of string
-myName = 24; // The variable has changed its type dynamically to a number 
+myName = 'Tony Stark'; // The variable has a type of string
+myName = 24; // The variable has changed its type dynamically to a number
 ```
 
 Now if you were to run this JavaScript code you would get no errors as it is perfectly valid. The variable name is now the number 24.
@@ -31,7 +32,7 @@ Now if you were to run this JavaScript code you would get no errors as it is per
 
 ```python
 my_name = "Tony Stark" # The variable has a type of string
-my_name = 24 # The variable has changed its type dynamically to an int 
+my_name = 24 # The variable has changed its type dynamically to an int
 ```
 
 Similarly if you were to run this Python code you would also get no errors as it is perfectly valid. The variable name is now the Int 24.
@@ -107,7 +108,7 @@ Both languages output a string type variable
 #### JavaScript Syntax
 
 ```javascript
-let myName = "Tony Stark";
+let myName = 'Tony Stark';
 console.log(typeof myName); // string
 ```
 

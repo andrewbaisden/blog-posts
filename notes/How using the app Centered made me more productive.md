@@ -32,7 +32,7 @@ The application is pretty straightforward in terms of usage. This is the usual s
 
 This is where you can manage your tasks, sessions and see your streaks.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1641143773/Centered_Tasks_ygm6fh.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1641143773/Centered_Tasks_ygm6fh.png)
+![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1641143971/Centered_Leaderboard_and_Tasks_aimosk.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1641143971/Centered_Leaderboard_and_Tasks_aimosk.jpg)
 
 ## Gamification
 
@@ -40,7 +40,7 @@ Centered even has elements of gamification because there is a leaderboard so you
 
 ### The Leaderboard
 
-The leaderboard shows how you compare to other users when it comes to tasks completed and time flowed. You can see daily, weekly and monthly. 
+The leaderboard shows how you compare to other users when it comes to tasks completed and time flowed. You can see daily, weekly and monthly.
 
 As of writing I am top of the daily and monthly leaderboard 🔥🚀
 

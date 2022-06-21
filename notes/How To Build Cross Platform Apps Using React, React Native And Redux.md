@@ -1,9 +1,10 @@
 # How To Build Cross Platform Apps Using React, React Native And Redux
+
 These days it is quite normal for apps to be developed that run on various platforms. This allows users to access the same application using different devices. In this tutorial you will learn how to create cross platform apps that work on the web, and on mobile. The web version will be created using React and Redux whereas the mobile versions will be created using React Native and Redux. We will be using the Expo framework to create the React Native and Redux apps.
 
 The App that we will be creating is called Deck of Cards. It is just a simple app that lets you randomly place cards on a card table that automatically get removed after a set amount of time.
 
-![https://res.cloudinary.com/d74fh3kw/image/upload/v1618509335/Deck_of_Cards_up0fvv.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1618509335/Deck_of_Cards_up0fvv.png "Deck of Cards App")
+![https://res.cloudinary.com/d74fh3kw/image/upload/v1618509335/Deck_of_Cards_up0fvv.png](https://res.cloudinary.com/d74fh3kw/image/upload/v1618509335/Deck_of_Cards_up0fvv.png 'Deck of Cards App')
 
 ## Setup
 
@@ -31,26 +32,26 @@ Before we begin make sure that you have your development environment setup with 
 
 ### Project Setup
 
-Create a folder on your desktop called __deck of cards__ and then open the project in your code editor. Now use your terminal to __cd__ into the project directory and then setup a boilerplate React Application using the code below.
+Create a folder on your desktop called **deck of cards** and then open the project in your code editor. Now use your terminal to **cd** into the project directory and then setup a boilerplate React Application using the code below.
 
 ```bash
 npx create-react-app my-app-web
 ```
 
-Once the app has been setup __cd__ into it using your terminal application and then run the application.
+Once the app has been setup **cd** into it using your terminal application and then run the application.
 
 ```bash
 cd my-app-web
 npm run start
 ```
 
-You should see the app running in your browser. It's time to install some packages and clean up the boilerplate for the React  App. First you need to install the packages below using your terminal app so make sure that you are in the root directory with the `package.json` file in it.
+You should see the app running in your browser. It's time to install some packages and clean up the boilerplate for the React App. First you need to install the packages below using your terminal app so make sure that you are in the root directory with the `package.json` file in it.
 
 ```bash
 npm i redux react-redux redux-thunk redux-devtools-extension uuid
 ```
 
-Now delete all of the files inside of the __src__ folder. The app is going to break but don't worry we are just getting rid of the bloatware so we can start from scratch. Your project should have a tree structure like below.
+Now delete all of the files inside of the **src** folder. The app is going to break but don't worry we are just getting rid of the bloatware so we can start from scratch. Your project should have a tree structure like below.
 
 ```bash
 └── my-app-web
@@ -69,7 +70,7 @@ Now delete all of the files inside of the __src__ folder. The app is going to br
     └── yarn.lock
 ```
 
-Now make sure that you are in the __src__ folder. Create an `index.js` file and enter the code below.
+Now make sure that you are in the **src** folder. Create an `index.js` file and enter the code below.
 
 ```jsx
 import React from 'react';
@@ -79,7 +80,7 @@ import App from './App';
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-Next you need to create an `App.js` file in the same folder and enter the code below. 
+Next you need to create an `App.js` file in the same folder and enter the code below.
 
 ```jsx
 import React, { Fragment } from 'react';
@@ -99,9 +100,9 @@ You might need to reload the webpage or restart the server. Afterwards you shoul
 
 ### Setting up the Redux Store
 
-With the React App setup and working we can now start working on the Redux Store. We will need a `store.js` file as well as folders for __actions__ and __reducers__. If you open your web browser and got to the Redux DevTools it should say something like "*No store found. Make sure to follow the instructions.*"
+With the React App setup and working we can now start working on the Redux Store. We will need a `store.js` file as well as folders for **actions** and **reducers**. If you open your web browser and got to the Redux DevTools it should say something like "_No store found. Make sure to follow the instructions._"
 
-Create a `store.js` file in the __src__ folder and then enter the code below to setup the Redux Store.
+Create a `store.js` file in the **src** folder and then enter the code below to setup the Redux Store.
 
 ```jsx
 import { createStore, applyMiddleware } from 'redux';
@@ -135,7 +136,7 @@ ReactDOM.render(
 );
 ```
 
-Next create an empty folder called __actions__ and an empty folder called __reducers__ and put them in the __src__ folder. Go inside the __reducers__ folder and create a file called `index.js`. Add the code below to that file.
+Next create an empty folder called **actions** and an empty folder called **reducers** and put them in the **src** folder. Go inside the **reducers** folder and create a file called `index.js`. Add the code below to that file.
 
 ```jsx
 import { combineReducers } from 'redux';
@@ -147,14 +148,14 @@ Once you have done that return to the app in the browser and reload the page. If
 
 ### Creating the Cards Reducer
 
-The next step will be to create files for the actions as well as a reducer file for the reducer. The actions folder will also contain a file for the constants which will be centralised so you will only need to change them in one place. Go into the __actions__ folder and create a file called `types.js` and a file called `card.js` . Put the code below into the `types.js` file.
+The next step will be to create files for the actions as well as a reducer file for the reducer. The actions folder will also contain a file for the constants which will be centralised so you will only need to change them in one place. Go into the **actions** folder and create a file called `types.js` and a file called `card.js` . Put the code below into the `types.js` file.
 
 ```jsx
 export const SET_CARD = 'SET_CARD';
 export const REMOVE_CARD = 'REMOVE_CARD';
 ```
 
-Now go into the __reducers__ folder and create a file called `card.js` . Add the code below into that file. This will set up the state as well as the function which will be used for the reducer.
+Now go into the **reducers** folder and create a file called `card.js` . Add the code below into that file. This will set up the state as well as the function which will be used for the reducer.
 
 ```jsx
 import { SET_CARD, REMOVE_CARD } from '../actions/types';
@@ -179,7 +180,7 @@ export default function (state = initialState, action) {
 }
 ```
 
-Now update the `index.js` file in the __reducers__ folder with an import for the `card.js` file.
+Now update the `index.js` file in the **reducers** folder with an import for the `card.js` file.
 
 ```jsx
 import { combineReducers } from 'redux';
@@ -190,7 +191,7 @@ export default combineReducers({
 });
 ```
 
-Next go into the __actions__ folder and add the code below to the `card.js` file. This will set up the dispatch function that will send the data. This will dispatch the card information as an action that will pass the state.
+Next go into the **actions** folder and add the code below to the `card.js` file. This will set up the dispatch function that will send the data. This will dispatch the card information as an action that will pass the state.
 
 ```jsx
 import uuid from 'uuid';
@@ -211,7 +212,7 @@ export const setCard = (msg, cardType) => (dispatch) => {
 
 ### Connecting the App to the Redux Store
 
-Finally we will connect the actions and reducers to the main `App.js` file. Firstly create an `App.css` file and put it in the root of the __src__ folder. Add the below styles to the `App.css` file.
+Finally we will connect the actions and reducers to the main `App.js` file. Firstly create an `App.css` file and put it in the root of the **src** folder. Add the below styles to the `App.css` file.
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
@@ -415,7 +416,7 @@ main {
 }
 ```
 
-Now open the `App.js` file inside of the __src__ folder and replace the code inside with the one below.
+Now open the `App.js` file inside of the **src** folder and replace the code inside with the one below.
 
 ```jsx
 import { connect } from 'react-redux';
@@ -477,7 +478,7 @@ const mapStateToProps = (state) => ({
 export default connect(mapStateToProps, { setCard })(App);
 ```
 
-You might need to reload the page or restart the server but when you do you should see the Deck of Cards App working. All you have to do is repeatedly click on the place cards button and it should randomly generate cards inside of the table box. Each set of cards goes up to 3 however you can expand it to all 52 cards in a deck by changing a few lines of code. The cards are automatically removed after 10 seconds using the __REMOVE_CARD__ dispatch action in the `actions/card./js` file. If you want to you can change the timing or remove it completely so that the cards stay on the screen.
+You might need to reload the page or restart the server but when you do you should see the Deck of Cards App working. All you have to do is repeatedly click on the place cards button and it should randomly generate cards inside of the table box. Each set of cards goes up to 3 however you can expand it to all 52 cards in a deck by changing a few lines of code. The cards are automatically removed after 10 seconds using the **REMOVE_CARD** dispatch action in the `actions/card./js` file. If you want to you can change the timing or remove it completely so that the cards stay on the screen.
 
 Alternatively if you want to add more cards you will need to follow the comments inside of the `App.js` file and the `App.css` file to do it. To add more card icons you just need to add or replace them with new unicode characters. You can find some [here](https://www.webnots.com/alt-code-shortcuts-for-playing-cards-suit/) .
 
@@ -485,13 +486,13 @@ Alternatively if you want to add more cards you will need to follow the comments
 
 ### Project Setup
 
-Create a folder on your desktop called __deck of cards__ or use the one that you already created before and then open the project in your code editor. Now use your terminal to __cd__ into the project directory and then setup a boilerplate React Native Application using the code below. Make sure that you choose the __blank__ option. We will be using __yarn__ for the tutorial but you can use __npm__ if you want to.
+Create a folder on your desktop called **deck of cards** or use the one that you already created before and then open the project in your code editor. Now use your terminal to **cd** into the project directory and then setup a boilerplate React Native Application using the code below. Make sure that you choose the **blank** option. We will be using **yarn** for the tutorial but you can use **npm** if you want to.
 
 ```bash
 expo init my-app-mobile
 ```
 
-Once the app has been setup __cd__ into it using your terminal application and then run the application.
+Once the app has been setup **cd** into it using your terminal application and then run the application.
 
 ```bash
 cd my-app-mobile
@@ -522,9 +523,9 @@ Your project should have a tree structure like below.
 
 ### Setting up the Redux Store
 
-With the React Native App setup and working we can now start working on the Redux Store. We will need a `store.js` file as well as folders for __actions__, __reducers __and __components__. If you run the app in a web browser and got to the Redux DevTools it should say something like "*No store found. Make sure to follow the instructions.*"
+With the React Native App setup and working we can now start working on the Redux Store. We will need a `store.js` file as well as folders for **actions**, **reducers **and **components**. If you run the app in a web browser and got to the Redux DevTools it should say something like "_No store found. Make sure to follow the instructions._"
 
-Create a __src__ folder and then create a `store.js` file inside of it and then enter the code below to setup the Redux Store.
+Create a **src** folder and then create a `store.js` file inside of it and then enter the code below to setup the Redux Store.
 
 ```jsx
 import { createStore, applyMiddleware } from 'redux';
@@ -560,7 +561,7 @@ const App = () => {
 export default App;
 ```
 
-In the next step create a folder called __components__ and put it inside of the __src__ folder. Now create a file called `DeckOfCards.js` inside of it. Add the code below to that file.
+In the next step create a folder called **components** and put it inside of the **src** folder. Now create a file called `DeckOfCards.js` inside of it. Add the code below to that file.
 
 ```jsx
 import React from 'react';
@@ -801,7 +802,7 @@ export default connect(mapStateToProps, { setCard })(App);
 
 ### Creating the Cards Reducer
 
-Next create an empty folder called __actions__ and an empty folder called __reducers__ and put them in the __src__ folder. Go inside the __reducers__ folder and create a file called `index.js`. Add the code below to that file.
+Next create an empty folder called **actions** and an empty folder called **reducers** and put them in the **src** folder. Go inside the **reducers** folder and create a file called `index.js`. Add the code below to that file.
 
 ```jsx
 import { combineReducers } from 'redux';
@@ -812,7 +813,7 @@ export default combineReducers({
 });
 ```
 
-After you have done that create a `card.js` file and put it in the same __reducers__ folder. Add the code below to that file.
+After you have done that create a `card.js` file and put it in the same **reducers** folder. Add the code below to that file.
 
 ```jsx
 import { SET_CARD, REMOVE_CARD } from '../actions/types';
@@ -833,9 +834,9 @@ export default function (state = initialState, action) {
 }
 ```
 
-Finally go to the __actions__ folder and then create a `card.js` file and a `types.js` file.
+Finally go to the **actions** folder and then create a `card.js` file and a `types.js` file.
 
- Add the code below into the `types.js` file
+Add the code below into the `types.js` file
 
 ```jsx
 export const SET_CARD = 'SET_CARD';

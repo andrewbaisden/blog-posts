@@ -1,13 +1,16 @@
 # How I setup my Development Environment on macOS 2022 Edition
+
 **Current Software Developer Technical Stack 2022**
 
 Front-End: HTML, CSS, JavaScript, TypeScript, React, React Native, Redux  
 Back-End: Python, NodeJS, C#, SQL, NoSQL, Docker
 
 ## Transfer Files
+
 I always prefer to do a clean install when setting up a new computer. Either use a cloud backup solution to restore your data or use an external storage device to transfer your files to your new computer.
 
 ## Install Web Browsers
+
 - [Brave](https://brave.com/)
 - [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
 - [Google Chrome Canary](https://www.google.com/intl/en_uk/chrome/canary/)
@@ -19,6 +22,7 @@ I always prefer to do a clean install when setting up a new computer. Either use
 - [Tor Browser](https://www.torproject.org/download/)
 
 ### Install Web Browser Extensions (chromium)
+
 - [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - [ColorZilla](https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp)
 - [daily.dev](https://chrome.google.com/webstore/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied)
@@ -34,6 +38,7 @@ I always prefer to do a clean install when setting up a new computer. Either use
 - [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 
 ## Install Software
+
 I would install all of the apps that I use this includes personal and developer related. I will just include the developer apps as they are more relevant in this guide.
 
 - [Adobe CC](https://www.adobe.com/uk/)
@@ -62,11 +67,13 @@ I would install all of the apps that I use this includes personal and developer 
 - [Zoom](https://zoom.us/)
 
 ## Install Package Managers
+
 - Hombrew
 - npm
 - Pip
 
 ### Hombrew
+
 [https://brew.sh/](https://brew.sh/)
 
 **M1 Macs**
@@ -82,13 +89,14 @@ After installing Rosetta2 using the code above you can then use the Homebrew cmd
 arch -x86_64 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-Once Homebrew for M1 ARM is installed use this Homebrew command to install packages: 
+Once Homebrew for M1 ARM is installed use this Homebrew command to install packages:
 
 ```bash
 arch -x86_64 brew install <package>
 ```
 
 #### Install Packages
+
 - Hombrew automatically installs Pip pointing to the Homebrew’d Python 3 for you.
 
 Use brew to install the below packages
@@ -120,6 +128,7 @@ Use the command line to show all hidden files as the files you are searching for
 defaults write com.apple.Finder AppleShowAllFiles true
 killall Finder
 ```
+
 Install the Oh My Zsh plugins below
 
 ```bash
@@ -129,12 +138,12 @@ brew install zsh-syntax-highlighting
 
 To activate the plugins, add the following at the end of your .zshrc:
 
-  ```bash
+```bash
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-  ```
+```
 
-You will also need to force reload of your .zshrc: 
+You will also need to force reload of your .zshrc:
 
 ```bash
 source ~/.zshrc
@@ -150,46 +159,48 @@ export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=/usr/local/share/zsh-syntax-highlighting/h
 
 [https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew](https://stackoverflow.com/questions/57856809/installing-mongodb-with-homebrew)
 
-1) Install the Xcode command-line tools and the Homebrew one from https://brew.sh/#install
+1. Install the Xcode command-line tools and the Homebrew one from https://brew.sh/#install
 
 ```bash
 xcode-select --install
 ```
 
-2) Tap the MongoDB Homebrew Tap:
+2. Tap the MongoDB Homebrew Tap:
 
 ```bash
 brew tap mongodb/brew
 ```
 
-3) Verify installation prerequisites in the macOS Terminal:
+3. Verify installation prerequisites in the macOS Terminal:
 
 ```bash
 brew tap | grep mongodb
 ```
 
-4) install MongoDB
+4. install MongoDB
 
 ```bash
 brew install mongodb-community@4.4
 ```
 
-5) Finally to run MongoDB (i.e. the mongod process) as a macOS service, issue the following
+5. Finally to run MongoDB (i.e. the mongod process) as a macOS service, issue the following
 
 ```bash
 brew services start mongodb-community@4.4
 ```
 
-6) Download and install MongoDB Compass [https://www.mongodb.com/try/download/compass](https://www.mongodb.com/try/download/compass)
+6. Download and install MongoDB Compass [https://www.mongodb.com/try/download/compass](https://www.mongodb.com/try/download/compass)
 
 Use the command `brew list` to see all installed packages.
 
 ### npm
+
 Install node via nvm because `nvm` lets you quickly install and use different versions of node via the command line.
 
 [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 
 #### Install Packages Globally
+
 ```bash
 npm i -g @aws-amplify/cli
 npm i -g @sanity/cli
@@ -217,6 +228,7 @@ Use the command `npm list -g --depth 0` to see all installed packages.
 ### Pip
 
 #### Install Packages
+
 Use the command `pip` or `pip3` to install depending on your system.
 
 ```bash
@@ -252,35 +264,39 @@ pip3 install wrapt
 Use the command `pip3 list` or `pip list` to see all installed packages
 
 #### Updating Python Packages
+
 Pip can be used to upgrade all packages:
 
-1) Output a list of installed packages into a requirements file (requirements.txt): 
+1. Output a list of installed packages into a requirements file (requirements.txt):
 
 ```shell
 pip freeze > requirements.txt
 ```
 
-2) Edit requirements.txt, and replace all `==` with `>=` Use the ‘Replace All’ command in the editor.
-3) Upgrade all outdated packages: 
+2. Edit requirements.txt, and replace all `==` with `>=` Use the ‘Replace All’ command in the editor.
+3. Upgrade all outdated packages:
 
 ```shell
 pip install -r requirements.txt --upgrade
 ```
 
 ## React Native Setup
+
 https://expo.io/
 
 ## Setup BASH Application, Code Editors and IDE
+
 I am currently using the [dracula](https://draculatheme.com/) theme in Visual Studio Code, Visual Studio, Android Studio, PyCharm and both Hyper and iTerm 2.
 
 ### Typeface
+
 For typefaces I am using Jebrains Mono.
 
 [https://www.jetbrains.com/lp/mono/](https://www.jetbrains.com/lp/mono/)
 
 ### Hyper Terminal
 
-**Install Plugins and customize** 
+**Install Plugins and customize**
 
 ```bash
 hyper i hypercwd
@@ -297,12 +313,15 @@ hyper i hyper-dracula
 ```
 
 ### Visual Studio
+
 Download and install the latest version of [NET, including ASP.NET Core](https://dotnet.microsoft.com/en-us/download).
 
 ### Visual Studio Code
+
 If it is your first time using Visual Studio Code then do a clean install and configure it however you want. Otherwise use the built in [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync) feature to sync the settings from your previous setup.
 
 #### Visual Studio Code Extensions I use
+
 I currently have 41 extensions installed.
 
 [Beautify css/sass/scss/less](https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier)

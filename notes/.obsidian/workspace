@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Moving from JavaScript to TypeScript.md",
-            "mode": "preview",
+            "file": "NodeJS Express Test Driven Development with Jest.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Moving from JavaScript to TypeScript.md",
+                "file": "NodeJS Express Test Driven Development with Jest.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "d99c16ed3b0883b0",
   "lastOpenFiles": [
-    "Moving from JavaScript to TypeScript.md",
-    "Creating MERN Stack Applications (2020).md",
+    "NodeJS Express Test Driven Development with Jest.md",
+    "How to launch a Minimum viable product (MVP) in 2022.md",
+    "How to use Docker in your Node and React Applications.md",
     "How to use HarperDB custom functions to build your entire backend.md",
-    "Creating React Node apps that connect to PostgreSQL and HarperDB.md",
+    "Codecademy new and improved Career Paths.md",
+    "How to use ESLint and Prettier for code analysis and formatting.md",
+    "The Complete Modern React Developer 2022.md",
     "How to deploy a Node Express App to Vercel.md",
-    "How I setup my Development Environment on macOS 2022 Edition.md",
-    "Why you should consider adding a BenQ ScreenBar to your developer setup.md",
-    "My thoughts on using the LG 27UL850W 4K UHD LED LCD Monitor for programming and media consumption.md",
-    "How I setup my Development Environment on macOS 2021 Edition.md",
-    "Creating React Flask apps that connect to PostgreSQL and HarperDB.md"
+    "How to build powerful tables in React using the React Table package.md",
+    "Why you should become a Full-Stack Developer.md"
   ]
 }

@@ -5,4 +5,3 @@ In my case it is the following because they have courses that cover the Full Sta
 1. Brad Traversy
 2. Maximilian Schwarzmüller
 3. Stephen Grider
-

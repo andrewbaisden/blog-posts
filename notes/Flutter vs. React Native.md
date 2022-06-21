@@ -1,6 +1,6 @@
 # Flutter vs. React Native
 
-Today we are going to cover arguably the two biggest and most popular cross platform mobile app development frameworks available at the moment. [Flutter](https://flutter.dev/) and [React Native](https://reactnative.dev/). These two juggernauts are backed by two of the largest tech companies in the world. Flutter was created by Google and React Native was created by Facebook. 
+Today we are going to cover arguably the two biggest and most popular cross platform mobile app development frameworks available at the moment. [Flutter](https://flutter.dev/) and [React Native](https://reactnative.dev/). These two juggernauts are backed by two of the largest tech companies in the world. Flutter was created by Google and React Native was created by Facebook.
 
 In this article we will compare the two and see what makes them so special and why they are so highly sought after by companies.
 
@@ -10,7 +10,7 @@ Flutter is a cross platform UI framework that was developed by Google. It was fi
 
 An example for this use case would be using React for building the website, C# and Java for building the desktop version and then Kotlin and Swift for creating both the iOS and Android apps. This would require a whole team of developers and no doubt a lot of meetings to make sure that the design and branding was consistent across all of them. In addition you also have to factor in testing for each platform too and dealing with their respective bugs and quirks which is common.
 
-Thanks to Flutter one developer can potentially create apps across all of these platforms with just one codebase to manage which would cut down on time and resources. 
+Thanks to Flutter one developer can potentially create apps across all of these platforms with just one codebase to manage which would cut down on time and resources.
 
 ## What is React Native?
 
@@ -28,7 +28,7 @@ However there is a significant difference when it comes to the core programming 
 
 **Layout**
 
-Another common difference is in the way in which both frameworks are used to build apps. Flutter uses a widget style for constructing the user interface whereas React Native uses JavaScript and JSX. These widgets are pre made by the development team at Google as well as other developers so you don’t technically need to create your own custom widgets unless you want to. 
+Another common difference is in the way in which both frameworks are used to build apps. Flutter uses a widget style for constructing the user interface whereas React Native uses JavaScript and JSX. These widgets are pre made by the development team at Google as well as other developers so you don’t technically need to create your own custom widgets unless you want to.
 
 This can make development quite easy and you don’t need to worry too much about a widget not being compatible as they are official and have been tested by Google. One thing I should mention is that if you are using a programming language like Swift for mobile app development you typically can’t see the code that Apple used for creating user interface components like a button. But with Flutter it is possible to see how Google created all the widgets as the code is viewable.
 
@@ -48,7 +48,7 @@ React is probably slightly more popular at the moment because you have to take i
 
 These two frameworks are open source which means that they are free to use for everyone. Both libraries are well maintained as you would expect considering they are created by Google and Facebook. It is possible to test apps created using both frameworks either virtually using a built in simulator on your computer for iOS and Android, or natively on your phone. One thing to mention though is that you will need an Apple computer if you intend on developing on iOS as the software development kit (SDK) is only available on Apple computers. So Windows users and Linux users are out of luck. Fortunately Android development can be done on either of the three.
 
-Both frameworks use Hot Reloading so developers are able to make changes and see them instantly. This is great because it means faster development times because you don’t have to keep stopping and starting your apps to see updates. A concern many people have is if you can truly consider Flutter and React Native apps as being truly native. To be considered 100% native they would need to be written in the language that they were designed for. Swift for iOS and Kotlin/Java for Android. 
+Both frameworks use Hot Reloading so developers are able to make changes and see them instantly. This is great because it means faster development times because you don’t have to keep stopping and starting your apps to see updates. A concern many people have is if you can truly consider Flutter and React Native apps as being truly native. To be considered 100% native they would need to be written in the language that they were designed for. Swift for iOS and Kotlin/Java for Android.
 
 The experience you get when using an app that was created in React Native and Flutter is for the most part a native experience. The Dart code which Flutter uses is complied to “C” which is about as close to native as you can expect. Taking this into consideration you could assume that would mean it offers the better performance.
 
@@ -468,4 +468,4 @@ export default ProfileScreen;
 
 ## Final Thoughts
 
-There is no winner here both frameworks have their pros and cons. If you already know JavaScript then it is a no brainer to go down the route of React Native. However if you want to try something different which might offer slightly better performance, stability and a more cohesive environment between ecosystems give Flutter a try. 
+There is no winner here both frameworks have their pros and cons. If you already know JavaScript then it is a no brainer to go down the route of React Native. However if you want to try something different which might offer slightly better performance, stability and a more cohesive environment between ecosystems give Flutter a try.

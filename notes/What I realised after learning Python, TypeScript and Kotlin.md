@@ -6,7 +6,7 @@ Remember all those people who kept saying that once you learn one programming/sc
 
 ### Variables
 
-__Python__
+**Python**
 
 ```python
 welcome = 'Hello World'
@@ -14,7 +14,7 @@ welcome = 'Hello World'
 print(welcome)
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 const welcome: string = 'Hello World';
@@ -22,7 +22,7 @@ const welcome: string = 'Hello World';
 console.log(welcome);
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 fun main() {
@@ -33,7 +33,7 @@ fun main() {
 
 ### Arrays/Lists
 
-__Python__
+**Python**
 
 ```python
 my_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -41,7 +41,7 @@ my_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(my_arr)
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 const myArr: Number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -49,7 +49,7 @@ const myArr: Number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 console.log(myArr);
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 import java.util.*
@@ -62,7 +62,7 @@ fun main() {
 
 ### Objects/Dictionaries
 
-__Python__
+**Python**
 
 ```python
 my_dict = {
@@ -74,7 +74,7 @@ my_dict = {
 print(my_dict)
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 const myObj: { id: number; username: string; role: string } = {
@@ -86,7 +86,7 @@ const myObj: { id: number; username: string; role: string } = {
 console.log(myObj);
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 fun main() {
@@ -103,7 +103,7 @@ fun main() {
 
 ### Functions
 
-__Python__
+**Python**
 
 ```python
 def add(x, y):
@@ -113,7 +113,7 @@ def add(x, y):
 print(add(7, 3))
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 function add(x: number, y: number) {
@@ -123,7 +123,7 @@ function add(x: number, y: number) {
 console.log(add(7, 3));
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 fun main() {
@@ -136,7 +136,7 @@ fun main() {
 
 ### Control Flow: if statements
 
-__Python__
+**Python**
 
 ```python
 coding_is_fun = True
@@ -147,7 +147,7 @@ else:
     print('Learning to code is not exciting...')
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 const codingIsFun = true;
@@ -159,7 +159,7 @@ if (codingIsFun) {
 }
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 fun main() {
@@ -176,7 +176,7 @@ fun main() {
 
 ### Loops
 
-__Python__
+**Python**
 
 ```python
 shopping_list = ["Shower Gel", "Toothpaste", "Mouth Wash", "Deodorant"]
@@ -185,7 +185,7 @@ for item in shopping_list:
     print(item)
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 const shoppingList: string[] = ['Shower Gel', 'Toothpaste', 'Mouth Wash', 'Deodorant'];
@@ -195,7 +195,7 @@ shoppingList.forEach((item) => {
 });
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 fun main() {
@@ -210,23 +210,23 @@ fun main() {
 
 ### Import Statements
 
-__Python__
+**Python**
 
 ```python
 from flask import Flask
 ```
 
-__TypeScript__
+**TypeScript**
 
 ```typescript
 // ES6 Import
-import express from 'express'
+import express from 'express';
 
 // CommonJS
-const express = require('express')
+const express = require('express');
 ```
 
-__Kotlin__
+**Kotlin**
 
 ```kotlin
 import java.util.*
@@ -236,11 +236,11 @@ import java.util.*
 
 This was just a sample there are more areas like Classes which I did not mention. When learning all of these different programming languages I noticed many common themes between them. For example the data types are very alike. The way that you assign variables for example feels very similar. Python just lets you write the variable `welcome = 'Hello World'` whereas TypeScript and Kotlin require you to assign it a type first. TypeScript being a superset of JavaScript essentially means that you are still compiling to JavaScript. So assigning `const` and `let` before you write your variables or `var` if you are writing it for ES5. In comparison Kotlin uses `val` and `var` for variable definitions with `val` being the equivalent to `const` as it is immutable and can't be re assigned. The way you write your syntax just feels so familiar so switching between languages is a breeze once you learn the fundamentals.
 
-Also logging to the console is almost exactly the same. Python uses `print()`  TypeScript uses `console.log()` and Kotlin uses `println()`. Python and Kotlin are almost the same which makes it easy to remember again. Creating Data Structures like Arrays/Lists, and Objects/Dictionaries is just as simple if you look at the syntax. Interchanging between languages is a breeze. Python Dictionaries look just like JSON so if you know JavaScript this syntax is familiar already.
+Also logging to the console is almost exactly the same. Python uses `print()` TypeScript uses `console.log()` and Kotlin uses `println()`. Python and Kotlin are almost the same which makes it easy to remember again. Creating Data Structures like Arrays/Lists, and Objects/Dictionaries is just as simple if you look at the syntax. Interchanging between languages is a breeze. Python Dictionaries look just like JSON so if you know JavaScript this syntax is familiar already.
 
 I was also amazed to see that functions look very much the same. The caveat here being that Python does not use curly braces like TypeScript and Kotlin. Instead you use `:` and you have to be aware of the tab spacing otherwise your code won't compile.
 
-The control flow is much the same writing `if` and `else` syntax works almost exactly the same in all three languages. And when it comes to doing looping you can clearly see that syntax for Python and Kotlin looks almost identical. One pretty big difference between the 3 is that Python uses snack casing for variables such as `first_name` whereas TypeScript and Kotlin use camel case like `firstName`. 
+The control flow is much the same writing `if` and `else` syntax works almost exactly the same in all three languages. And when it comes to doing looping you can clearly see that syntax for Python and Kotlin looks almost identical. One pretty big difference between the 3 is that Python uses snack casing for variables such as `first_name` whereas TypeScript and Kotlin use camel case like `firstName`.
 
 Lastly import statements follow a familiar pattern across all 3 languages. I used to believe that learning too many programming languages would lead to yourself becoming confused as you have to remember all of these different syntax and you could find yourself in a scenario where you are writing Kotlin in JavaScript for example which I'm sure has happened to some developers at least once with multiple languages. But actually it just makes you a better coder as you begin to grasp the fundamentals of each language a lot better and your understanding of the core concepts deepens significantly.
 
