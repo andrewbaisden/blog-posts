@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NodeJS Express Test Driven Development with Jest.md",
+            "file": "20 activities that stimulate my creativity as a developer.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "grp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NodeJS Express Test Driven Development with Jest.md",
+                "file": "20 activities that stimulate my creativity as a developer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "d99c16ed3b0883b0",
   "lastOpenFiles": [
+    "NodeJS + gRPC.md",
+    "How to do Test Driven Development in React using React Testing Library, Jest and Cypress.md",
     "NodeJS Express Test Driven Development with Jest.md",
+    "How to use ESLint and Prettier for code analysis and formatting.md",
+    "The Complete Modern React Developer 2022.md",
     "How to launch a Minimum viable product (MVP) in 2022.md",
     "How to use Docker in your Node and React Applications.md",
     "How to use HarperDB custom functions to build your entire backend.md",
     "Codecademy new and improved Career Paths.md",
-    "How to use ESLint and Prettier for code analysis and formatting.md",
-    "The Complete Modern React Developer 2022.md",
-    "How to deploy a Node Express App to Vercel.md",
-    "How to build powerful tables in React using the React Table package.md",
-    "Why you should become a Full-Stack Developer.md"
+    "How to deploy a Node Express App to Vercel.md"
   ]
 }

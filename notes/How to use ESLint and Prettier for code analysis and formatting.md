@@ -1,10 +1,10 @@
 # How to use ESLint and Prettier for code analysis and formatting
 
-ESLint and Prettier are pretty much the two most popular tools when it comes to doing code analysis and formatting in a developers codebase. They are extremely good at what they do which is why they tend to be an essential part of a projects setup.
+ESLint and Prettier are pretty much the two most popular tools when it comes to doing code analysis and formatting in a developer's codebase. They are extremely good at what they do which is why they tend to be an essential part of a project setup.
 
 The difference between the two is that ESLint is usually responsible for finding and reporting on different patterns inside of ECMAScript/JavaScript code. ESLint is designed to work with JavaScript files only and it is very successful when it comes to ensuring that a codebase is consistent and without notable bugs.
 
-Prettier on the other hand is an opinionated code formatter. Unlike ESLint it supports a variety of languages like JavaScript, HTML, CSS, GraphQL, Markdown and many others. Both tools are fairly well supported in the developer community and extensions are available for both of them in most code editors or IDE's like Visual Studio Code for example.
+Prettier on the other hand is an opinionated code formatter. Unlike ESLint it supports a variety of languages like JavaScript, HTML, CSS, GraphQL, Markdown and many others. Both tools are fairly well supported in the developer community and extensions are available for both of them in most code editors or IDEs like Visual Studio Code for example.
 
 **Visual Studio Code Marketplace**
 [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
@@ -16,9 +16,9 @@ Prettier on the other hand is an opinionated code formatter. Unlike ESLint it su
 
 ## Why you should use a linter and code formatter
 
-Linting is a way to fix problems in your code while still in development mode before your application is ready for production. A lot of these fixes can be done automatically and you can customise the whole process to suit your teams needs. When using Prettier you can have the code in your files formatted automatically which saves you tons of time and energy.
+Linting is a way to fix problems in your code while still in development mode before your application is ready for production. A lot of these fixes can be done automatically and you can customise the whole process to suit your team's needs. When using Prettier you can have the code in your files formatted automatically which saves you tons of time and energy.
 
-It's also one less thing you need to worry about in a code review because it is guaranteed to be the same for everyone. It enforces the same style and code quality across the whole team so there are no conflicts like when you have your own personal local setup.
+It's also one less thing you need to worry about in a code review because it is guaranteed to be the same for everyone. It enforces the same style and code quality across the whole team so there are no conflicts like when you have your local setup.
 
 This is a common process that teams follow when working on projects. It is typical for there to be a file for ESLint and Prettier alongside an ignore file much like a `.gitignore` file that every developer should be familiar with when using a service like GitHub for version control. The format for your main file can be either JavaScript, YAML or JSON. I'm using JSON in these examples.
 
@@ -29,9 +29,9 @@ See the example files below which would all be inside of one project:
 `.prettierignore`
 `.prettierrc.json`
 
-## Creating a ESLint and Prettier workflow setup
+## Creating an ESLint and Prettier workflow setup
 
-ESLint and Prettier files can conflict with each other because there are occasions when they end up checking the same rules which can lead to duplication. Fortunately it is possible to get them both to work together.
+ESLint and Prettier files can conflict with each other because there are occasions when they end up checking the same rules which can lead to duplication. Fortunately, it is possible to get them both to work together.
 
 ### Visual Studio Code Settings
 
@@ -56,7 +56,7 @@ Make sure that these settings are correct you might need to scroll down to find 
 
 ### Plain JavaScript/NodeJS Setup
 
-Open the command line and then go to a directory like your desktop. Run the commands below to setup your project.
+Open the command line and then go to a directory like your desktop. Run the commands below to set up your project.
 
 ```shell
 mkdir backend
@@ -106,7 +106,7 @@ Open your `.eslintrc.json` file and add these configuration settings. Prettier n
 "plugins": ["prettier"],
 ```
 
-Next open the `.prettierrc.json` file and copy and paste these settings. You can learn about these settings in the [Prettier Options](https://prettier.io/docs/en/options.html) documentation. This is just my setup you can create your own to suit your preferences.
+Next, open the `.prettierrc.json` file and copy and paste these settings. You can learn about these settings in the [Prettier Options](https://prettier.io/docs/en/options.html) documentation. This is just my setup you can create your own to suit your preferences.
 
 ```json
 {
@@ -126,13 +126,13 @@ Next open the `.prettierrc.json` file and copy and paste these settings. You can
 }
 ```
 
-Lastly run the code below to create some ignore files for ESLint and Prettier. They work just like a `.gitignore` file so whatever entries you have in there will be ignored so they wont get linted or formatted.
+Lastly, run the code below to create some ignore files for ESLint and Prettier. They work just like a `.gitignore` file so whatever entries you have in there will be ignored so they won't get linted or formatted.
 
 ```shell
 touch .prettierignore .eslintignore
 ```
 
-Just copy and past the same code into the `.prettierignore` and `.eslintignore` files.
+Just copy and paste the same code into the `.prettierignore` and `.eslintignore` files.
 
 ```shell
 node_modules
@@ -160,7 +160,7 @@ const test = (a, b) => {
 };
 ```
 
-In your code editor you should see some errors and warnings in the problems tab at the bottom. And if you make your code less readable by adding spacing or tabs all over the place and then save the file. Prettier should clean up and fix everything.
+In your code editor, you should see some errors and warnings in the Problems tab at the bottom. And if you make your code less readable by adding spacing or tabs all over the place and then save the file. Prettier should clean up and fix everything.
 
 There should be a squiggly line under the console.log and test function name. If you hover your mouse cursor over them you can see the ESLint rule assigned to them. Go to the `.eslintrc.json` file and add these rules at the bottom.
 
@@ -180,13 +180,13 @@ Now if you go back to the `index.js` file the warnings should be gone! You can f
 
 Sometimes the linting does not work after making changes. To fix this in Visual Studio Code run the command **Shift+CMD+P** to Show the Command Palette and then search for **ESLint: Restart ESLint Server**. This should get the linting working properly in all files.
 
-Remember that you might need to restart the ESLint server every single time you add/remove rules or make changes. Otherwise the rules might not work and it could cause ESLint and Prettier to have conflicts.
+Remember that you might need to restart the ESLint server every single time you add/remove rules or make changes. Otherwise, the rules might not work and it could cause ESLint and Prettier to have conflicts.
 
 ### ReactJS Setup
 
 The same setup works with other JavaScript frameworks like React. You just need to choose the appropriate settings. See the example below.
 
-Remember to select **JavaScript modules (import/export)** because thats what React uses and the code will run in the browser.
+Remember to select **JavaScript modules (import/export)** because that's what React uses and the code will run in the browser.
 
 ```shell
 npx create-react-app my-app
@@ -218,7 +218,7 @@ Open your `.eslintrc.json` file and add these configuration settings. Prettier n
 "plugins": ["react", "prettier"],
 ```
 
-Next open the `.prettierrc.json` file and copy and paste these settings. You can learn about these settings in the [Prettier Options](https://prettier.io/docs/en/options.html) documentation. This is just my setup you can create your own to suit your preferences.
+Next, open the `.prettierrc.json` file and copy and paste these settings. You can learn about these settings in the [Prettier Options](https://prettier.io/docs/en/options.html) documentation. This is just my setup you can create your own to suit your preferences.
 
 ```json
 {
@@ -238,18 +238,18 @@ Next open the `.prettierrc.json` file and copy and paste these settings. You can
 }
 ```
 
-Lastly run the code below to create some ignore files for ESLint and Prettier. They work just like a `.gitignore` file so whatever entries you have in there will be ignored so they wont get linted or formatted.
+Lastly, run the code below to create some ignore files for ESLint and Prettier. They work just like a `.gitignore` file so whatever entries you have in there will be ignored so they won't get linted or formatted.
 
 ```shell
 touch .prettierignore .eslintignore
 ```
 
-Just copy and past the same code into the `.prettierignore` and `.eslintignore` files.
+Just copy and paste the same code into the `.prettierignore` and `.eslintignore` files.
 
 ```shell
 node_modules
-package.lock.json
+package-lock.json
 build
 ```
 
-Now if you open the `App.js` file you should see warnings and errors in the problems tab below. If you wan't to disable a rule follow the steps earlier and find the rules in the [ESLint rules](https://eslint.org/docs/rules/) documentation.
+Now if you open the `App.js` file you should see warnings and errors in the problems tab below. If you want to disable a rule follow the steps earlier and find the rules in the [ESLint rules](https://eslint.org/docs/rules/) documentation.
