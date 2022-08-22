@@ -114,19 +114,19 @@ const customValidation = require('../helpers/example');
 
 // eslint-disable-next-line no-unused-vars,require-await
 module.exports = async (server, { hdbCore, logger }) => {
-	// GET, WITH NO preValidation AND USING hdbCore.requestWithoutAuthentication
-	// BYPASSES ALL CHECKS: DO NOT USE RAW USER-SUBMITTED VALUES IN SQL STATEMENTS
-	server.route({
-		url: '/',
-		method: 'GET',
-		handler: (request) => {
-			request.body = {
-				operation: 'sql',
-				sql: 'SELECT * FROM timeline.history ORDER BY id',
-			};
-			return hdbCore.requestWithoutAuthentication(request);
-		},
-	});
+  // GET, WITH NO preValidation AND USING hdbCore.requestWithoutAuthentication
+  // BYPASSES ALL CHECKS: DO NOT USE RAW USER-SUBMITTED VALUES IN SQL STATEMENTS
+  server.route({
+    url: '/',
+    method: 'GET',
+    handler: (request) => {
+      request.body = {
+        operation: 'sql',
+        sql: 'SELECT * FROM timeline.history ORDER BY id',
+      };
+      return hdbCore.requestWithoutAuthentication(request);
+    },
+  });
 };
 ```
 
@@ -161,78 +161,78 @@ const API = 'https://functions-cloud-1-test.harperdbcloud.com/api';
 *,
 *::before,
 *::after {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-	font-size: 1.6rem;
-	font-family: 'League Spartan', sans-serif;
-	color: black;
-	background-color: white;
+  font-size: 1.6rem;
+  font-family: 'League Spartan', sans-serif;
+  color: black;
+  background-color: white;
 }
 
 header {
-	text-align: center;
+  text-align: center;
 }
 
 header h1 {
-	text-align: center;
-	margin-top: 1rem;
-	text-transform: uppercase;
-	font-size: 4rem;
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 4rem;
 }
 
 .container {
-	padding: 2rem;
+  padding: 2rem;
 }
 
 .civilisation-container {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
 
 .civilisation {
-	display: flex;
-	flex-flow: column nowrap;
-	text-align: center;
-	align-items: center;
-	border: 0.2rem solid black;
-	border-radius: 1rem;
-	padding: 1rem;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  align-items: center;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .civilisation h1 {
-	text-transform: uppercase;
-	margin-top: 2rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
 }
 
 .civilisation img {
-	width: 100%;
-	max-width: 20rem;
-	margin: 2rem 0 2rem 0;
+  width: 100%;
+  max-width: 20rem;
+  margin: 2rem 0 2rem 0;
 }
 
 .civilisation ul li {
-	list-style: none;
+  list-style: none;
 }
 
 .civilisation p {
-	margin: 2rem 0 2rem 0;
-	font-size: 1.8rem;
-	line-height: 2rem;
+  margin: 2rem 0 2rem 0;
+  font-size: 1.8rem;
+  line-height: 2rem;
 }
 
 .timeline-line {
-	background: black;
-	height: 4rem;
-	width: 1rem;
+  background: black;
+  height: 4rem;
+  width: 1rem;
 }
 ```
 
@@ -243,88 +243,93 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 const App = () => {
-	interface timeline {
-		current_location: string;
-		description: string;
-		highlights: string;
-		history: string;
-		id: number;
-		image: string;
-		original_location: string;
-		period: string;
-		timeline: string;
-		__createdtime__: number;
-		__updatedtime__: number;
-	}
+  interface timeline {
+    current_location: string;
+    description: string;
+    highlights: string;
+    history: string;
+    id: number;
+    image: string;
+    original_location: string;
+    period: string;
+    timeline: string;
+    __createdtime__: number;
+    __updatedtime__: number;
+  }
 
-	useEffect(() => {
-		const getApi = () => {
-			// Replace this API URL with your Custom Functions Server URL
-			const API = 'https://functions-cloud-1-test.harperdbcloud.com/api';
+  useEffect(() => {
+    const getApi = () => {
+      // Replace this API URL with your Custom Functions Server URL
+      const API = 'https://functions-cloud-1-test.harperdbcloud.com/api';
 
-			fetch(API)
-				.then((response) => {
-					return response.json();
-				})
-				.then((data) => {
-					console.log(data);
-					setLoading(false);
-					setData(data);
-				})
-				.catch((err) => {
-					console.log(err);
-				});
-		};
+      fetch(API)
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+          setLoading(false);
+          setData(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
 
-		getApi();
-	}, []);
-	const [loading, setLoading] = useState<boolean>(false);
-	const [data, setData] = useState<timeline[]>([]);
-	return (
-		<>
-			<header>
-				<h1>Human Civilization</h1>
-				<p>An Ancient Civilizations Timeline for 8 of the most influential cultures in human history</p>
-			</header>
+    getApi();
+  }, []);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [data, setData] = useState<timeline[]>([]);
+  return (
+    <>
+      <header>
+        <h1>Human Civilization</h1>
+        <p>
+          An Ancient Civilizations Timeline for 8 of the most influential
+          cultures in human history
+        </p>
+      </header>
 
-			<div className="container">
-				{loading ? (
-					<div>
-						<h1>Loading...</h1>
-					</div>
-				) : (
-					<div>
-						{data.map((civilisation) => (
-							<div className="civilisation-container">
-								<div className="civilisation" key={civilisation.id}>
-									<h1>{civilisation.timeline}</h1>
-									<img src={civilisation.image} alt={civilisation.timeline} />
-									<ul>
-										<li>
-											<strong>Period: </strong>
-											{civilisation.period}
-										</li>
-										<li>
-											<strong>Original Location:</strong> {civilisation.original_location}
-										</li>
-										<li>
-											<strong>Current Location:</strong> {civilisation.current_location}
-										</li>
-										<li>
-											<strong>Highlights: </strong>
-											{civilisation.highlights}
-										</li>
-									</ul>
-									<p>{civilisation.description}</p>
-								</div>
-								<div className="timeline-line"></div>
-							</div>
-						))}
-					</div>
-				)}
-			</div>
-		</>
-	);
+      <div className="container">
+        {loading ? (
+          <div>
+            <h1>Loading...</h1>
+          </div>
+        ) : (
+          <div>
+            {data.map((civilisation) => (
+              <div className="civilisation-container">
+                <div className="civilisation" key={civilisation.id}>
+                  <h1>{civilisation.timeline}</h1>
+                  <img src={civilisation.image} alt={civilisation.timeline} />
+                  <ul>
+                    <li>
+                      <strong>Period: </strong>
+                      {civilisation.period}
+                    </li>
+                    <li>
+                      <strong>Original Location:</strong>{' '}
+                      {civilisation.original_location}
+                    </li>
+                    <li>
+                      <strong>Current Location:</strong>{' '}
+                      {civilisation.current_location}
+                    </li>
+                    <li>
+                      <strong>Highlights: </strong>
+                      {civilisation.highlights}
+                    </li>
+                  </ul>
+                  <p>{civilisation.description}</p>
+                </div>
+                <div className="timeline-line"></div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </>
+  );
 };
 
 export default App;
