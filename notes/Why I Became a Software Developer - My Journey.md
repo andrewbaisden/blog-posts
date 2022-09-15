@@ -64,7 +64,7 @@ It took me a year to find stable full-time work in tech again. In 2021 I started
 
 I have had some really good and really awful interviews over the years. Honestly, the whole interview process is broken in my opinion because it is so unbalanced... Anyway, interviews can be ultra-competitive and usually only one person will get the job so you have to try your best to make yourself the best candidate so that you are the last one standing at the end. Interviews have taught me that you should come prepared no matter what. In some interviews, I was asked if I had anything to show and all I could say was no because my portfolio was dry with not enough content or I chose not to bring my laptop so I could not show them my work.
 
-This is a Fortnite Database Battle Royale application which I created. You can find it online [here](https://fortnite-db.netlify.app/).
+This is a Fortnite Database Battle Royale application which I created. 
 
 ![https://res.cloudinary.com/d74fh3kw/image/upload/v1661165707/fortnite-db_jyudyb.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/v1661165707/fortnite-db_jyudyb.jpg)
 
