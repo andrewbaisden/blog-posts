@@ -1,5 +1,3 @@
-# The Complete Modern React Developer 2022
-
 ## Introduction
 
 This will be a course for becoming a Complete Modern React Developer in 2022. The only three topics which are not covered in this course are [Redux](https://redux.js.org/), [GraphQL](https://graphql.org/) and [React Native](https://docs.expo.dev/) which could be covered in a future course. TypeScript is going to be the main programming language covered however if you already know JavaScript then you should find it quite easy to understand because the syntax is not that much different.

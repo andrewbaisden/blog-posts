@@ -1,5 +1,3 @@
-# Day 56 #100DaysOfCode
-
 I just improved a MERN stack app which I have been working on by adding CSS Grid for styling and updating the codebase.
 
 You can see the final version on my GitHub at [Anime Tracker](https://github.com/andrewbaisden/anime-tracker) feel free to clone and download the repo. This version has a `.ejs` frontend.

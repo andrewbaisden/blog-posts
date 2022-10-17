@@ -1,5 +1,3 @@
-# The NodeJS 18 Fetch API
-
 NodeJS 18 introduced some new cool features and one of the most useful ones is the built in Fetch API. What this means is that we longer need to use 3rd party npm packages like `node-fetch` because the functionality is now native and baked into Node. That's one less dependency that we need to install so our `node_modules` folders should be a little lighter.
 
 Before you can use the latest NodeJS features like the Fetch API you first need to check that you are running the latest version of Node on your computer. Run the command `node -v` in your console to see which version you have running. If its less than 18 then you need to upgrade before you can use these new features.

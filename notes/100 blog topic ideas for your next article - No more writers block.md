@@ -1,5 +1,3 @@
-# 100 blog topic ideas for your next article - No more writers block
-
 A stumbling block for almost all aspiring writers is what should I write about? Writers block prevents a lot of writers from creating articles because they just can't think of something good to write about. I have put together a list of 100 blog topics that you could write about. You can use this list as inspiration to come up with ideas for your own articles.
 
 **Here are 100 blog topics to inspire you to write!**

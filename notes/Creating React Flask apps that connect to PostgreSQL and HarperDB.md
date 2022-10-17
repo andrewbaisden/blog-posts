@@ -1,5 +1,3 @@
-# Creating React/Flask apps that connect to PostgreSQL and HarperDB
-
 I'm sure that most of you are already more than familiar with the MERN stack. Having a React front end with a Node/Express back end that connects to a MongoDB database. Well, I will show you just how easy it is to connect to a Flask back end which uses a PostgreSQL database to persist the data. And as a bonus I will even show you how to connect to [https://harperdb.io/](https://harperdb.io/) which is a SQL/NoSQL data management platform. It is fully indexed, doesn't duplicate data, and runs on any device from the edge to the cloud.
 
 I will assume that you already have an understanding of Python, Flask and SQL as this guide is meant to be a quick introduction.

@@ -1,5 +1,3 @@
-# 50 Cool Web And Mobile Project Ideas for 2022
-
 This is a follow up to the article I created in 2021 **50 Cool Web And Mobile Project Ideas for 2021**. My tech stack has changed slightly since then. I will only use it as an example so that you can figure out how you could possibly build these applications with your own technical stack. Each project has a programming level of either beginner, intermediate or advanced. These applications can be created using front-end, back-end or full-stack skills.
 
 These are only examples and nothing is set in stone. In a real world case you would be expected to justify the best use cases for having an SQL or NoSQL back-end for example. And as for the programming levels this is just my personal opinion everyone is different so make your own judgements. I have included a basic brief for what the application can do. Of course I am sure that you can think of more ways to increase the feature list so go ahead.

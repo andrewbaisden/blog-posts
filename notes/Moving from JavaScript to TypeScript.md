@@ -1,5 +1,3 @@
-# Moving from JavaScript to TypeScript
-
 ## Introduction
 
 I have been a JavaScript developer for many years and I did not really have much intention to go outside of my technical stack. There is a lot of safety in sticking with what you already know and trying to learn too many programming languages can be daunting I told myself.

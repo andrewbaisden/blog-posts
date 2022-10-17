@@ -1,5 +1,3 @@
-# 50 Cool Web And Mobile Project Ideas for 2021
-
 A lot of people struggle when it comes to thinking of project ideas. Here is a list of 50 cool project ideas that you could build in 2021. I will even give you my technical stack as an example so you can figure out how you could do it too. These applications can be on the web, mobile and desktop. There is an unlimited choice of tools, technologies and programming languages that you could use to build them I am only showing some use cases here. Each project has a programming level of either beginner, intermediate or advanced. And these applications are created to be either front-end, back-end or full-stack.
 
 My current technical stack is:

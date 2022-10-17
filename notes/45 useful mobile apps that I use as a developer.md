@@ -1,5 +1,3 @@
-# 45 useful mobile apps that I use as a developer
-
 These days everyone owns a smartphone and we all have our preferences when it comes to operating system and the apps that we use. I currently have an Android phone. Here are 45 mobile apps which are installed on my phone that I find are useful for productivity and day to day work. I have included links to both the Android and iOS versions.
 
 ## E-commerce

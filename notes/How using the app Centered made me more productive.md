@@ -1,5 +1,3 @@
-# How using the app Centered made me more productive
-
 Centered is a really cool Pomodoro Technique type of focus application that helps you to stay productive during the day as you work on completing your tasks. For those of you who are not familiar with the Pomodoro Technique, it is a time management method that uses timers to break your work into intervals which are separated by a short break.
 
 So for example you could work for 25 minutes and then have a 5 minute break to do something else like stretch your legs. Then you come back and do another 25 minutes repeating the cycle. If you find 25 minutes too short you could make it 1hr 30 minutes or so before you have a break. It's up to you and is fully customisable it can be as long or as short as you want it to be.

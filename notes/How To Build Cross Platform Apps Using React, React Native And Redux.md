@@ -1,5 +1,3 @@
-# How To Build Cross Platform Apps Using React, React Native And Redux
-
 These days it is quite normal for apps to be developed that run on various platforms. This allows users to access the same application using different devices. In this tutorial you will learn how to create cross platform apps that work on the web, and on mobile. The web version will be created using React and Redux whereas the mobile versions will be created using React Native and Redux. We will be using the Expo framework to create the React Native and Redux apps.
 
 The App that we will be creating is called Deck of Cards. It is just a simple app that lets you randomly place cards on a card table that automatically get removed after a set amount of time.

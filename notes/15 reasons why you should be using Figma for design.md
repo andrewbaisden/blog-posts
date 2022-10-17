@@ -1,5 +1,3 @@
-# 15 reasons why you should be using Figma for design
-
 Figma is a design application which can be used for creating wireframes, designs and prototypes. It is a vector based graphics editor which essentially means that the assets you create in it are vector based. Vector images do not degrade and can be scaled to any size without loosing quality and becoming pixelated. In comparison a graphics application is for the most part raster based which means that the images will degrade and loose quality if they are scaled larger than their original resolution. So for example making a 50 x 50 image 1000 x 1000 is going to distort the image and make it low quality.
 
 Here are 15 reasons why you should be using Figma for design.

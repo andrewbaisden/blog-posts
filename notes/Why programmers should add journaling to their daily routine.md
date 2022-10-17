@@ -1,5 +1,3 @@
-# Why programmers should add journaling to their daily routine
-
 Journaling is a great way to get thoughts out of your head. I have been doing it for quite a while using various apps. At the moment I am using an app called [Daylio](https://daylio.net/) which is available on both iOS and Android. The great thing about this app is that it is more than just your average journal app. The key selling point here is that it can also be used as a mood diary and happiness tracker. I find that it's a really amazing tool because I can write journal entries in addition to having a visual overview of my current mental health.
 
 ## What are the benefits of journaling

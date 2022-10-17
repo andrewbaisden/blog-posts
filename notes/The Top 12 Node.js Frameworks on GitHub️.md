@@ -1,5 +1,3 @@
-# The Top 12 Node.js Frameworks on GitHub️
-
 These are the top 12 Node.js frameworks on GitHub️. I have no doubt that these numbers are going to increase but at least you will be able to see how much they have grown on GitHub.
 
 **Most recent update: Friday 20 May 2022**

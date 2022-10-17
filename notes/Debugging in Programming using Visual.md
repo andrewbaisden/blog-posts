@@ -1,5 +1,3 @@
-# Debugging in Programming using Visual Studio Code
-
 [Debugging JavaScript (Google Chrome and Visual Studio Code) - YouTube](https://www.youtube.com/watch?v=AX7uybwukkk&list=WL&index=2)
 
 [Debugging Visual Studio Code (Create React App) - YouTube](https://www.youtube.com/watch?v=OlwIDANNpOc)

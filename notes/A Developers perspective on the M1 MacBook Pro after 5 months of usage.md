@@ -1,5 +1,3 @@
-# A Developers perspective on the M1 MacBook Pro after 5 months of usage
-
 I purchased my new M1 MacBook Pro at the end of last year which was December 2020, and it arrived in January 2021. My previous laptop was a 2014 MacBook Pro Retina which was starting to show it's age because it was lacking in power and the battery was overdue for servicing. It was also out of warranty so I figured that the time was right to upgrade.
 
 ## The M1 MacBook Pro

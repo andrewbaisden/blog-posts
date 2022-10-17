@@ -1,5 +1,3 @@
-# What qualities should a software engineer have?
-
 This article was written for Zigi's blog on the subject of developers happiness/noise/career/productivity [What qualities should a software engineer have?
 ](https://www.zigi.ai/blog/what-qualities-should-a-software-engineer-have)
 

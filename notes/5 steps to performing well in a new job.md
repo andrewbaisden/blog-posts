@@ -1,5 +1,3 @@
-# 5 steps for performing well in a new job
-
 When you start a new job it is important that you are well prepared and ready to absorb everything that you can. Those first few months are either going to make you or break you it all comes down to your mindset and how motivated you are to be a success is this new role.
 
 I have worked in the industry for a few years and during that time I have learned a lot of things. I also recently started a new full-time role as well. Here are 4 steps for performing well in a new job.

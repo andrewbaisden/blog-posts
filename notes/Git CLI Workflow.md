@@ -1,5 +1,3 @@
-# Git CLI Workflow
-
 ## Useful Links
 
 [Git Command Explorer - Find the right commands you need without digging through the web.](https://gitexplorer.com/)

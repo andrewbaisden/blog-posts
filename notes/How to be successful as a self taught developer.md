@@ -1,5 +1,3 @@
-# How to be successful as a self taught developer
-
 The game has changed. You don't need a College or University Degree to be a developer anymore. I am not saying that you should drop out however if you are studying then continue to do so! But regardless of your results the road does not end after you have studied and picked up your qualifications. If you did not get good grades don't think that its over you can always teach yourself to code at home or in a bootcamp and still get yourself into the world of tech.
 
 ## Aspiring to be a developer

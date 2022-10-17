@@ -1,5 +1,3 @@
-# Using CSS Modules in React Native
-
 There are quite a few ways to achieve good styling within a React Native application. In this tutorial, we’ll review the traditional methods of styling in React Native and introduce you to a popular alternative: CSS Modules.
 
 The barrier to entry for designing and creating custom mobile applications is quite low thanks to the power of [React Native](https://blog.logrocket.com/how-to-build-ios-apps-using-react-native/) and the fact that it supports native HTML and CSS styling out of the box. If you’re already familiar with web development and have experience using React for the web, then you’re in luck because those skills are going to translate over very easily.

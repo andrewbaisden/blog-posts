@@ -1,5 +1,3 @@
-# How to use ESLint and Prettier for code analysis and formatting
-
 ESLint and Prettier are pretty much the two most popular tools when it comes to doing code analysis and formatting in a developer's codebase. They are extremely good at what they do which is why they tend to be an essential part of a project setup.
 
 The difference between the two is that ESLint is usually responsible for finding and reporting on different patterns inside of ECMAScript/JavaScript code. ESLint is designed to work with JavaScript files only and it is very successful when it comes to ensuring that a codebase is consistent and without notable bugs.

@@ -1,5 +1,3 @@
-# My thoughts on using the LG 27UL850W 4K UHD LED LCD Monitor for programming and media consumption
-
 I needed a new monitor as my previous one was starting to show its age. It was an Apple Thunderbolt Display which was great back in the day but had become depreciated by Apple years ago as newer macs were now using USB-C for charging as opposed to MagSafe. At the time I also had a Samsung UE40JU7000 4K TV which I could have potentially used as a monitor however due to input lag and the fact that TV's do not generally have USB-C ports I ruled it out. As I wanted something that had both HDMI and USB-C ports so I could use it as a monitor and also for console gaming.
 
 ## Setup

@@ -1,5 +1,3 @@
-# 20 activities that increase my creativity as a developer
-
 Having a creative mind is essential if you want to be a successful developer or a designer. Without creativity you will struggle to come up with project ideas. I have put together a list of 20 activities that help me come up with ideas for projects and inspiration. Some might be considered a distraction however you can get an idea at any moment. Visual and audio feedback is highly energising as it makes you think more. What activities do you think are great for creativity?
 
 ## 1. Watching Movies

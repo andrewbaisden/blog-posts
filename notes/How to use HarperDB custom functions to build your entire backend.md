@@ -1,5 +1,3 @@
-# How to use HarperDB custom functions to build your entire backend
-
 ## What is HarperDB
 
 When HarperDB first started they were a distributed database platform. Essentially this meant that anyone could spin up a cloud instance for creating a database for storing your data online. These databases supported both SQL and NoSQL capabilities which made them very versatile because they had a solution which could cater to everyone.

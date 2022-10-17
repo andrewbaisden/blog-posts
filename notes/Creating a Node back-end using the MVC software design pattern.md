@@ -1,5 +1,3 @@
-# Creating a Node back-end using the MVC software design pattern
-
 In this tutorial you will learn how to create a Node back-end using the Model–view–controller (MVC) software design pattern. This design pattern gives you the ability to make user interfaces that are separated into three different elements. The business logic is separated so that the data, user interface and user input are not mixed together. This allows for a much cleaner architecture as the different layers are decoupled allowing for changes to be done more rapidly and easily.
 
 One important caveat to mention here however is that these days the **View** part of this software design pattern is no longer as relevant as it used to be years ago. This is because we now have front-end frameworks like React, Vue, Angular and Svelte which are used for building the front-end of applications. Nonetheless these concepts are still useful to know because **Models** and **Controllers** are still used today when back-end developers build REST and GraphQL API's that return some sort of data. Data like JavaScript Object Notation (JSON) which is used in an API and is retrieved using the fetch or Axios API.

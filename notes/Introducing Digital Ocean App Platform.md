@@ -1,5 +1,3 @@
-# Introducing Digital Ocean App Platform
-
 It looks like Heroku has a new competitor!
 
 - Build, deploy, manage, and scale apps

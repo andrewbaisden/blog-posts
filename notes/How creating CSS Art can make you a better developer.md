@@ -1,5 +1,3 @@
-# How creating CSS Art can make you a better developer
-
 Creating CSS Art is one of the best ways to improve your front-end programming skills as a developer. It is good for those who are just starting out and it is also a good way for more experienced developers to test their skills. The great thing about CSS Art is that it is an area that is not widely adopted outside of social media and personal projects. It is seen as more of a niche area and just a great way to have some fun. However it is so much more than that and while it might not have a huge practical appeal in a commercial environment. It definitely allows a developer to show off their creativity in an unconventional way.
 
 ## Conventional thinking

@@ -1,5 +1,3 @@
-# What qualities should a Software Engineer have?
-
 This article was written for Zigi's blog on the subject of developers happiness/noise/career/productivity [What qualities should a software engineer have?](https://www.zigi.ai/blog/what-qualities-should-a-software-engineer-have)
 
 The tech industry is a highly sought after career path for a lot of people. Software Engineers continue to be in high demand and during this pandemic work in this sector has increased significantly. As more companies try to become more tech focused and move towards automatisation the industry will continue to grow and Software Engineers will have plenty of work opportunities. The global pandemic has forced a lot of companies to adapt as the old way of working is not as relevant as it used to be. A hybrid model is much more preferable as businesses get used to the scenario where some employees choose to work from home as opposed to being in the office. This pandemic is far from over and many people still don't have access to vaccines so it is likely that this will continue for the foreseeable future.

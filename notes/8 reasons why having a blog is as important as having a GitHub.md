@@ -1,5 +1,3 @@
-# 8 reasons why having a blog is as important as having a GitHub
-
 Blogging and Technical Writing has become extremely popular these days. I think it's one of the few great things that emerged from this global pandemic. We had an almost infinite amount of time at home to do anything that we wanted to do. It created a new generation of aspiring developers and writers. We all know the importance of having a GitHub account to show your work. It is one of the best ways for a company to see your coding style. Furthermore it gives other developers an insight into the projects that you are working on.
 
 Nonetheless blogging is seeing significant growth right now and this has opened up a new path for developers to get into the industry. Here are 8 reason why having a blog is as important as having a GitHub.

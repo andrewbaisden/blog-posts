@@ -1,5 +1,3 @@
-# How to build powerful tables in React using the React Table package
-
 React Table is a really powerful datagrid package for React that lets you create dynamic tables. It has many use cases and the package has an extensive list of features. In this tutorial I will show you how to build a Movie Database application.
 
 The Movie Database application will have the functionality below:

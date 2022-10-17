@@ -1,5 +1,3 @@
-# Creating a button menu using HTML, CSS and JavaScript
-
 You will be creating a button menu that has a hover state and also allows you to select a button when you click on it. The final project can be seen in this [Codepen](https://codepen.io/andrewbaisden/pen/BajgPKP).
 
 ## Step 1

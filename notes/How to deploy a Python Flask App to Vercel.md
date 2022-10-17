@@ -1,5 +1,3 @@
-# How to deploy a Python/Flask App to Vercel
-
 This is just a quick simple example of course more complex applications will work as well.
 
 ## Prerequisites

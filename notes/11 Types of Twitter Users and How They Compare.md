@@ -1,5 +1,3 @@
-# 11 Types of Twitter Users and How They Compare
-
 The Twitter community is amazing there are so many different people on the platform. That's one of its greatest selling points you can connect with like-minded people fairly easily just by following them. However it is not all sunshine and rainbows because you are highly likely to encounter not only positive people but negative ones too. People who use Twitter can be divided into different groups and sorted by type.
 
 This is my own opinion I know that everyone will have a personal thought on this so feel free to share it in the comments if you want to. It would be great to get some feedback on this lighthearted article. Also it is likely that a few of these will have similarities and could be grouped together as it is common for people to fit inside more than one category. These are the 10 types of Twitter users and how they compare with each other.

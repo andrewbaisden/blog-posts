@@ -1,5 +1,3 @@
-# NodeJS + gRPC
-
 ## What is gRPC
 
 Today the main topic that we will be learning about is gRPC. We will also learn about Microservices, the advantages of gRPC, and the difference between gRPC libraries. At the end of this article I will run through a basic tutorial for getting gRPC working with Node.js. So let's get started!

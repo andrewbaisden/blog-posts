@@ -1,5 +1,3 @@
-# Freelancer vs. Company Employee
-
 One of the most important talking points for programmers is which path they want to go down. Do you want to be a freelancer or an employee that works for a company. Let's compare the two and see what the difference is between both of them. They both have their pros and cons however there is nothing stopping you from alternating between the two throughout your developer career.
 
 ## Freelancers

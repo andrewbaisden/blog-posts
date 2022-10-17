@@ -1,5 +1,3 @@
-# React Youtube Content Selector App
-
 We will be creating a YouTube Content Selector App that is basically a simple clone of YouTube. You could even use it as a photo gallery by just making a slight change to the code so that it displays an image instead of a YouTube video. In this example we will be using an array of objects which is set to React state. However you could easily just use fetch/axios to get the data from an API and then map over it.
 
 ## Step 1

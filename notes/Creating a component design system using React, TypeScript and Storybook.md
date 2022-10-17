@@ -1,5 +1,3 @@
-# Creating a component design system using React, TypeScript and Storybook
-
 Creating a design system is extremely useful when working on projects. If you are a designer then you are already familiar with the concept. Having a design file that has the brand colours, font sizes and content formatting etc... In terms of development the same applies because we need to ensure that the frontend matches the design file.
 
 For those of you who have used a CSS framework like Tailwindcss or Bootstrap, the idea of working with a design system is not new because these frameworks adhere to their own design systems. Storybook essentially gives developers a way to create their own component design system on the frontend. This is great because we can view the components in isolation and it gives us the ability to create documentation and testing for all of the components.

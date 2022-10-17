@@ -1,5 +1,3 @@
-# Developer Learning Resources
-
 **Top Developers to learn from**
 
 |           Name           | Website                                                                      |

@@ -1,5 +1,3 @@
-# Accessibility best practices, device testing and SEO
-
 ## CSS and JavaScript accessibility best practices
 
 [CSS and JavaScript accessibility best practices - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript)

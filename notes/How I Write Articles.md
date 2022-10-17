@@ -1,5 +1,3 @@
-# How I Write Articles
-
 ## Introduction
 
 I have always had a passion for writing because I find that it is one of the best mediums for expressing yourself. It can be quite fun to engage with an audience and put your thoughts into writing. I used to have a blog on my portfolio website many years ago when I was just getting into programming. Back then it was sort of an after thought and I did not really take it that seriously because at the time my focus was on learning how to code. In 2018 I decided to try again. I think at the time I just wanted to put some content out to see what would happen. DEV and Hashnode existed back then but I did not know anything about them in part because I was not really that active on Twitter. Medium was the most popular blog platform as far as I was aware and they did not have a paywall at the time.

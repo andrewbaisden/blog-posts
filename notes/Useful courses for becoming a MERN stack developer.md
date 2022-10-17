@@ -1,5 +1,3 @@
-# Useful courses for becoming a MERN stack developer
-
 I am a huge fan of Udemy when it comes to learning. They have programming courses for almost anything. I have put together a selection of the courses I have used as well as a few from the popular developer Wes Bos who has his own platform and is not on Udemy. These courses cover Javascript, React, Redux, MERN, TDD/BDD and much more! Even Data Structures and Algorithms is covered so you can get yourself ready for interviews too!
 
 **TDD/BDD**

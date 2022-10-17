@@ -1,5 +1,3 @@
-# NodeJS Express Test Driven Development with Jest
-
 Test Driven Development is quite straightforward to do when you understand the fundamentals behind the methodology. It is fairly common for companies to expect their developers to be using Test Driven Development whenever they are working on a project. It has become mandatory so if you have not learned it yet then it's really good to practice it in your own personal projects so that you become accustomed to this type of workflow.
 
 There are many libraries and frameworks in JavaScript which are used for backend testing. Two of the most popular ones are [Jest](https://jestjs.io/) and [Mocha](https://mochajs.org/). There are even alternatives like [Jasmine](https://jasmine.github.io/), [Ava](https://github.com/avajs/ava), [Tape](https://github.com/substack/tape) and [QUnit](https://qunitjs.com/) among others. Node.js now has its own built in test runner which is stable since v18.0. However it is still in experimental mode so it is likely to change over time.

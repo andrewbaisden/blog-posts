@@ -1,5 +1,3 @@
-# My initial thoughts on using Flutter and Dart for App development
-
 This is still a technical stack that I am learning so this is not meant to be a deep dive on all of the complexities of the language. It is just my thoughts and experience from working with it so far.
 
 ## Dart vs JavaScript

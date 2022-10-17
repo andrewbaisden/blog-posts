@@ -1,5 +1,3 @@
-# Creating MERN Stack Applications (2020)
-
 Before you begin make sure that you have [Node](https://nodejs.org/en/) and [Create React App](https://create-react-app.dev/) installed. And if you are planning on using a local mongodb database then make sure that you have that setup too.
 
 ## Reference Material

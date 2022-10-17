@@ -1,5 +1,3 @@
-# How I setup my Development Environment on macOS 2022 Edition
-
 **Current Software Developer Technical Stack 2022**
 
 Front-End: HTML, CSS, JavaScript, TypeScript, React, React Native, Redux  

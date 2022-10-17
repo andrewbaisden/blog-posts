@@ -1,5 +1,3 @@
-# How I setup my Development Environment on macOS 2021 Edition
-
 **Current Full-Stack Developer Technical Stack 2021**
 
 Front-End: HTML, CSS, JavaScript, Typescript, React, React Native, Redux, Flutter/Dart

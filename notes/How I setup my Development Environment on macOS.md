@@ -1,5 +1,3 @@
-# How I setup my Development Environment on macOS
-
 This guide is for macOS however it should be easy enough to get it working on Windows and Linux assuming the same software and tools are available as well otherwise use alternatives. Just use the commands appropriate for that operating system when doing the installation.
 
 This is a clean install so you might need to restart the Terminal/Mac a few times before everything works properly.

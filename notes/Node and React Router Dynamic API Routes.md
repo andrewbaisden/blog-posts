@@ -1,5 +1,3 @@
-# Node and React Router Dynamic API Routes
-
 We will be creating a book library website similar to Audible that has a backend Node API. This API will hold the book data which will be dynamically available allowing you to select all of the books and also the books by book ID. You will learn how to create routes on the backend and also on the frontend in React using React Router.
 
 ## Step 1: Setup the backend project

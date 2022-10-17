@@ -1,5 +1,3 @@
-# Flutter vs. React Native
-
 Today we are going to cover arguably the two biggest and most popular cross platform mobile app development frameworks available at the moment. [Flutter](https://flutter.dev/) and [React Native](https://reactnative.dev/). These two juggernauts are backed by two of the largest tech companies in the world. Flutter was created by Google and React Native was created by Facebook.
 
 In this article we will compare the two and see what makes them so special and why they are so highly sought after by companies.

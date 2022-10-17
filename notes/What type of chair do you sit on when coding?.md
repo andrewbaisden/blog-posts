@@ -1,3 +1,1 @@
-# What type of chair do you sit on when coding?
-
 I have a leather one with arm rests. The chair is gas lifted and it can go up and down. Unfortunately it is not that adjustable and it can't recline it can only spin around. Plus it is disintegrating because of the leather 🤣 In terms of comfort and ergonomics its not that great I have been debating getting a gamer chair or something that can at least recline for better comfort. Because when you sit for hours in front of a screen its not great for you health especially when the chair is not the most ideal. What about those of you out there with standing desks what are they like to use for extended periods of time do you get fatigue?

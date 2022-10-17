@@ -1,5 +1,3 @@
-# Why you should become a Full-Stack Developer
-
 There are countless benefits to becoming a Full-Stack Developer. These days many companies tend to hire developers who can work across the whole stack. The more skills you know and the more experience you have the easier it will be to get hired. Gone are the days when you could comfortably sit back and coast through a job knowing a small set of skills. Nowadays you have lots of young aspiring developers who are super ambitious and devoted to absorbing and learning everything they can.
 
 You can't afford to become complacent as the industry moves so fast. Those who embrace change and stay up to date with new trends and technologies remain at the forefront and become the "go to" tech person to follow when it comes to learning. The same is true for people who prefer to stick to old ways of thinking and are afraid to leave their comfort zones.

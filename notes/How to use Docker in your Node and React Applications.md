@@ -1,5 +1,3 @@
-# How to use Docker in your Node and React Applications
-
 Docker gives developers the ability to package all of their applications inside of containers. These containers can run on any machine that has Docker installed and the application will be identical. This is a great way to run a clone of a codebase on multiple systems and you can be sure that they are all going to be the same.
 
 CI/CD workflows and DevOps testing environments are significantly better when using Docker which is essentially a set of software tools that can be shared. Kubernetes is another tool which is used for operating multiple Docker containers but in a much larger scale.

@@ -1,5 +1,3 @@
-# 8 GitHub resources for becoming a developer in 2022
-
 Learning how to become a developer can be an extremely daunting process for beginners. I have put together a list of resources which is useful for both beginners and people who are already familiar with programming.
 
 This list covers:

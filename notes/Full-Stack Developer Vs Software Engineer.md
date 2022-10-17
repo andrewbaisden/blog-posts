@@ -1,5 +1,3 @@
-# Full-Stack Developer Vs Software Engineer
-
 It can be complicated for some people to tell the difference between both roles as these days there is quite a bit of crossover. However there are quite a few areas that are defining when it comes to seeing the differences between both job titles.
 
 ## Full-Stack Developer Job Role

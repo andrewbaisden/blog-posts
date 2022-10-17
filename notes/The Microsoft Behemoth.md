@@ -1,5 +1,3 @@
-# The Microsoft Behemoth
-
 Subscribe to my [newsletter](https://www.getrevue.co/profile/andrewbaisden) to stay up to date on all of my upcoming articles. In the future, I plan to do some giveaways and share some more cool exclusives 😉
 
 ## How it all started

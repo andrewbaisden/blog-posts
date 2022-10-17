@@ -1,5 +1,3 @@
-# 10 reasons why nobody is reading your articles and how to fix it
-
 It can feel like you are a ghost when your articles get zero likes and low engagement. This is something that many writers have to deal with unfortunately and some never understand why it is happening to them. I have been writing since 2020 and learned a lot during that time. Here are my thoughts on this topic.
 
 ## 1. You don't have a strong brand presence yet

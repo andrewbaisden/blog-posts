@@ -1,5 +1,3 @@
-# How to launch a Minimum viable product (MVP) in 2022
-
 ## What is a Minimum viable product
 
 When you are working on a project the first iteration or the very first version is known as a Minimum viable product or MVP when abbreviated. This can apply to almost any type of project for example websites, mobile applications, desktops applications, and even games among other things.

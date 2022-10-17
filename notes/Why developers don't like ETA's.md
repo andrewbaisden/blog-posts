@@ -1,5 +1,3 @@
-# Why developers don't like ETA's
-
 ## Introduction
 
 You can be the most skilled and experienced developer on the planet but even this title won't help you when you find yourself in a situation that requires you to meet a specific deadline. Such a challenge is the bane of every developer. It is the question that you try to avoid when it comes up in a conversation. Almost akin to a bad word or a name best avoided like the one that begins with a "V" in the Harry Potter series. What becomes quite apparent when you have worked on a couple projects is that life just does not go as smoothly as you expect it to be. Uncertainties can occur when you least expect it and no plan is foolproof.

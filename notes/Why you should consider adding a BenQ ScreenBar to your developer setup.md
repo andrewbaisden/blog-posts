@@ -1,5 +1,3 @@
-# Why you should consider adding a BenQ ScreenBar to your developer setup
-
 ## Introduction
 
 Developers and designers spend a lot of time sitting in front of a computer screen. The same is true for anyone who works in a career field that requires them to sit in front of a screen for hours while they work. During daylight hours its not a huge problem because we have a natural light source that comes from the sun through our windows. Although this does not always apply to everyone for example if you are working in a room that has no windows.

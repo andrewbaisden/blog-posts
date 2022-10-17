@@ -1,5 +1,3 @@
-# What is the most important factor for you when looking for work?
-
 There are dozens of factors that we need to take into account when we are looking for work. Everybody is different and some people are likely to give a higher priority to a different area. Salary, Career Progression, Work-Life balance, Job Satisfaction, Remote working and other factors all need to be considered.
 
 - Salary – you want to earn as much as you can

@@ -1,5 +1,3 @@
-# Software Developer Workflow 2020 (MERN Stack)
-
 _Useful Tools and Frameworks_
 
 [ESLint - Pluggable JavaScript linter](https://eslint.org/)

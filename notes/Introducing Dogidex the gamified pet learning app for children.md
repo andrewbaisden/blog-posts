@@ -1,5 +1,3 @@
-# Introducing Dogidex the gamified pet learning app for children
-
 I have known about HarperDB for quite some time in fact I have already written two articles on it. [Creating React/Flask apps that connect to PostgreSQL and HarperDB](https://andrewbaisden.hashnode.dev/creating-reactflask-apps-that-connect-to-postgresql-and-harperdb) and [Creating React/Node apps that connect to PostgreSQL and HarperDB](https://andrewbaisden.hashnode.dev/creating-reactnode-apps-that-connect-to-postgresql-and-harperdb) which were highly popular on the DEV platform before I started cross posting. Anyway when I heard about this Hashnode and HarperDB Hackathon I just had to find a way to get involved.
 
 This application is called Dogidex and the idea behind it is that it could potentially be used as a learning tool for children which would make learning new things fun and engaging. Due to the time constraints of working on other projects and having lots of interviews at the time the application is barebones and not as fully featured as I would have liked. Nonetheless the application is at least more on brand with HarperDB and makes up for the "Goldeneye" drama 😂

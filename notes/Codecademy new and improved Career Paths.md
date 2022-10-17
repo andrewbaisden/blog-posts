@@ -1,5 +1,3 @@
-# Codecademy new and improved Career Paths
-
 Codecademy has made some major updates and changes to the career paths. You can now choose between these different paths.
 
 Data Scientist

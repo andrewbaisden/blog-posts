@@ -1,5 +1,3 @@
-# I used the web browsers Edge and Brave exclusively for 1 week each here are my thoughts
-
 For a few years Firefox was my web browser of choice. It was very popular and had very few competitors back then other than Internet Explorer. These days the competition has really heated up and there are now many web browsers to choose from. When Google Chrome was released that became my first choice browser and Safari was my second choice up until now. However I was curious how it would compare up against the likes Microsoft Edge which recently became available on macOS in April. And the Brave Browser which has been around since 2016. I never really thought about trying it until now.
 
 In my first week I used Microsoft Edge and in my second week I used The Brave Browser. Both browsers are built using Chromium which is an open-source codebase which can be used for building web browsers. Google uses this codebase to create the Chrome browser hence the name.

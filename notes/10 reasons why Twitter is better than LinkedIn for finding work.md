@@ -1,5 +1,3 @@
-# 10 reasons why Twitter is better than LinkedIn for finding work
-
 LinkedIn is a great social network for finding work. Many companies use it for hiring and it is very easy to find a recruiter. However it is not the only social network out there which you can use for finding your next job. Here are 10 reasons why Twitter is better than LinkedIn for finding work.
 
 ## 1. It is more casual

@@ -1,5 +1,3 @@
-# How to do Debugging in JavaScript
-
 Debugging is an essential part of a project process that every developer has to go through. Regardless of the programming language, debugging code is one of the key methods for ensuring that your code is working as expected. It is damn near impossible for a human to write perfect code no matter how hard we try we are highly likely to encounter bugs at some point which will need to be resolved.
 
 A developer's ability to solve problems is a highly sought-after trait that can be the difference between an average developer and an experienced Senior developer who shows leadership and authority qualities.

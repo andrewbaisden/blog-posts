@@ -1,5 +1,3 @@
-# Top 5 lessons I learned while looking for my next developer role
-
 Let's be honest here looking for work is a stressful experience there is no other way to say it. It does not matter how much knowledge and experience you have you are still going to have to go through some sort of interview process. With lots of back and forth between yourself, the recruiter and a company. And periods where you feel like doing lots of job applications and others where you just feel burned out and want to take a break from it all.
 
 Getting ghosted and having to wait for responses that may or may not come is not fun at all. These are the top 5 lessons I learned while looking for my next developer role.

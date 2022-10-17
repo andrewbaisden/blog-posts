@@ -1,5 +1,3 @@
-# Custom VS Code Title Bar/Theme for Front-End and Back-End Projects (macOS Guide)
-
 This guide will give you some basic exposure to Bash scripting. If you want to have more of a deep dive then you can check out a cheat sheet or tutorial which is beyond the scope of this guide [Bash Cheatsheet](https://devhints.io/bash) Two great VS Code extensions for changing your workspace are [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) (my preference) and [ColorTabs](https://marketplace.visualstudio.com/items?itemName=orepor.color-tabs-vscode-ext)
 
 ![The Visual Studio Code Editor, with a color scheme title bar for Back-End Projects](https://dev-to-uploads.s3.amazonaws.com/i/56jv935lf67o0obz41iv.png)

@@ -1,5 +1,3 @@
-# 5 Mistakes to Avoid with Agile Development
-
 ## What is Agile Methodology
 
 Agile helps software development teams provide value to their clients quicker and with fewer difficulties through an incremental approach to project development and system design. An Agile team produces work in manageable, small-scale increments rather than staking everything on an “all or nothing” launch plan.

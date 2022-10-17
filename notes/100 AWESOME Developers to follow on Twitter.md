@@ -1,5 +1,3 @@
-# 100 AWESOME Developers to follow on Twitter
-
 The Twitter community is amazing and there are so many awesome people to follow. If you are a Developer then having a Twitter is one of the best ways to connect and network with others. Here is my list of 100 **AWESOME** Developers that you should follow on Twitter. This is a diverse list of people from different backgrounds and each person is interesting in their own way and has contributed to the community. So there is something for everyone from insightful info and courses. To programming, polls, memes and other cool things.
 
 **Chris Coyier**

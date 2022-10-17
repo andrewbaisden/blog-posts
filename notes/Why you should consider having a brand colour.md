@@ -1,5 +1,3 @@
-# Why you should consider having a brand colour
-
 Everybody has a brand it does not matter who you are you have a brand. It is your personal uniqueness that separates you from everyone else. The words that you speak the clothes you wear, your interests everything. Having a personal brand makes it easy for people to recognise you.
 
 Brand recognition is extremely important if you are a business or if you are trying to promote a product. Top brands have brand colours that are immediately recognisable. If you think about companies like Apple, Amazon, Twitter, YouTube, Instagram, Facebook, McDonalds and Coca Cola for example. We have become so accustomed to them you don't even need to look them up you can pull out their brand colour scheme from memory.

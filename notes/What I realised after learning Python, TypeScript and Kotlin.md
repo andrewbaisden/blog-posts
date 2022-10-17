@@ -1,5 +1,3 @@
-# What I realised after learning Python, TypeScript and Kotlin
-
 Remember all those people who kept saying that once you learn one programming/scripting language then it's not too difficult to learn another one? Well, they were telling the truth. I have known Javascript for years and I decided that I should expand my skillset even more because knowing more languages and being a polyglot just makes you better equipped to work in different roles. I would not say that I have mastered any of them yet as its only been a month or so but I have noticed that the languages share many similarities. Here are some examples below in each programming/scripting language.
 
 ## Programming Syntax

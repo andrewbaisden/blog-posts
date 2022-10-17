@@ -1,5 +1,3 @@
-# Quntis Screen Light Bar Vs. BenQ ScreenBar
-
 ## What is a Light Bar
 
 A computer display Light Bar is a long horizontal bar with an LED light at the bottom. It is intended to be placed on top of your computer display and shines a light downwards towards your desk. They are compact and portable, taking up little room on your desk because they just sit on top of your computer display.

@@ -1,5 +1,3 @@
-# Modern Full-Stack Developer Tech Stack 2021
-
 The developer technology landscape changes all the time as new tools and technologies are introduced. After having lots of interviews and reading through countless job descriptions on job boards I think this is a great modern tech stack for JavaScript developers in 2021. My framework of choice is React however you can swap it out for Vue, Angular or Svelte.
 
 There are countless tools out there so I will only be covering a selection which when combined can be used in either personal projects or in a company. Of course many other project management tools exist out there for example like Jira, confluence, Trello and Asana to name a few. This is based on user experience and preference so feel free to make slight adjustments and personal changes to suit your own tastes.

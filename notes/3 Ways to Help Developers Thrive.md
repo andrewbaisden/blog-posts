@@ -1,5 +1,3 @@
-# 3 Ways to Help Developers Thrive
-
 ## How to make Developers Thrive
 
 A company's strength comes from its team and the structure that they have set in place for working on projects throughout its organization. You can hire some of the best people in the world to work for your company, but unless you have a well-oiled machine where everything works to a high level of efficiency, then you are unlikely to get the best out of them. Throughout my career, I have worked for various companies which include startups, small companies, medium-sized companies, and even large ones.

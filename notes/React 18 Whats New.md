@@ -1,5 +1,3 @@
-# React 18 Whats New
-
 The latest version of React (version 18) has been officially available since March 2022. It brought along many new features and behind the scenes changes which have made the framework even more powerful. React continues to be the first and preferred framework of choice for JavaScript developers and is always highly sought after in companies.
 
 Many new features were introduced in React 18 and today we will cover some of the more popular ones because those features are likely to get used the most by developers in their projects. I will cover the following:

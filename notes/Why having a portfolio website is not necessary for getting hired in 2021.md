@@ -1,5 +1,3 @@
-# Why having a portfolio website is not necessary for getting hired in 2021
-
 Many years ago having a portfolio website used to be essential for finding work. In my opinion this is no longer the case and this is the reason why. Having a GitHub account is significantly more important these days. Every company expects you to have a GitHub and experience using GIT and version control. These have become the standards for programming now. On GitHub you can showcase your projects and I would argue that this is more important than having a portfolio website.
 
 ## GitHub is required

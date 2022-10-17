@@ -1,5 +1,3 @@
-# How to do Test Driven Development in React using React Testing Library, Jest and Cypress
-
 ## What is Test Driven Development?
 
 Test Driven Development or TDD for short is essentially a process that developers and teams go through when they are testing their code. Coding, design and testing are combined together and test cases are created to ensure that the code has been robustly tested and any bugs or errors have been resolved in the development phase prior to it reaching production level.

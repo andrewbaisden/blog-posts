@@ -1,5 +1,3 @@
-# Examples for reversing a string in JavaScript, Python and Dart
-
 One of the most common interview questions is how do you reverse a string in the programming language that you know. Here are a few examples of how easily it can be done. As these programming languages are C based the syntax is quite similar so it is easy to translate across languages.
 
 ## Example 1

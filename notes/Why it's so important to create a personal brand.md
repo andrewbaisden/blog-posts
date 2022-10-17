@@ -1,5 +1,3 @@
-# Why it's so important to create a personal brand
-
 Whether you choose to accept it or not the fact remains that as we go through life we are all displaying our personal brand. Be it the clothes you wear, the way you talk, your interests or any infinite amount of choices. You are who you are and that is what makes everyone so unique and special. So then why is it that when it comes to programming a lot of people tend to go against their own trends and act differently? If you are a programmer then it is highly likely that you are either going to be doing freelance work or employed at a company. In the first case knowing your worth and personal brand is extremely important. You will want to have a consistent message throughout all of your work for example your portfolio website, social media accounts, blogs and logo.
 
 ## Brand styling guide

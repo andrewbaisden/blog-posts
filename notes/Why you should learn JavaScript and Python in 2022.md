@@ -1,5 +1,3 @@
-# Why you should learn JavaScript and Python in 2022
-
 A new year brings new opportunities for aspiring developers and people who are trying to leave their non tech role so that they can get hired as a developer. One of the most common dilemmas that these people face is figuring out what technical stack to learn and in what direction they should be going when it comes to learning a new programming language from scratch. There are endless options and many different paths that someone could choose to go down.
 
 Arguably two of the most popular and talked about programming languages in the world are JavaScript and Python. If you search for JavaScript and Python job roles on any job board you are highly likely to see hundreds if not thousands of results. The market is and always will be hot for these two highly sought after languages and that is not going to change anytime soon. Both languages share quite a few similarities as well. They are both C based languages which essentially means that they are general purpose, procedural and have lexical scopes among other things.

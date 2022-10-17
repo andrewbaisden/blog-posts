@@ -1,5 +1,3 @@
-# Building a user authenticated dashboard in React Native
-
 In this tutorial you will learn how to create a React Native application that has a user authenticated dashboard. Users will be able to sign up by creating an account and then sign into their user dashboard. They will be able to view some information associated with their account and the app will give the user the ability to sign up, sign in and sign out of their account.
 
 ## Prerequisites
