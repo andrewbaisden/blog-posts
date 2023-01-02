@@ -322,6 +322,12 @@ The password is **twitter** by the way and you can find the credentials inside o
 
 ![https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1650558031/docker-postgresql-db-connection_xajz8z.jpg](https://res.cloudinary.com/d74fh3kw/image/upload/c_scale,w_800/v1650558031/docker-postgresql-db-connection_xajz8z.jpg)
 
+Alternatively, you can also use `pgcli` to connect to the database in the command line by using the command below. The password is **twitter** like earlier.
+
+```shell
+pgcli -h localhost -p 5433 -u twitter -d twitter
+```
+
 So now we have a local PostgreSQL database called **twitter** on port 5432. And a Docker PostgreSQL database called **twitter** on port 5433. Valentina Studio can connect to both of them simultaneously and you can run all of your SQL queries. Whats more the PostgreSQL database inside of the Docker container can persist its data. If you were to delete the running Docker container and then run the command `docker compose up` again everything will remain the same!
 
 Use the command `docker compose down` to stop the Docker container from running if you need to.
