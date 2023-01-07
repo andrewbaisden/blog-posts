@@ -41,4 +41,6 @@ Here is a list of 10 of the most popular databases used by programmers today. Th
 
 There are several advantages for JavaScript developers in learning Node.js and backend databases. Backend databases offer strong capabilities for handling data, while Node.js enables developers to swiftly construct and deploy server-side apps. JavaScript developers may advance their programming capabilities by understanding Node.js and backend databases.
 
+The fact that you can use JavaScript to write across the full stack opens up your career paths significantly. One language can get you through the door of many companies and the technical stack can work almost ANYWHERE.
+
 _If you like this article, chances are that you would like my posts, tweets and content as well. If you are curious, have a look at my [social media profiles](https://limey.io/andrewbaisden) and don't forget to subscribe and follow because I am sharing programming and motivation resources and knowledge to support you in achieving your goals 💫_

@@ -4,69 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "be4c5bb25e907a30",
+        "id": "f51e32a61aba07c9",
         "type": "tabs",
         "children": [
           {
-            "id": "90d5d47ddaf7499c",
+            "id": "9732ffa451c0bf74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to setup HarperDB on Ubuntu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e83b058acb13e8c6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.8"
-              }
-            }
-          },
-          {
-            "id": "1286de366728f819",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to setup HarperDB on Ubuntu.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e74f5e9d6a03956b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Install Ubuntu Linux on Apple Silicon MacBooks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd2e1abd208e7eab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Make Money With a Tech Career.md",
+                "file": "The difference between functional and object orientated programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "How to Make Money With a Tech Career.md",
+                "file": "The difference between functional and object orientated programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bd2e1abd208e7eab",
+  "active": "9732ffa451c0bf74",
   "lastOpenFiles": [
-    "The benefits of knowing two high demand programming languages.md",
-    "Why JavaScript Developers Should Learn Node.js and Backend Databases.md",
-    "Why you should start your tech career today.md",
-    "How to Install Ubuntu Linux on Apple Silicon MacBooks.md",
-    "How to Make Money With a Tech Career.md",
+    "How to improve test coverage in a JavaScript React project.md",
+    "How to improve test coverage in a JavaScript project.md",
+    "The difference between functional and object orientated programming.md",
     "How to increase your chances of getting interviews and job offers in tech.md",
-    "How to increase your chances of getting interviews and job offers.md",
-    "How to Create a Remote Development Environment Using Ubuntu Linux.md",
     "How to setup HarperDB on Ubuntu.md",
-    "Untitled.canvas"
+    "How to do Debugging in JavaScript.md",
+    "Why you should start your tech career today.md",
+    "Why JavaScript Developers Should Learn Node.js and Backend Databases.md",
+    "11 Types of Twitter Users and How They Compare.md",
+    "How to Make Money With a Tech Career.md"
   ]
 }
