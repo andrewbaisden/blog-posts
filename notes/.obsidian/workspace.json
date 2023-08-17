@@ -4,22 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "f51e32a61aba07c9",
+        "id": "81d429a10540e063",
         "type": "tabs",
         "children": [
           {
-            "id": "9732ffa451c0bf74",
+            "id": "19baa529bd945f8e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Exploring Zedux and how it compares to Redux.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d957e0a4c7103972",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Complete Modern React Developer 2022.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0de652a9ebab126f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Creating MERN Stack Applications (2020).md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "69e6b1158fc72201",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "51 AI tools you should be using for life, programming, content creation and everything else.md",
+                "file": "Unlocking the Secrets to Success - How to Thrive as a Technical Writer and Earn a Living - Hashnode version.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -56,6 +99,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "d2d1907a2dba87be",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -77,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "51 AI tools you should be using for life, programming, content creation and everything else.md",
+                "file": "Unlocking the Secrets to Success - How to Thrive as a Technical Writer and Earn a Living - Hashnode version.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +155,31 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9732ffa451c0bf74",
+  "active": "69e6b1158fc72201",
   "lastOpenFiles": [
-    "50 Cool Web And Mobile Project Ideas for 2021.md",
+    "Twitter is shutting down Revue their newsletter platform.md",
+    "Unlocking the Secrets to Success - How to Thrive as a Technical Writer and Earn a Living.md",
+    "Unlocking the Secrets to Success - How to Thrive as a Technical Writer and Earn a Living - Hashnode version.md",
+    "Exploring Zedux and how it compares to Redux.md",
+    "The Complete Modern React Developer 2022.md",
+    "Creating MERN Stack Applications (2020).md",
+    "How to build and deploy a modern-day Next.js application.md",
+    "How I Built a Modern 'Food Menu' Web App - From Tech Stack to Workflow.md",
+    "How Pseudocode can help us to get good at learning programming languages.md",
+    "Untitled 1.md",
+    "How to use ChatGPT to boost your work and career 10x.md",
     "51 AI tools you should be using for life, programming, content creation and everything else.md",
-    "CopyKat.md",
-    "The difference between functional and object orientated programming.md",
     "50 Cool Web And Mobile Project Ideas for 2022.md",
-    "Why you should start your tech career today.md",
-    "3 Ways to Help Developers Thrive.md",
-    "How to improve test coverage in a JavaScript React project.md",
-    "How to improve test coverage in a JavaScript project.md",
-    "How to increase your chances of getting interviews and job offers in tech.md"
+    "50 Cool Web And Mobile Project Ideas for 2021.md",
+    "Building custom maps with React Native Mapbox.md",
+    "Building a character select screen with Next.js and using Livecycle for the PR reviews.md",
+    "100.md",
+    "A real-world example of how you can use AI tools to build a product.md",
+    "[A.md",
+    "Creating a button menu using HTML, CSS and JavaScript.md",
+    "8 GitHub resources for becoming a developer in 2022.md",
+    "8 reasons why having a blog is as important as having a GitHub.md",
+    "5 Mistakes to Avoid with Agile Development.md",
+    "Quntis Monitor Light Bar PRO+ with Remote Control Unboxing and Review.md"
   ]
 }

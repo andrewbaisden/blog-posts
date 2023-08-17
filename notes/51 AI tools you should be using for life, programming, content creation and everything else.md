@@ -37,7 +37,7 @@ Make your meeting notes automatic. Your team may record, transcript, search, and
 
 ### 3. [Hemingway](https://hemingwayapp.com/)
 
-Your writing becomes strong and con cise with the Hemingway App. If you encounter a sentence that is highlighted in yellow, shorten or split it. The software emphasises long, difficult sentences and typical mistakes. If you notice a red highlight, this means that your language is too complex and thick for readers to follow, and you should attempt rewriting it to get rid of the red.
+Your writing becomes strong and concise with the Hemingway App. If you encounter a sentence that is highlighted in yellow, shorten or split it. The software emphasises long, difficult sentences and typical mistakes. If you notice a red highlight, this means that your language is too complex and thick for readers to follow, and you should attempt rewriting it to get rid of the red.
 
 ### 4. [Grammarly](https://www.grammarly.com/)
 
@@ -51,9 +51,9 @@ It takes time and effort to write copy. With the help of Headlime's artificial i
 
 Utilize the AI's boundless capability on any Notion page. Increase your imagination and write more quickly. akin to magic.
 
-### 7. [Final Touch](https://hi.final-tou.ch/)
+### 7. [Autocode](https://autocode.com/)
 
-Design a holiday message using our AI-powered picture creator and your boundless imagination, then send it to a customer or a friend.
+Webhook, bot, and API endpoints that are instantly available. Instantly create and host Node.js endpoints. Connect to your preferred APIs, including those from Airtable, Discord, Notion, Slack, and more.
 
 ### 8. [Lensa](https://prisma-ai.com/lensa)
 
@@ -63,17 +63,17 @@ With the help of the all-inclusive photo-editing tool Lensa, your images will lo
 
 Cold outreach personalisation enabled by AI is offered at scale by Lyne.ai. Using our email icebreakers for cold emails and more, increase your warm response rates.
 
-### 10. [Autocode](https://autocode.com/)
+### 10. [Kickresume’s AI Resume & Cover Letter Writer](https://www.kickresume.com/en/ai-resume-writer/)
 
-Webhook, bot, and API endpoints that are instantly available. Instantly create and host Node.js endpoints. Connect to your preferred APIs, including those from Airtable, Discord, Notion, Slack, and more.
+This tool is great for anyone who hates writing career documents. It’s part of the popular resume builder Kickresume and is powered by OpenAI’s GPT-3 model that I’ve already mentioned. It’s super easy to use and allows you to create a full resume with AI in just three minutes by filling out a short questionnaire. It also allows you to create a work experience section or a full cover letter by simply entering your job title. All you have left to do is choose a design template and edit the text to make it more you.
 
 ### 11. [Replit Ghostwriter](https://replit.com/site/ghostwriter)
 
 Ghostwriter facilitates quick, simple, and enjoyable coding. Things that were formerly tedious or laborious are now just not. Better coding than yours.
 
-### 12. [Writefull](https://www.writefull.com/)
+### 12. [Wordtune](https://www.wordtune.com/)
 
-You can write, paraphrase, copyedit, and do other things using Writefull's AI.
+Wordtune is the ultimate AI writing tool that rewrites and rephrases your writing! Get AI-powered suggestions to instantly improve everything you write.
 
 ### 13. [Pro Writing Aid](https://prowritingaid.com/)
 
